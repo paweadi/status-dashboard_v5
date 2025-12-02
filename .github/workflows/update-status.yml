@@ -1,0 +1,42 @@
+
+name: Auto Update Service Status
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # Runs at 12am
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  update-status:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write # Required for pushing changes
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          persist-credentials: false # We'll set credentials manually
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Run update script
+        run: |
+          python update_status.py
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git add .
+          git commit -m "Auto-update service statuses" || echo "No changes to commit"
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+          git push
