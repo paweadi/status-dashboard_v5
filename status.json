@@ -3,7 +3,7 @@
         {
             "name": "Azure",
             "status": "Major",
-            "description": "Sign in to view incidents that may be affecting your servicesGo to Azure Service HealthHELPFUL LINKSAzure status historyLearn when we use this pageGet..."
+            "description": "Status: Service Outage"
         },
         {
             "name": "Azure DevOps",
@@ -13,52 +13,52 @@
         {
             "name": "Azure Databricks",
             "status": "Operational",
-            "description": "SUBSCRIBESUBSCRIBEAll Systems OperationalUpdated a few seconds agoUpdated a few seconds agoWelcome to Azure Databricks status page. Here you will find..."
+            "description": "Status: Service Outage"
         },
         {
             "name": "JFrog",
             "status": "Operational",
-            "description": "Contact SupportChoose RegionAMEREMEAAPACxGet email notifications whenever JFrog Cloudcreates,updatesorresolvesan incident.Email address:Enter OTP:Rese..."
+            "description": "Status: Major Outage"
         },
         {
             "name": "Elastic",
             "status": "Operational",
-            "description": "xGet email notifications whenever ESS (Public)creates,updatesorresolvesan incident.Email address:Enter OTP:Resend OTP in:secondsDidn't receive the OTP..."
+            "description": "Status: Major Outage"
         },
         {
             "name": "Octopus Deploy",
             "status": "Operational",
-            "description": "xGet email notifications whenever Octopus Deploycreates,updatesorresolvesan incident.Email address:Enter OTP:Resend OTP in:secondsDidn't receive the O..."
+            "description": "Status: Major Outage"
         },
         {
             "name": "Lucid",
             "status": "Operational",
-            "description": "xGet email notifications whenever Lucid Softwarecreates,updatesorresolvesan incident.Email address:Enter OTP:Resend OTP in:secondsDidn't receive the O..."
+            "description": "Status: Major Outage"
         },
         {
             "name": "Jira",
             "status": "Operational",
-            "description": "Report a problemxGet email notifications whenever Jiracreates,updatesorresolvesan incident.Email address:Enter OTP:Resend OTP in:secondsDidn't receive..."
+            "description": "Status: Major Outage"
         },
         {
             "name": "Confluence",
             "status": "Operational",
-            "description": "Report a problemxGet email notifications whenever Confluencecreates,updatesorresolvesan incident.Email address:Enter OTP:Resend OTP in:secondsDidn't r..."
+            "description": "Status: Major Outage"
         },
         {
             "name": "GitHub",
             "status": "Operational",
-            "description": "GitHub Octicon logoHelpCommunityStatusGitHub.comxGet email notifications whenever GitHubcreates,updatesorresolvesan incident.Email address:Enter OTP:R..."
+            "description": "Status: Major Outage"
         },
         {
             "name": "CucumberStudio",
             "status": "Operational",
-            "description": "All Systems Operational"
+            "description": "Status: All Systems Operational"
         },
         {
             "name": "Fivetran",
             "status": "Operational",
-            "description": "\u2190Incident HistoryxGet email notifications whenever Fivetrancreates,updatesorresolvesan incident.Email address:Enter OTP:Resend OTP in:secondsDidn't re..."
+            "description": "Status: Major Outage"
         },
         {
             "name": "Brainboard",
@@ -68,7 +68,7 @@
         {
             "name": "Port",
             "status": "Operational",
-            "description": "xGet email notifications whenever Portcreates,updatesorresolvesan incident.Email address:Enter OTP:Resend OTP in:secondsDidn't receive the OTP?Resend ..."
+            "description": "Status: Major Outage"
         }
     ]
 }
