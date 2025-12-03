@@ -39,11 +39,25 @@ def map_indicator(indicator):
         return "Major"
     return "Operational"
 
+def keyword_summary(text):
+    keywords = {
+        "major": "Status: Major Outage",
+        "minor": "Status: Minor Issue",
+        "degraded": "Status: Degraded Performance",
+        "outage": "Status: Service Outage",
+        "operational": "Status: All Systems Operational"
+    }
+    for key, summary in keywords.items():
+        if key in text.lower():
+            return summary
+    return None
+
 def sanitize_description(desc, indicator):
     if not desc:
         return "All systems operational" if indicator == "none" else "Service status update"
-    if indicator == "none" and "maintenance" in desc.lower():
-        return "All systems operational"
+    summary = keyword_summary(desc)
+    if summary:
+        return summary
     clean_desc = desc.strip()
     if len(clean_desc) > 150:
         clean_desc = clean_desc[:150] + "..."
@@ -80,11 +94,14 @@ for svc in services:
             for txt in text_candidates:
                 if any(word in txt.lower() for word in ['operational', 'minor', 'major', 'degraded', 'outage']):
                     status = normalize_status(txt)
-                    # Sanitize and truncate description
-                    clean_desc = txt.strip()
-                    if len(clean_desc) > 150:
-                        clean_desc = clean_desc[:150] + "..."
-                    description = clean_desc
+                    summary = keyword_summary(txt)
+                    if summary:
+                        description = summary
+                    else:
+                        clean_desc = txt.strip()
+                        if len(clean_desc) > 150:
+                            clean_desc = clean_desc[:150] + "..."
+                        description = clean_desc
                     break
             if status == "Unknown":
                 status = "Operational"
@@ -98,4 +115,4 @@ for svc in services:
 with open("status.json", "w", encoding="utf-8") as f:
     json.dump({"services": updated_services}, f, indent=4)
 
-print("✅ Updated status.json with sanitized and truncated descriptions.")
+print("✅ Updated status.json with keyword-based summaries and truncation applied.")
