@@ -2,8 +2,8 @@
     "services": [
         {
             "name": "Azure",
-            "status": "Major",
-            "description": "Maintenance"
+            "status": "Operational",
+            "description": "All systems operational"
         },
         {
             "name": "Azure DevOps",
