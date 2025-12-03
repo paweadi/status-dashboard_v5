@@ -1,4 +1,3 @@
-
 import json
 import requests
 from bs4 import BeautifulSoup
@@ -45,7 +44,10 @@ def sanitize_description(desc, indicator):
         return "All systems operational" if indicator == "none" else "Service status update"
     if indicator == "none" and "maintenance" in desc.lower():
         return "All systems operational"
-    return desc.strip()
+    clean_desc = desc.strip()
+    if len(clean_desc) > 150:
+        clean_desc = clean_desc[:150] + "..."
+    return clean_desc
 
 updated_services = []
 for svc in services:
@@ -70,7 +72,7 @@ for svc in services:
             updated_services.append({'name': name, 'status': status, 'description': description})
             continue
 
-        # HTML scraping for other services (short description only)
+        # HTML scraping for other services
         resp = requests.get(url, timeout=10, verify=False)
         if resp.status_code == 200:
             soup = BeautifulSoup(resp.text, 'html.parser')
@@ -78,7 +80,11 @@ for svc in services:
             for txt in text_candidates:
                 if any(word in txt.lower() for word in ['operational', 'minor', 'major', 'degraded', 'outage']):
                     status = normalize_status(txt)
-                    description = txt  # short description only
+                    # Sanitize and truncate description
+                    clean_desc = txt.strip()
+                    if len(clean_desc) > 150:
+                        clean_desc = clean_desc[:150] + "..."
+                    description = clean_desc
                     break
             if status == "Unknown":
                 status = "Operational"
@@ -92,4 +98,4 @@ for svc in services:
 with open("status.json", "w", encoding="utf-8") as f:
     json.dump({"services": updated_services}, f, indent=4)
 
-print("✅ Updated status.json with patched logic for CucumberStudio & Brainboard and cleaned scraping.")
+print("✅ Updated status.json with sanitized and truncated descriptions.")
