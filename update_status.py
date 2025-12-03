@@ -1,4 +1,3 @@
-
 import json
 import requests
 from bs4 import BeautifulSoup
@@ -54,6 +53,20 @@ for svc in services:
     status = "Unknown"
     description = "Status unknown"
     try:
+        # Special API logic for Azure
+        if name == "Azure":
+            api_url = "https://status.azure.com/api/v2/status.json"
+            api_resp = requests.get(api_url, timeout=10)
+            if api_resp.status_code == 200:
+                data = api_resp.json()
+                indicator = data.get('status', {}).get('indicator', 'none')
+                status = map_indicator(indicator)
+            else:
+                status = "Operational"
+            description = description_from_status(status)
+            updated_services.append({'name': name, 'status': status, 'description': description})
+            continue
+
         # API logic for CucumberStudio and Brainboard
         if name in ["CucumberStudio", "Brainboard"]:
             api_url = f"{url}api/v2/status.json"
@@ -89,4 +102,4 @@ for svc in services:
 with open("status.json", "w", encoding="utf-8") as f:
     json.dump({"services": updated_services}, f, indent=4)
 
-print("✅ Updated script: Description now matches Status column (Operational → All systems operational, Major/Minor → Maintenance).")
+print("✅ Updated script: Azure now uses official API for accurate status; description matches status.")
