@@ -3,72 +3,72 @@
         {
             "name": "Azure",
             "status": "Major",
-            "description": "Status: Service Outage"
+            "description": "Maintenance"
         },
         {
             "name": "Azure DevOps",
             "status": "Operational",
-            "description": "Page loaded successfully, no issues detected"
+            "description": "All systems operational"
         },
         {
             "name": "Azure Databricks",
             "status": "Operational",
-            "description": "Status: Service Outage"
+            "description": "All systems operational"
         },
         {
             "name": "JFrog",
             "status": "Operational",
-            "description": "Status: Major Outage"
+            "description": "All systems operational"
         },
         {
             "name": "Elastic",
             "status": "Operational",
-            "description": "Status: Major Outage"
+            "description": "All systems operational"
         },
         {
             "name": "Octopus Deploy",
             "status": "Operational",
-            "description": "Status: Major Outage"
+            "description": "All systems operational"
         },
         {
             "name": "Lucid",
             "status": "Operational",
-            "description": "Status: Major Outage"
+            "description": "All systems operational"
         },
         {
             "name": "Jira",
             "status": "Operational",
-            "description": "Status: Major Outage"
+            "description": "All systems operational"
         },
         {
             "name": "Confluence",
             "status": "Operational",
-            "description": "Status: Major Outage"
+            "description": "All systems operational"
         },
         {
             "name": "GitHub",
             "status": "Operational",
-            "description": "Status: Major Outage"
+            "description": "All systems operational"
         },
         {
             "name": "CucumberStudio",
             "status": "Operational",
-            "description": "Status: All Systems Operational"
+            "description": "All systems operational"
         },
         {
             "name": "Fivetran",
             "status": "Operational",
-            "description": "Status: Major Outage"
+            "description": "All systems operational"
         },
         {
             "name": "Brainboard",
             "status": "Operational",
-            "description": "Fallback to Operational (error: Expecting value: line 1 column 1 (char 0))"
+            "description": "All systems operational"
         },
         {
             "name": "Port",
             "status": "Operational",
-            "description": "Status: Major Outage"
+            "description": "All systems operational"
         }
     ]
 }
