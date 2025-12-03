@@ -18,7 +18,7 @@
         {
             "name": "JFrog",
             "status": "Operational",
-            "description": "Fallback to Operational (error: Response ended prematurely)"
+            "description": "Fallback to Operational (error: HTTPSConnectionPool(host='status.jfrog.io', port=443): Read timed out. (read timeout=10))"
         },
         {
             "name": "Elastic",
