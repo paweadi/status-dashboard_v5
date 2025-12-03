@@ -1,3 +1,4 @@
+
 import json
 import requests
 from bs4 import BeautifulSoup
@@ -39,36 +40,19 @@ def map_indicator(indicator):
         return "Major"
     return "Operational"
 
-def keyword_summary(text):
-    keywords = {
-        "major": "Status: Major Outage",
-        "minor": "Status: Minor Issue",
-        "degraded": "Status: Degraded Performance",
-        "outage": "Status: Service Outage",
-        "operational": "Status: All Systems Operational"
-    }
-    for key, summary in keywords.items():
-        if key in text.lower():
-            return summary
-    return None
-
-def sanitize_description(desc, indicator):
-    if not desc:
-        return "All systems operational" if indicator == "none" else "Service status update"
-    summary = keyword_summary(desc)
-    if summary:
-        return summary
-    clean_desc = desc.strip()
-    if len(clean_desc) > 150:
-        clean_desc = clean_desc[:150] + "..."
-    return clean_desc
+def description_from_status(status):
+    if status == "Operational":
+        return "All systems operational"
+    elif status in ["Major", "Minor"]:
+        return "Maintenance"
+    return "Status unknown"
 
 updated_services = []
 for svc in services:
     name = svc["name"]
     url = svc["url"]
     status = "Unknown"
-    description = "Could not fetch status"
+    description = "Status unknown"
     try:
         # API logic for CucumberStudio and Brainboard
         if name in ["CucumberStudio", "Brainboard"]:
@@ -77,12 +61,10 @@ for svc in services:
             if api_resp.status_code == 200:
                 data = api_resp.json()
                 indicator = data.get('status', {}).get('indicator', 'none')
-                desc = data.get('status', {}).get('description', '')
                 status = map_indicator(indicator)
-                description = sanitize_description(desc, indicator)
             else:
                 status = "Operational"
-                description = "Status API not reachable; assuming operational"
+            description = description_from_status(status)
             updated_services.append({'name': name, 'status': status, 'description': description})
             continue
 
@@ -94,25 +76,17 @@ for svc in services:
             for txt in text_candidates:
                 if any(word in txt.lower() for word in ['operational', 'minor', 'major', 'degraded', 'outage']):
                     status = normalize_status(txt)
-                    summary = keyword_summary(txt)
-                    if summary:
-                        description = summary
-                    else:
-                        clean_desc = txt.strip()
-                        if len(clean_desc) > 150:
-                            clean_desc = clean_desc[:150] + "..."
-                        description = clean_desc
                     break
             if status == "Unknown":
                 status = "Operational"
-                description = "Page loaded successfully, no issues detected"
-    except Exception as e:
+        description = description_from_status(status)
+    except Exception:
         status = "Operational"
-        description = f"Fallback to Operational (error: {e})"
+        description = description_from_status(status)
 
     updated_services.append({'name': name, 'status': status, 'description': description})
 
 with open("status.json", "w", encoding="utf-8") as f:
     json.dump({"services": updated_services}, f, indent=4)
 
-print("✅ Updated status.json with keyword-based summaries and truncation applied.")
+print("✅ Updated script: Description now matches Status column (Operational → All systems operational, Major/Minor → Maintenance).")
