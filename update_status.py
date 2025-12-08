@@ -1,4 +1,3 @@
-
 import json
 import requests
 from bs4 import BeautifulSoup
@@ -20,6 +19,16 @@ services = [
     {"name": "Port", "url": "https://status.port.io/"}
 ]
 
+def normalize_status(text):
+    text = text.lower()
+    if "operational" in text or "all systems" in text:
+        return "Operational"
+    elif "minor" in text or "degraded" in text:
+        return "Minor"
+    elif "major" in text or "critical" in text or "outage" in text:
+        return "Major"
+    return "Unknown"
+
 def map_indicator(indicator):
     indicator = indicator.lower() if indicator else "none"
     if indicator == "none":
@@ -38,15 +47,13 @@ def description_from_status(status):
     return "Status unknown"
 
 updated_services = []
-
 for svc in services:
     name = svc["name"]
     url = svc["url"]
     status = "Unknown"
     description = "Status unknown"
-
     try:
-        # Azure API logic
+        # Special API logic for Azure
         if name == "Azure":
             api_url = "https://status.azure.com/api/v2/status.json"
             api_resp = requests.get(api_url, timeout=10)
@@ -61,7 +68,7 @@ for svc in services:
             continue
 
         # API logic for CucumberStudio and Brainboard
-        if name in ["CucumberStudio", "Brainboard"]:
+        if name in ["CucumberStudio", "Brainboard", "Port" "Fivetran"]:
             api_url = f"{url}api/v2/status.json"
             api_resp = requests.get(api_url, timeout=10)
             if api_resp.status_code == 200:
@@ -71,38 +78,6 @@ for svc in services:
             else:
                 status = "Operational"
             description = description_from_status(status)
-            updated_services.append({'name': name, 'status': status, 'description': description})
-            continue
-
-        # Enhanced logic for Port
-        if name == "Port":
-            api_url = f"{url}api/v2/status.json"
-            api_resp = requests.get(api_url, timeout=10)
-            if api_resp.status_code == 200:
-                data = api_resp.json()
-                indicator = data.get('status', {}).get('indicator', 'none')
-                status = map_indicator(indicator)
-            else:
-                status = "Operational"
-
-            # Scrape incident header and latest update
-            resp = requests.get(url, timeout=10, verify=False)
-            incident_header = ""
-            latest_update = ""
-            if resp.status_code == 200:
-                soup = BeautifulSoup(resp.text, 'html.parser')
-                header_tag = soup.find('h1') or soup.find('h2') or soup.find('div', class_='page-status')
-                if header_tag:
-                    incident_header = header_tag.get_text(strip=True)
-                update_tag = soup.find('p')
-                if update_tag:
-                    latest_update = update_tag.get_text(strip=True)
-
-            if incident_header or latest_update:
-                description = f"{incident_header} - {latest_update}".strip()
-            else:
-                description = description_from_status(status)
-
             updated_services.append({'name': name, 'status': status, 'description': description})
             continue
 
@@ -113,19 +88,18 @@ for svc in services:
             text_candidates = [tag.get_text(strip=True) for tag in soup.find_all(['span', 'div', 'p', 'h1', 'h2']) if tag.get_text(strip=True)]
             for txt in text_candidates:
                 if any(word in txt.lower() for word in ['operational', 'minor', 'major', 'degraded', 'outage']):
-                    status = txt
+                    status = normalize_status(txt)
                     break
             if status == "Unknown":
                 status = "Operational"
-            description = description_from_status(status)
+        description = description_from_status(status)
     except Exception:
         status = "Operational"
         description = description_from_status(status)
 
     updated_services.append({'name': name, 'status': status, 'description': description})
 
-# Save updated status to file
 with open("status.json", "w", encoding="utf-8") as f:
     json.dump({"services": updated_services}, f, indent=4)
 
-print("✅ Script updated: Port now shows API status plus incident header and latest update in description.")
+print("✅ Updated script: Azure now uses official API for accurate status; description matches status.")
