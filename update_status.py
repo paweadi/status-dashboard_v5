@@ -68,7 +68,7 @@ for svc in services:
             continue
 
         # API logic for CucumberStudio and Brainboard
-        if name in ["CucumberStudio", "Brainboard", "Port" "Fivetran"]:
+        if name in ["CucumberStudio", "Brainboard", "Port", "Fivetran"]:
             api_url = f"{url}api/v2/status.json"
             api_resp = requests.get(api_url, timeout=10)
             if api_resp.status_code == 200:
