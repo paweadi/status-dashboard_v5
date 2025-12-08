@@ -7,8 +7,8 @@
         },
         {
             "name": "Azure DevOps",
-            "status": "Operational",
-            "description": "All systems operational"
+            "status": "Unknown",
+            "description": "Status unknown"
         },
         {
             "name": "Azure Databricks",
