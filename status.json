@@ -7,8 +7,8 @@
         },
         {
             "name": "Azure DevOps",
-            "status": "Unknown",
-            "description": "Status unknown"
+            "status": "Operational",
+            "description": "All systems operational"
         },
         {
             "name": "Azure Databricks",
@@ -67,8 +67,8 @@
         },
         {
             "name": "Port",
-            "status": "Minor",
-            "description": "Maintenance"
+            "status": "Operational",
+            "description": "All systems operational"
         }
     ]
 }
