@@ -67,8 +67,8 @@
         },
         {
             "name": "Port",
-            "status": "Minor",
-            "description": "Partially Degraded performance"
+            "status": "Operational",
+            "description": "All systems operational"
         }
     ]
 }
