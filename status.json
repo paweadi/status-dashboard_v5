@@ -22,8 +22,8 @@
         },
         {
             "name": "Elastic",
-            "status": "Operational",
-            "description": "All systems operational"
+            "status": "Minor",
+            "description": "Partial outage"
         },
         {
             "name": "Octopus Deploy",
