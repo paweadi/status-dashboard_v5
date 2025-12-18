@@ -22,8 +22,8 @@
         },
         {
             "name": "Elastic",
-            "status": "Operational",
-            "description": "All systems operational"
+            "status": "Unknown",
+            "description": "Status unknown"
         },
         {
             "name": "Octopus Deploy",
