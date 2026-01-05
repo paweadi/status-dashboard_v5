@@ -12,43 +12,43 @@
         },
         {
             "name": "Azure Databricks",
-            "status": "Operational",
-            "description": "All systems operational"
+            "status": "Unknown",
+            "description": "Status unknown"
         },
         {
             "name": "JFrog",
-            "status": "Operational",
-            "description": "All systems operational"
+            "status": "Unknown",
+            "description": "Status unknown"
         },
         {
             "name": "Elastic",
-            "status": "Operational",
-            "description": "All systems operational"
+            "status": "Unknown",
+            "description": "Status unknown"
         },
         {
             "name": "Octopus Deploy",
-            "status": "Operational",
-            "description": "All systems operational"
+            "status": "Unknown",
+            "description": "Status unknown"
         },
         {
             "name": "Lucid",
-            "status": "Operational",
-            "description": "All systems operational"
+            "status": "Unknown",
+            "description": "Status unknown"
         },
         {
             "name": "Jira",
-            "status": "Operational",
-            "description": "All systems operational"
+            "status": "Unknown",
+            "description": "Status unknown"
         },
         {
             "name": "Confluence",
-            "status": "Operational",
-            "description": "All systems operational"
+            "status": "Unknown",
+            "description": "Status unknown"
         },
         {
             "name": "GitHub",
-            "status": "Operational",
-            "description": "All systems operational"
+            "status": "Unknown",
+            "description": "Status unknown"
         },
         {
             "name": "CucumberStudio",
