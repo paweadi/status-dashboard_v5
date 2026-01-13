@@ -22,18 +22,18 @@
         },
         {
             "name": "Elastic",
-            "status": "Unknown",
-            "description": "Status unknown"
+            "status": "Operational",
+            "description": "All systems operational"
         },
         {
             "name": "Octopus Deploy",
-            "status": "Unknown",
-            "description": "Status unknown"
+            "status": "Operational",
+            "description": "All systems operational"
         },
         {
             "name": "Lucid",
-            "status": "Unknown",
-            "description": "Status unknown"
+            "status": "Operational",
+            "description": "All systems operational"
         },
         {
             "name": "Jira",
