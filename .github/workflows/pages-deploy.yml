@@ -1,0 +1,49 @@
+
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [ main ]   # <-- change if your default branch is different
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false  # don't cancel an in-flight deploy
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # If your site is static and already in the repo (index.html, status.json),
+      # you don't need a build. If you do generate files, keep those steps here.
+      # - name: Set up Python
+      #   uses: actions/setup-python@v5
+      #   with:
+      #     python-version: "3.10"
+      # - name: Build site (optional)
+      #   run: python update_status.py
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .   # or your site output directory if you build elsewhere
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages (do not wait)
+        id: deployment
+        uses: actions/deploy-pages@v4
+        with:
+          wait: false   # <<< This avoids the long polling that hit "Timeout reached"
