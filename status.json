@@ -67,8 +67,8 @@
         },
         {
             "name": "Port",
-            "status": "Major",
-            "description": "Maintenance"
+            "status": "Operational",
+            "description": "All systems operational"
         }
     ]
 }
