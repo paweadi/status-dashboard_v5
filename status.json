@@ -85,8 +85,8 @@
         {
           "title": "Few Taboola connections are failing with the 404 for /campaigns/ endpoint",
           "impact": "minor",
-          "started_at": "2026-01-30T15:20:15.246Z",
-          "updated_at": "2026-01-30T15:21:06.124Z",
+          "started_at": "2026-01-30T16:15:31.000Z",
+          "updated_at": "2026-01-30T18:10:14.975Z",
           "shortlink": "https://stspg.io/p1lcvy7x57l3"
         },
         {
@@ -114,5 +114,5 @@
       "source": "https://status.port.io/"
     }
   ],
-  "generated_at": 1769795879
+  "generated_at": 1769798386
 }
