@@ -1,5 +1,23 @@
 # update_status.py
 # Near real-time service rollup with provider-authored descriptions & active incidents.
+# - Statuspage-backed services use /api/v2/summary.json (falls back to /status.json).
+# - Azure (global) uses HTML parsing (no public JSON roll-up).
+# - Azure DevOps uses the public preview health endpoint with broader mapping.
+# - Generic provider probe tries common JSON patterns, then HTML keywords.
+#
+# Output: status.json = {
+#   "services": [
+#     {
+#       "name": "...",
+#       "status": "Operational|Minor|Major|Unknown",
+#       "description": "Provider description or sensible fallback",
+#       "incidents": [{ "title": "...", "impact": "...", "started_at": "...", "updated_at": "...", "shortlink": "..." }],
+#       "source": "https://…"
+#     }
+#   ],
+#   "generated_at": <epoch_seconds>
+# }
+
 import json
 import time
 import logging
@@ -254,3 +272,34 @@ def main() -> None:
             elif stype == "azure_devops":
                 result = fetch_azure_devops()
             elif stype == "statuspage":
+                result = fetch_statuspage(url)
+                if result["status"] == "Unknown":
+                    # Safety: try generic probe if Statuspage not responding
+                    result = fetch_generic(url)
+            elif stype == "generic":
+                result = fetch_generic(url)
+            else:
+                result = fetch_html_keywords(url)
+
+            # Light debugging for Unknowns (optional: comment out in production)
+            if result["status"] == "Unknown":
+                print(f"[WARN] {name}: could not determine status from {url}")
+
+            updated.append(build_record(name, url, result))
+
+        except Exception as ex:
+            logging.exception("Failed for %s: %s", name, ex)
+            updated.append(build_record(name, url, {
+                "status": "Unknown",
+                "description": "Status unknown",
+                "incidents": []
+            }))
+
+    with open("status.json", "w", encoding="utf-8") as f:
+        json.dump({"services": updated, "generated_at": int(time.time())}, f, indent=2)
+
+    print("✅ Updated: Statuspage summaries, Azure HTML parsing, broader Azure DevOps mapping, generic provider probe, safer HTTP, incidents included.")
+
+
+if __name__ == "__main__":
+    main()
