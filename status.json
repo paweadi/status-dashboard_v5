@@ -83,13 +83,6 @@
       "description": "All Systems Operational",
       "incidents": [
         {
-          "title": "Few Taboola connections are failing with the 404 for /campaigns/ endpoint",
-          "impact": "minor",
-          "started_at": "2026-01-30T16:15:31.000Z",
-          "updated_at": "2026-01-30T20:26:50.071Z",
-          "shortlink": "https://stspg.io/p1lcvy7x57l3"
-        },
-        {
           "title": "Fivetran: The Trade Desk connections are failing because of multiple errors",
           "impact": "minor",
           "started_at": "2026-01-30T04:15:17.505Z",
@@ -114,5 +107,5 @@
       "source": "https://status.port.io/"
     }
   ],
-  "generated_at": 1769804880
+  "generated_at": 1769808405
 }
