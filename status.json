@@ -1,74 +1,118 @@
 {
-    "services": [
+  "services": [
+    {
+      "name": "Azure",
+      "status": "Unknown",
+      "description": "Status unknown",
+      "incidents": [],
+      "source": "https://azure.status.microsoft/en-us/status"
+    },
+    {
+      "name": "Azure DevOps",
+      "status": "Unknown",
+      "description": "Status unknown",
+      "incidents": [],
+      "source": "https://status.dev.azure.com/"
+    },
+    {
+      "name": "Azure Databricks",
+      "status": "Unknown",
+      "description": "Status unknown",
+      "incidents": [],
+      "source": "https://status.azuredatabricks.net/"
+    },
+    {
+      "name": "JFrog",
+      "status": "Operational",
+      "description": "All Systems Operational",
+      "incidents": [],
+      "source": "https://status.jfrog.io/"
+    },
+    {
+      "name": "Elastic",
+      "status": "Operational",
+      "description": "All Systems Operational",
+      "incidents": [],
+      "source": "https://status.elastic.co/"
+    },
+    {
+      "name": "Octopus Deploy",
+      "status": "Operational",
+      "description": "All Systems Operational",
+      "incidents": [],
+      "source": "https://status.octopus.com/"
+    },
+    {
+      "name": "Lucid",
+      "status": "Operational",
+      "description": "All Systems Operational",
+      "incidents": [],
+      "source": "https://status.lucid.co/"
+    },
+    {
+      "name": "Jira",
+      "status": "Operational",
+      "description": "All Systems Operational",
+      "incidents": [],
+      "source": "https://jira-software.status.atlassian.com/"
+    },
+    {
+      "name": "Confluence",
+      "status": "Operational",
+      "description": "All Systems Operational",
+      "incidents": [],
+      "source": "https://confluence.status.atlassian.com/"
+    },
+    {
+      "name": "GitHub",
+      "status": "Operational",
+      "description": "All Systems Operational",
+      "incidents": [],
+      "source": "https://www.githubstatus.com/"
+    },
+    {
+      "name": "CucumberStudio",
+      "status": "Operational",
+      "description": "All Systems Operational",
+      "incidents": [],
+      "source": "https://status.cucumberstudio.com/"
+    },
+    {
+      "name": "Fivetran",
+      "status": "Minor",
+      "description": "Minor Service Outage",
+      "incidents": [
         {
-            "name": "Azure",
-            "status": "Operational",
-            "description": "All systems operational"
+          "title": "Few Taboola connections are failing with the 404 for /campaigns/ endpoint",
+          "impact": "minor",
+          "started_at": "2026-01-30T15:20:15.246Z",
+          "updated_at": "2026-01-30T15:21:06.124Z",
+          "shortlink": "https://stspg.io/p1lcvy7x57l3"
         },
         {
-            "name": "Azure DevOps",
-            "status": "Operational",
-            "description": "All systems operational"
-        },
-        {
-            "name": "Azure Databricks",
-            "status": "Operational",
-            "description": "All systems operational"
-        },
-        {
-            "name": "JFrog",
-            "status": "Operational",
-            "description": "All systems operational"
-        },
-        {
-            "name": "Elastic",
-            "status": "Operational",
-            "description": "All systems operational"
-        },
-        {
-            "name": "Octopus Deploy",
-            "status": "Operational",
-            "description": "All systems operational"
-        },
-        {
-            "name": "Lucid",
-            "status": "Operational",
-            "description": "All systems operational"
-        },
-        {
-            "name": "Jira",
-            "status": "Operational",
-            "description": "All systems operational"
-        },
-        {
-            "name": "Confluence",
-            "status": "Operational",
-            "description": "All systems operational"
-        },
-        {
-            "name": "GitHub",
-            "status": "Operational",
-            "description": "All systems operational"
-        },
-        {
-            "name": "CucumberStudio",
-            "status": "Operational",
-            "description": "All systems operational"
-        },
-        {
-            "name": "Fivetran",
-            "status": "Minor",
-            "description": "Maintenance"
-        },
-        {
-            "name": "Brainboard",
-            "status": "Operational",
-            "description": "All systems operational"
-        },
-        {
-            "name": "Port",
-            "status": "Operational",
-            "description": "All systems operational"
+          "title": "Fivetran: The Trade Desk connections are failing because of multiple errors",
+          "impact": "minor",
+          "started_at": "2026-01-30T04:15:17.505Z",
+          "updated_at": "2026-01-30T13:55:23.408Z",
+          "shortlink": "https://stspg.io/n802gr2n4ztm"
         }
-    ]
+      ],
+      "source": "https://status.fivetran.com/"
+    },
+    {
+      "name": "Brainboard",
+      "status": "Unknown",
+      "description": "Status unknown",
+      "incidents": [],
+      "source": "https://status.brainboard.co/"
+    },
+    {
+      "name": "Port",
+      "status": "Operational",
+      "description": "All Systems Operational",
+      "incidents": [],
+      "source": "https://status.port.io/"
+    }
+  ],
+  "generated_at": 1769794757
 }
