@@ -65,9 +65,17 @@
     },
     {
       "name": "GitHub",
-      "status": "Operational",
-      "description": "All Systems Operational",
-      "incidents": [],
+      "status": "Minor",
+      "description": "Minor Service Outage",
+      "incidents": [
+        {
+          "title": "Disruption with some GitHub services",
+          "impact": "minor",
+          "started_at": "2026-02-02T17:34:25.654Z",
+          "updated_at": "2026-02-02T17:35:07.359Z",
+          "shortlink": "https://stspg.io/8qrclpjz56xp"
+        }
+      ],
       "source": "https://www.githubstatus.com/"
     },
     {
@@ -99,5 +107,5 @@
       "source": "https://status.brainboard.co/"
     }
   ],
-  "generated_at": 1770050292
+  "generated_at": 1770053801
 }
