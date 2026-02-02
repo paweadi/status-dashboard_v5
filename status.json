@@ -2,15 +2,15 @@
   "services": [
     {
       "name": "Azure",
-      "status": "Major",
-      "description": "Major Incident",
+      "status": "Operational",
+      "description": "All Systems Operational",
       "incidents": [],
       "source": "https://azure.status.microsoft/en-us/status"
     },
     {
       "name": "Azure DevOps",
-      "status": "Unknown",
-      "description": "Status unknown",
+      "status": "Operational",
+      "description": "Everything is looking good",
       "incidents": [],
       "source": "https://status.dev.azure.com/"
     },
@@ -99,5 +99,5 @@
       "source": "https://status.port.io/"
     }
   ],
-  "generated_at": 1770032064
+  "generated_at": 1770035083
 }
