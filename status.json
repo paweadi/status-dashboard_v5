@@ -65,15 +65,15 @@
     },
     {
       "name": "GitHub",
-      "status": "Minor",
-      "description": "Minor Service Outage",
+      "status": "Operational",
+      "description": "All Systems Operational",
       "incidents": [
         {
           "title": "Disruption with some GitHub services",
-          "impact": "minor",
-          "started_at": "2026-02-02T17:34:25.654Z",
-          "updated_at": "2026-02-02T17:35:07.359Z",
-          "shortlink": "https://stspg.io/8qrclpjz56xp"
+          "impact": "major",
+          "started_at": "2026-02-02T17:41:19.357Z",
+          "updated_at": "2026-02-02T17:58:49.820Z",
+          "shortlink": "https://stspg.io/59wknsgq8ztj"
         }
       ],
       "source": "https://www.githubstatus.com/"
@@ -96,7 +96,15 @@
       "name": "Port",
       "status": "Operational",
       "description": "All Systems Operational",
-      "incidents": [],
+      "incidents": [
+        {
+          "title": "Degradation of actions and automations",
+          "impact": "major",
+          "started_at": "2026-02-02T18:00:56.000Z",
+          "updated_at": "2026-02-02T18:10:09.596Z",
+          "shortlink": "https://stspg.io/yd5q6f101ggr"
+        }
+      ],
       "source": "https://status.port.io/"
     },
     {
@@ -107,5 +115,5 @@
       "source": "https://status.brainboard.co/"
     }
   ],
-  "generated_at": 1770053801
+  "generated_at": 1770057661
 }
