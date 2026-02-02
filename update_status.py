@@ -1,23 +1,5 @@
 # update_status.py
 # Near real-time service rollup with provider-authored descriptions & active incidents.
-# - Statuspage-backed services use /api/v2/summary.json (falls back to /status.json).
-# - Azure (global) uses HTML parsing (no public JSON roll-up).
-# - Azure DevOps uses the public preview health endpoint with broader mapping.
-# - Generic provider probe tries common JSON patterns, then HTML keywords.
-#
-# Output: status.json = {
-#   "services": [
-#     {
-#       "name": "...",
-#       "status": "Operational|Minor|Major|Unknown",
-#       "description": "Provider description or sensible fallback",
-#       "incidents": [{ "title": "...", "impact": "...", "started_at": "...", "updated_at": "...", "shortlink": "..." }],
-#       "source": "https://…"
-#     }
-#   ],
-#   "generated_at": <epoch_seconds>
-# }
-
 import json
 import time
 import logging
@@ -27,6 +9,7 @@ import requests
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 from bs4 import BeautifulSoup
+import xml.etree.ElementTree as ET
 
 # ----------------------------
 # Service catalog (edit here)
@@ -47,13 +30,14 @@ services: List[Dict[str, str]] = [
     {"name": "CucumberStudio", "url": "https://status.cucumberstudio.com/", "type": "statuspage"},
     {"name": "Fivetran", "url": "https://status.fivetran.com/", "type": "statuspage"},
 
-    # Brainboard doesn't appear to be Statuspage; let the generic probe detect
+    # Brainboard is not Statuspage; let the generic probe detect & then HTML fallback
     {"name": "Brainboard", "url": "https://status.brainboard.co/", "type": "generic"},
 
     {"name": "Port", "url": "https://status.port.io/", "type": "statuspage"},
 ]
 
-KEYWORDS = ['operational', 'minor', 'major', 'degraded', 'outage']
+# Extended keywords to catch common phrasing across providers
+KEYWORDS = ['operational', 'online', 'minor', 'major', 'degraded', 'outage', 'incident', 'maintenance']
 
 
 # ----------------------------
@@ -70,7 +54,7 @@ def http_session() -> requests.Session:
     s.mount("https://", HTTPAdapter(max_retries=retries))
     s.headers.update({
         # Friendly UA; some providers rate-limit or block unknown bots
-        "User-Agent": "status-dashboard/1.1 (+https://markel.example)",
+        "User-Agent": "status-dashboard/1.2 (+https://example.org)",
         "Accept": "application/json,text/html;q=0.8,*/*;q=0.5",
     })
     return s
@@ -83,12 +67,12 @@ session = http_session()
 # Mappers & helpers
 # ----------------------------
 def normalize_status_from_text(text: str) -> str:
-    text = text.lower()
-    if "operational" in text or "all systems" in text:
+    t = text.lower()
+    if ("operational" in t) or ("all systems" in t) or ("online" in t):
         return "Operational"
-    if "minor" in text or "degraded" in text:
+    if ("minor" in t) or ("degraded" in t) or ("advisory" in t) or ("warning" in t):
         return "Minor"
-    if "major" in text or "critical" in text or "outage" in text:
+    if ("major" in t) or ("critical" in t) or ("outage" in t) or ("unhealthy" in t) or ("incident" in t):
         return "Major"
     return "Unknown"
 
@@ -147,48 +131,70 @@ def fetch_statuspage(url: str) -> Dict[str, Any]:
 
 def fetch_azure_rollup() -> Dict[str, Any]:
     """
-    Azure global status page: no documented public JSON roll-up -> parse headline text from HTML.
+    Azure global status page: use the official RSS feed to determine current incidents.
+    If there are no recent items, treat as Operational. Fallback to explicit HTML phrase
+    to avoid misclassifying legend text.
     """
-    url = "https://azure.status.microsoft/en-us/status"
-    r = session.get(url, timeout=10, allow_redirects=True, headers={"Accept": "text/html,application/xhtml+xml"})
-    if r.ok:
-        soup = BeautifulSoup(r.text, "html.parser")
-        text = " ".join(
-            t.get_text(strip=True)
-            for t in soup.find_all(["h1", "h2", "p", "div", "span"])
-            if t.get_text(strip=True)
-        )
-        derived = normalize_status_from_text(text)
-        desc = (
-            "All Systems Operational" if derived == "Operational"
-            else "Degraded Performance" if derived == "Minor"
-            else "Major Incident" if derived == "Major"
-            else "Status unknown"
-        )
-        return {"status": derived, "description": desc, "incidents": []}
+    FEED = "https://rssfeed.azure.status.microsoft/en-us/status/feed/"
+    try:
+        r = session.get(FEED, timeout=10, allow_redirects=True, headers={"Accept": "application/rss+xml,application/xml;q=0.9"})
+        if r.ok and r.text.strip():
+            root = ET.fromstring(r.text)
+            items = root.findall(".//item")
+            if items:
+                item = items[0]
+                title = (item.findtext("title") or "").strip()
+                link = (item.findtext("link") or "").strip()
+                pub = (item.findtext("pubDate") or "").strip()
+                lower = title.lower()
+
+                # 'Active'/'Investigating' suggests an ongoing incident on the public page.
+                if ("active" in lower) or ("investigating" in lower):
+                    impact = "major" if any(w in lower for w in ["critical", "major", "outage"]) else "minor"
+                    return {
+                        "status": "Major" if impact == "major" else "Minor",
+                        "description": title or "Service incident",
+                        "incidents": [{
+                            "title": title or "Azure incident",
+                            "impact": impact,
+                            "started_at": pub,
+                            "updated_at": pub,
+                            "shortlink": link
+                        }]
+                    }
+            # No current items → healthy
+            return {"status": "Operational", "description": "All Systems Operational", "incidents": []}
+    except Exception:
+        pass
+
+    # Fallback: explicit phrase on the page indicating no active events
+    page = "https://azure.status.microsoft/"
+    r2 = session.get(page, timeout=10, allow_redirects=True, headers={"Accept": "text/html"})
+    if r2.ok:
+        soup = BeautifulSoup(r2.text, "html.parser")
+        text = " ".join(t.get_text(strip=True) for t in soup.find_all(["h1", "h2", "p", "div", "span"]) if t.get_text(strip=True))
+        if "there are currently no active events" in (text or "").lower():
+            return {"status": "Operational", "description": "All Systems Operational", "incidents": []}
 
     return {"status": "Unknown", "description": "Status unknown", "incidents": []}
 
 
 def fetch_azure_devops() -> Dict[str, Any]:
     """
-    Use the public preview health endpoint and map conservatively.
+    Azure DevOps public health endpoint: map status.health -> Operational/Minor/Major.
     """
-    url = "https://status.dev.azure.com/_apis/status/health?api-version=7.0-preview.1"
+    url = "https://status.dev.azure.com/_apis/status/health?api-version=7.1-preview.1"
     r = session.get(url, timeout=10, allow_redirects=True, headers={"Accept": "application/json"})
     if r.ok:
         data = r.json() or {}
-        rollup = (data.get("status") or {})
-        # Try multiple fields; preview payloads can drift
-        overall = (rollup.get("overallState") or rollup.get("overall") or "").lower()
-
-        if overall in ("healthy", "ok", "none", "operational"):
-            return {"status": "Operational", "description": "All Systems Operational", "incidents": []}
-        if overall in ("degraded", "advisory", "warning"):
-            return {"status": "Minor", "description": "Degraded Performance", "incidents": []}
-        if overall in ("unhealthy", "incident", "outage", "major", "critical"):
-            return {"status": "Major", "description": "Service Incident", "incidents": []}
-
+        health = (data.get("status") or {}).get("health", "").lower()
+        message = (data.get("status") or {}).get("message") or "Azure DevOps Health"
+        if health in ("healthy", "ok", "operational", "none"):
+            return {"status": "Operational", "description": message, "incidents": []}
+        if health in ("degraded", "advisory", "warning"):
+            return {"status": "Minor", "description": message or "Degraded Performance", "incidents": []}
+        if health in ("unhealthy", "incident", "outage", "major", "critical"):
+            return {"status": "Major", "description": message or "Service Incident", "incidents": []}
     return {"status": "Unknown", "description": "Status unknown", "incidents": []}
 
 
@@ -230,7 +236,7 @@ def fetch_generic(url: str) -> Dict[str, Any]:
     """
     Provider-agnostic probe:
     1) Try Statuspage endpoints.
-    2) Try common 'summary.json' pattern (some status platforms expose it).
+    2) Try generic 'summary.json' pattern (some providers expose this).
     3) Fallback to HTML keywords.
     """
     sp = fetch_statuspage(url)
@@ -242,7 +248,6 @@ def fetch_generic(url: str) -> Dict[str, Any]:
         r = session.get(url.rstrip("/") + "/summary.json", timeout=10, allow_redirects=True, headers={"Accept": "application/json"})
         if r.ok:
             data = r.json() or {}
-            # Heuristic mappings
             status_node = data.get("status") or {}
             indicator = (status_node.get("indicator") or status_node.get("level") or "none")
             description = status_node.get("description") or data.get("overall") or data.get("description") or "Unknown"
@@ -281,7 +286,7 @@ def main() -> None:
             else:
                 result = fetch_html_keywords(url)
 
-            # Light debugging for Unknowns (optional: comment out in production)
+            # Light debugging for Unknowns (comment out if too chatty)
             if result["status"] == "Unknown":
                 print(f"[WARN] {name}: could not determine status from {url}")
 
@@ -298,7 +303,7 @@ def main() -> None:
     with open("status.json", "w", encoding="utf-8") as f:
         json.dump({"services": updated, "generated_at": int(time.time())}, f, indent=2)
 
-    print("✅ Updated: Statuspage summaries, Azure HTML parsing, broader Azure DevOps mapping, generic provider probe, safer HTTP, incidents included.")
+    print("✅ Updated: Statuspage summaries, Azure RSS parsing, Azure DevOps health mapping, generic provider probe, safer HTTP, incidents included.")
 
 
 if __name__ == "__main__":
