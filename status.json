@@ -10,7 +10,7 @@
           "impact": "minor",
           "started_at": "Mon, 02 Feb 2026 19:46:00 Z",
           "updated_at": "Mon, 02 Feb 2026 19:46:00 Z",
-          "shortlink": "https://azurestatusprodjpw.azurewebsites.net/en-us/status/"
+          "shortlink": "https://azurestatusprodfrc.azurewebsites.net/en-us/status/"
         }
       ],
       "source": "https://azure.status.microsoft/en-us/status"
@@ -23,11 +23,25 @@
       "source": "https://status.dev.azure.com/"
     },
     {
-      "name": "Azure Databricks",
-      "status": "Unknown",
-      "description": "Status unknown",
+      "name": "GitHub",
+      "status": "Operational",
+      "description": "All Systems Operational",
       "incidents": [],
-      "source": "https://status.azuredatabricks.net/"
+      "source": "https://www.githubstatus.com/"
+    },
+    {
+      "name": "Jira",
+      "status": "Operational",
+      "description": "All Systems Operational",
+      "incidents": [],
+      "source": "https://jira-software.status.atlassian.com/"
+    },
+    {
+      "name": "Confluence",
+      "status": "Operational",
+      "description": "All Systems Operational",
+      "incidents": [],
+      "source": "https://confluence.status.atlassian.com/"
     },
     {
       "name": "JFrog",
@@ -74,27 +88,6 @@
       "source": "https://status.lucid.co/"
     },
     {
-      "name": "Jira",
-      "status": "Operational",
-      "description": "All Systems Operational",
-      "incidents": [],
-      "source": "https://jira-software.status.atlassian.com/"
-    },
-    {
-      "name": "Confluence",
-      "status": "Operational",
-      "description": "All Systems Operational",
-      "incidents": [],
-      "source": "https://confluence.status.atlassian.com/"
-    },
-    {
-      "name": "GitHub",
-      "status": "Operational",
-      "description": "All Systems Operational",
-      "incidents": [],
-      "source": "https://www.githubstatus.com/"
-    },
-    {
       "name": "CucumberStudio",
       "status": "Operational",
       "description": "All Systems Operational",
@@ -121,7 +114,14 @@
       "description": "All services are online",
       "incidents": [],
       "source": "https://status.brainboard.co/"
+    },
+    {
+      "name": "Azure Databricks",
+      "status": "Minor",
+      "description": "Degraded Performance",
+      "incidents": [],
+      "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1770101347
+  "generated_at": 1770101753
 }
