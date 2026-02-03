@@ -82,15 +82,7 @@
       "name": "Fivetran",
       "status": "Operational",
       "description": "All Systems Operational",
-      "incidents": [
-        {
-          "title": "Fivetran: Few connectors failing to sync in AWS us-east-1 region with the error-Failed to get subscoped credentials",
-          "impact": "minor",
-          "started_at": "2026-02-03T11:10:14.550Z",
-          "updated_at": "2026-02-03T11:10:16.637Z",
-          "shortlink": "https://stspg.io/nj44f8jj5fdw"
-        }
-      ],
+      "incidents": [],
       "source": "https://status.fivetran.com/"
     },
     {
@@ -115,5 +107,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1770123373
+  "generated_at": 1770127514
 }
