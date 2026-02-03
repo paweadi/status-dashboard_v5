@@ -2,17 +2,9 @@
   "services": [
     {
       "name": "Azure",
-      "status": "Minor",
-      "description": "Active - Virtual Machines and dependent services - Service management issues in multiple regions",
-      "incidents": [
-        {
-          "title": "Active - Virtual Machines and dependent services - Service management issues in multiple regions",
-          "impact": "minor",
-          "started_at": "Mon, 02 Feb 2026 19:46:00 Z",
-          "updated_at": "Mon, 02 Feb 2026 19:46:00 Z",
-          "shortlink": "https://azurestatusprodfrc.azurewebsites.net/en-us/status/"
-        }
-      ],
+      "status": "Operational",
+      "description": "All Systems Operational",
+      "incidents": [],
       "source": "https://azure.status.microsoft/en-us/status"
     },
     {
@@ -117,11 +109,11 @@
     },
     {
       "name": "Azure Databricks",
-      "status": "Minor",
-      "description": "Degraded Performance",
+      "status": "Operational",
+      "description": "All Systems Operational",
       "incidents": [],
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1770107671
+  "generated_at": 1770111521
 }
