@@ -10,7 +10,7 @@
           "impact": "minor",
           "started_at": "Mon, 02 Feb 2026 19:46:00 Z",
           "updated_at": "Mon, 02 Feb 2026 19:46:00 Z",
-          "shortlink": "https://status.azure.com/en-us/status/"
+          "shortlink": "https://azurestatusprodfrc.azurewebsites.net/en-us/status/"
         }
       ],
       "source": "https://azure.status.microsoft/en-us/status"
@@ -123,5 +123,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1770104476
+  "generated_at": 1770107671
 }
