@@ -45,7 +45,7 @@
           "title": "Upstream cloud provider incident impacting Project Creation/Deployments",
           "impact": "major",
           "started_at": "2026-02-02T23:01:25.000Z",
-          "updated_at": "2026-02-03T00:26:22.335Z",
+          "updated_at": "2026-02-03T03:52:13.094Z",
           "shortlink": "https://stspg.io/cfwqtczp3xj1"
         }
       ],
@@ -123,5 +123,5 @@
       "source": "https://status.brainboard.co/"
     }
   ],
-  "generated_at": 1770083997
+  "generated_at": 1770092519
 }
