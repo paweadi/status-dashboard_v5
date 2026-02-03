@@ -10,15 +10,15 @@
           "impact": "minor",
           "started_at": "Mon, 02 Feb 2026 19:46:00 Z",
           "updated_at": "Mon, 02 Feb 2026 19:46:00 Z",
-          "shortlink": "https://azurestatusprodjpw.azurewebsites.net/en-us/status/"
+          "shortlink": "https://status.azure.com/en-us/status/"
         }
       ],
       "source": "https://azure.status.microsoft/en-us/status"
     },
     {
       "name": "Azure DevOps",
-      "status": "Minor",
-      "description": "Investigating a service disruption",
+      "status": "Operational",
+      "description": "Everything is looking good",
       "incidents": [],
       "source": "https://status.dev.azure.com/"
     },
@@ -45,7 +45,7 @@
           "title": "Upstream cloud provider incident impacting Project Creation/Deployments",
           "impact": "major",
           "started_at": "2026-02-02T23:01:25.000Z",
-          "updated_at": "2026-02-02T23:01:25.085Z",
+          "updated_at": "2026-02-03T00:26:22.335Z",
           "shortlink": "https://stspg.io/cfwqtczp3xj1"
         }
       ],
@@ -53,14 +53,14 @@
     },
     {
       "name": "Octopus Deploy",
-      "status": "Major",
-      "description": "Partial System Outage",
+      "status": "Operational",
+      "description": "All Systems Operational",
       "incidents": [
         {
           "title": "Ubuntu Dynamic Workers are failing to lease",
           "impact": "none",
           "started_at": "2026-02-02T21:31:14.606Z",
-          "updated_at": "2026-02-02T22:09:17.935Z",
+          "updated_at": "2026-02-02T23:49:53.091Z",
           "shortlink": "https://stspg.io/czrr4lws5zww"
         }
       ],
@@ -89,24 +89,9 @@
     },
     {
       "name": "GitHub",
-      "status": "Major",
-      "description": "Partial System Outage",
-      "incidents": [
-        {
-          "title": "Incident with Actions",
-          "impact": "major",
-          "started_at": "2026-02-02T19:03:14.210Z",
-          "updated_at": "2026-02-02T22:53:17.581Z",
-          "shortlink": "https://stspg.io/q03plj7gcr4d"
-        },
-        {
-          "title": "Incident with Codespaces",
-          "impact": "major",
-          "started_at": "2026-02-02T20:17:19.547Z",
-          "updated_at": "2026-02-02T20:19:26.639Z",
-          "shortlink": "https://stspg.io/flvngz4l79b5"
-        }
-      ],
+      "status": "Operational",
+      "description": "All Systems Operational",
+      "incidents": [],
       "source": "https://www.githubstatus.com/"
     },
     {
@@ -125,8 +110,8 @@
     },
     {
       "name": "Port",
-      "status": "Major",
-      "description": "Partial System Outage",
+      "status": "Operational",
+      "description": "All Systems Operational",
       "incidents": [],
       "source": "https://status.port.io/"
     },
@@ -138,5 +123,5 @@
       "source": "https://status.brainboard.co/"
     }
   ],
-  "generated_at": 1770074815
+  "generated_at": 1770083997
 }
