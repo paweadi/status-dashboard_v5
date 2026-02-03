@@ -16,47 +16,23 @@
     },
     {
       "name": "GitHub",
-      "status": "Minor",
-      "description": "Minor Service Outage",
-      "incidents": [
-        {
-          "title": "Incident with Copilot",
-          "impact": "minor",
-          "started_at": "2026-02-03T10:16:24.446Z",
-          "updated_at": "2026-02-03T10:21:48.093Z",
-          "shortlink": "https://stspg.io/m25fmcqywypn"
-        }
-      ],
+      "status": "Operational",
+      "description": "All Systems Operational",
+      "incidents": [],
       "source": "https://www.githubstatus.com/"
     },
     {
       "name": "Jira",
-      "status": "Minor",
-      "description": "Partially Degraded Service",
-      "incidents": [
-        {
-          "title": "Confluence, Jira Mobile and Forge users may experience authentication issues",
-          "impact": "minor",
-          "started_at": "2026-02-03T10:19:54.804Z",
-          "updated_at": "2026-02-03T10:24:03.316Z",
-          "shortlink": "https://stspg.io/pj0g65bhvfc8"
-        }
-      ],
+      "status": "Operational",
+      "description": "All Systems Operational",
+      "incidents": [],
       "source": "https://jira-software.status.atlassian.com/"
     },
     {
       "name": "Confluence",
-      "status": "Minor",
-      "description": "Partially Degraded Service",
-      "incidents": [
-        {
-          "title": "Confluence, Jira Mobile and Forge users may experience authentication issues",
-          "impact": "minor",
-          "started_at": "2026-02-03T10:19:54.329Z",
-          "updated_at": "2026-02-03T10:24:03.317Z",
-          "shortlink": "https://stspg.io/452gy3xttr3j"
-        }
-      ],
+      "status": "Operational",
+      "description": "All Systems Operational",
+      "incidents": [],
       "source": "https://confluence.status.atlassian.com/"
     },
     {
@@ -70,15 +46,7 @@
       "name": "Elastic",
       "status": "Operational",
       "description": "All Systems Operational",
-      "incidents": [
-        {
-          "title": "Upstream cloud provider incident impacting Project Creation/Deployments",
-          "impact": "major",
-          "started_at": "2026-02-02T23:01:25.000Z",
-          "updated_at": "2026-02-03T07:37:35.771Z",
-          "shortlink": "https://stspg.io/cfwqtczp3xj1"
-        }
-      ],
+      "incidents": [],
       "source": "https://status.elastic.co/"
     },
     {
@@ -139,5 +107,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1770115086
+  "generated_at": 1770116230
 }
