@@ -9,30 +9,54 @@
     },
     {
       "name": "Azure DevOps",
-      "status": "Operational",
-      "description": "Everything is looking good",
+      "status": "Minor",
+      "description": "Investigating a service disruption",
       "incidents": [],
       "source": "https://status.dev.azure.com/"
     },
     {
       "name": "GitHub",
-      "status": "Operational",
-      "description": "All Systems Operational",
-      "incidents": [],
+      "status": "Minor",
+      "description": "Minor Service Outage",
+      "incidents": [
+        {
+          "title": "Incident with Copilot",
+          "impact": "minor",
+          "started_at": "2026-02-03T10:16:24.446Z",
+          "updated_at": "2026-02-03T10:21:48.093Z",
+          "shortlink": "https://stspg.io/m25fmcqywypn"
+        }
+      ],
       "source": "https://www.githubstatus.com/"
     },
     {
       "name": "Jira",
-      "status": "Operational",
-      "description": "All Systems Operational",
-      "incidents": [],
+      "status": "Minor",
+      "description": "Partially Degraded Service",
+      "incidents": [
+        {
+          "title": "Confluence, Jira Mobile and Forge users may experience authentication issues",
+          "impact": "minor",
+          "started_at": "2026-02-03T10:19:54.804Z",
+          "updated_at": "2026-02-03T10:24:03.316Z",
+          "shortlink": "https://stspg.io/pj0g65bhvfc8"
+        }
+      ],
       "source": "https://jira-software.status.atlassian.com/"
     },
     {
       "name": "Confluence",
-      "status": "Operational",
-      "description": "All Systems Operational",
-      "incidents": [],
+      "status": "Minor",
+      "description": "Partially Degraded Service",
+      "incidents": [
+        {
+          "title": "Confluence, Jira Mobile and Forge users may experience authentication issues",
+          "impact": "minor",
+          "started_at": "2026-02-03T10:19:54.329Z",
+          "updated_at": "2026-02-03T10:24:03.317Z",
+          "shortlink": "https://stspg.io/452gy3xttr3j"
+        }
+      ],
       "source": "https://confluence.status.atlassian.com/"
     },
     {
@@ -115,5 +139,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1770111521
+  "generated_at": 1770115086
 }
