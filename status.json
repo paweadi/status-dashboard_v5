@@ -51,8 +51,8 @@
     },
     {
       "name": "Octopus Deploy",
-      "status": "Major",
-      "description": "Partial System Outage",
+      "status": "Operational",
+      "description": "All Systems Operational",
       "incidents": [],
       "source": "https://status.octopus.com/"
     },
@@ -99,5 +99,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1770157672
+  "generated_at": 1770161195
 }
