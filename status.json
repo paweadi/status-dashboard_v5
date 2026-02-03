@@ -23,7 +23,7 @@
           "title": "Delays in UI updates for Actions Runs",
           "impact": "minor",
           "started_at": "2026-02-03T16:10:32.386Z",
-          "updated_at": "2026-02-03T16:51:14.518Z",
+          "updated_at": "2026-02-03T18:06:03.413Z",
           "shortlink": "https://stspg.io/xv1lt3mclwk1"
         }
       ],
@@ -115,5 +115,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1770141126
+  "generated_at": 1770144867
 }
