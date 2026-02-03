@@ -10,7 +10,7 @@
           "impact": "minor",
           "started_at": "Mon, 02 Feb 2026 19:46:00 Z",
           "updated_at": "Mon, 02 Feb 2026 19:46:00 Z",
-          "shortlink": "https://azurestatusprodweu.azurewebsites.net/en-us/status/"
+          "shortlink": "https://azurestatusprodjpw.azurewebsites.net/en-us/status/"
         }
       ],
       "source": "https://azure.status.microsoft/en-us/status"
@@ -123,5 +123,5 @@
       "source": "https://status.brainboard.co/"
     }
   ],
-  "generated_at": 1770097756
+  "generated_at": 1770101347
 }
