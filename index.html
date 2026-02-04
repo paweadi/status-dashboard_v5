@@ -1,121 +1,186 @@
 
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Status Dashboard – Markel Services</title>
-<style>
-  body { background:#0f172a; color:#e2e8f0; font-family: system-ui, sans-serif; margin:0; }
-  .container { max-width: 1100px; margin: 2rem auto; padding: 0 1rem; }
-  h1 { font-size: 1.6rem; margin: 0 0 .25rem 0; }
-  .meta { color:#94a3b8; margin-bottom: 1rem; }
-  table { width:100%; border-collapse: collapse; background:#111827; border-radius:12px; overflow:hidden; table-layout: fixed; }
-  th, td { padding: .9rem; border-bottom: 1px solid #1f2937; vertical-align: top; word-wrap: break-word; overflow-wrap: break-word; }
-  th { text-align:left; color:#93c5fd; background:#0b1220; position: sticky; top:0; }
-  tr:last-child td { border-bottom:none; }
-  .badge { display:inline-block; padding:.2rem .6rem; border-radius:999px; font-size:.85rem; font-weight:600; }
-  .Operational { background:#16a34a; color:#ffffff; } /* Green for operational */
-  .Minor { background:#b45309; color:#fff7ed; }
-  .Major, .Critical { background:#b91c1c; color:#fee2e2; }
-  .Unknown { background:#475569; color:#e2e8f0; }
-  a { color:#93c5fd; text-decoration:none; word-break: break-all; }
-  a:hover { text-decoration:underline; }
-  .error { color:#fca5a5; font-size:.9rem; }
-</style>
+  <meta charset="utf-8" />
+  <title>Status Dashboard – Markel Services</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <style>
+    /* === Theme (self-contained) === */
+    :root {
+      --bg:#0b1220; --fg:#e6eefc; --muted:#9aa6bd; --card:#0f172a;
+      --row: rgba(255,255,255,.06); --border: rgba(255,255,255,.08);
+      --ok:#16a34a; --warn:#f59e0b; --bad:#ef4444; --unknown:#94a3b8;
+      --link:#89c7ff; --accent:#e24a3b;
+    }
+    * { box-sizing:border-box; }
+    body { background:var(--bg); color:var(--fg); font:14px/1.5 system-ui, Segoe UI, Roboto, Arial, sans-serif; margin:24px; }
+    h1,h2 { margin:0 0 10px; }
+    .meta { color:var(--muted); margin:6px 0 16px; }
+
+    /* Table */
+    table { width:100%; border-collapse:collapse; background:var(--card); border-radius:12px; overflow:hidden; }
+    thead th { text-align:left; padding:12px 14px; color:var(--muted); border-bottom:1px solid var(--row); }
+    tbody td { padding:12px 14px; border-bottom:1px solid var(--row); vertical-align:top; }
+    tbody tr:last-child td { border-bottom:none; }
+
+    /* Links */
+    a { color:var(--link); text-decoration:none; border-bottom:1px dashed rgba(137,199,255,.35); }
+    a:hover { text-decoration:underline; }
+
+    /* Status badges */
+    .badge { display:inline-block; padding:3px 10px; border-radius:999px; font-weight:600; font-size:12px; letter-spacing:.1px; }
+    .badge.ok      { background:#16a34a;  color:#ffffff; border:1px solid #0f6a37; }
+    .badge.warn    { background:#b45309; color:#ffffff; border:1px solid #92400e; }
+    .badge.bad     { background:#dc2626;  color:#ffffff; border:1px solid #b91c1c; }
+    .badge.unknown { background:rgba(148,163,184,.18);color:#e2e8f0; border:1px solid rgba(148,163,184,.35); }
+
+    /* Divider between table and contact card */
+    .section-divider { height:1px; background:var(--row); margin:16px 0; border-radius:1px; }
+
+    /* Contact Service Management – styled like table */
+    .contact-card{
+      background:var(--card); color:var(--fg);
+      border:1px solid var(--border); border-radius:12px;
+      padding:16px; margin-top:16px;
+    }
+    .contact-header{ display:flex; align-items:center; gap:10px; margin-bottom:10px; }
+    .contact-header h2{ font-size:16px; font-weight:600; margin:0; }
+    .contact-icon{ flex:0 0 auto; line-height:0; }
+    .contact-content{ display:grid; gap:8px; }
+    .contact-list{ list-style:none; margin:0; padding:0; display:grid; gap:8px; }
+    .contact-list li{ padding:10px 12px; border:1px solid var(--row); border-radius:10px; background:rgba(255,255,255,.03); }
+    .label{ font-weight:600; margin-right:6px; }
+    .tel { color:#ff8a75; text-decoration:none; border-bottom:1px dashed rgba(255,138,117,.35); }
+    .tel:hover{ text-decoration:underline; }
+    .dial-note{ color:#ff8a75; }
+    .muted{ color:var(--muted); margin:4px 0 0; }
+    .sn-link{ color:var(--link); text-decoration:none; border-bottom:1px dashed rgba(137,199,255,.35); }
+    .sn-link:hover{ text-decoration:underline; }
+
+    @media (max-width:560px){
+      body{ margin:16px; }
+      .contact-card{ padding:14px; }
+      .contact-list li{ padding:8px 10px; }
+    }
+  </style>
 </head>
 <body>
-  <div class="container">
-    <h1>Markel Services</h1>
-    <div class="meta">Auto-refresh: <span id="refresh-interval">60s</span> • Last updated: <span id="last-updated">—</span></div>
+  <h1>Status Dashboard – Markel Services</h1>
+  <p class="meta">Auto-refresh: 60s • Last updated: <span id="lastUpdated">—</span></p>
 
-    <table aria-label="Service status">
-      <thead>
-        <tr>
-          <th>Service</th>
-          <th>Status</th>
-          <th>Description</th>
-          <th>Source</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr id="Azure"><td>Azure</td><td class="status"><span class="badge Operational">Operational</span></td><td class="description">Azure Status</td><td><a href="https://azure.status.microsoft/en-us/status" target="_blank">Azure</a></td></tr>
-        <tr id="Azure_DevOps"><td>Azure DevOps</td><td class="status"><span class="badge Operational">Operational</span></td><td class="description">Everything is looking good</td><td><a href="https://status.dev.azure.com/" target="_blank">Azure DevOps</a></td></tr>
-        <tr id="Azure_Databricks"><td>Azure Databricks</td><td class="status"><span class="badge Operational">Operational</span></td><td class="description">All systems operational</td><td><a href="https://status.azuredatabricks.net/" target="_blank">Azure Databricks</a></td></tr>
-        <tr id="JFrog"><td>JFrog</td><td class="status"><span class="badge Operational">Operational</span></td><td class="description">All systems operational</td><td><a href="https://status.jfrog.io/" target="_blank">JFrog</a></td></tr>
-        <tr id="Elastic"><td>Elastic</td><td class="status"><span class="badge Operational">Operational</span></td><td class="description">All systems operational</td><td><a href="https://status.elastic.co/" target="_blank">Elastic</a></td></tr>
-        <tr id="Octopus_Deploy"><td>Octopus Deploy</td><td class="status"><span class="badge Operational">Operational</span></td><td class="description">All systems operational</td><td><a href="https://status.octopus.com/" target="_blank">Octopus Deploy</a></td></tr>
-        <tr id="Lucid"><td>Lucid</td><td class="status"><span class="badge Operational">Operational</span></td><td class="description">All systems operational</td><td><a href="https://status.lucid.co/" target="_blank">Lucid</a></td></tr>
-        <tr id="Jira"><td>Jira</td><td class="status"><span class="badge Operational">Operational</span></td><td class="description">All systems operational</td><td><a href="https://jira-software.status.atlassian.com/" target="_blank">Jira</a></td></tr>
-        <tr id="Confluence"><td>Confluence</td><td class="status"><span class="badge Operational">Operational</span></td><td class="description">All systems operational</td><td><a href="https://confluence.status.atlassian.com/" target="_blank">Confluence</a></td></tr>
-        <tr id="GitHub"><td>GitHub</td><td class="status"><span class="badge Operational">Operational</span></td><td class="description">All systems operational</td><td><a href="https://www.githubstatus.com/" target="_blank">GitHub</a></td></tr>
-        <tr id="CucumberStudio"><td>CucumberStudio</td><td class="status"><span class="badge Unknown">Unknown</span></td><td class="description">Unknown</td><td><a href="https://status.cucumberstudio.com/" target="_blank">CucumberStudio</a></td></tr>
-        <tr id="Fivetran"><td>Fivetran</td><td class="status"><span class="badge Operational">Operational</span></td><td class="description">All systems operational</td><td><a href="https://status.fivetran.com/" target="_blank">Fivetran</a></td></tr>
-        <tr id="Brainboard"><td>Brainboard</td><td class="status"><span class="badge Minor">Minor</span></td><td class="description">Maintenance</td><td><a href="https://status.brainboard.co/" target="_blank">Brainboard</a></td></tr>
-        <tr id="Port"><td>Port</td><td class="status"><span class="badge Operational">Operational</span></td><td class="description">All systems operational</td><td><a href="https://status.port.io/" target="_blank">Port</a></td></tr>
-      </tbody>
-    </table>
-    <p id="error" class="error" style="display:none;"></p>
-  </div>
+  <!-- Table rendered from status.json -->
+  <table id="statusTable" aria-live="polite">
+    <thead>
+      <tr>
+        <th>Service</th>
+        <th>Status</th>
+        <th>Description</th>
+        <th>Source</th>
+      </tr>
+    </thead>
+    <tbody><!-- rows inserted by JS --></tbody>
+  </table>
 
-<script>
-const STATUS_JSON_URL = 'status.json?v=' + Date.now();
-const REFRESH_MS = 60000;
+  <div class="section-divider" role="presentation"></div>
 
-function formatDate(dt) {
-  const pad = (n) => String(n).padStart(2, '0');
-  return `${dt.getFullYear()}-${pad(dt.getMonth()+1)}-${pad(dt.getDate())} ${pad(dt.getHours())}:${pad(dt.getMinutes())}:${pad(dt.getSeconds())}`;
-}
+  <!-- Contact Service Management -->
+  <section id="contact-sm" class="contact-card" aria-labelledby="csm-title">
+    <div class="contact-header">
+      <div class="contact-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" width="22" height="22" role="img" focusable="false" aria-hidden="true">
+          <circle cx="12" cy="12" r="12" fill="var(--accent)"></circle>
+          <path d="M16.54 15.3l-1.28 1.28a2 2 0 0 1-2.23.43c-1.2-.5-2.8-1.7-4.19-3.09S6.25 11.1 5.76 9.9a2 2 0 0 1 .43-2.23L7.47 6.4a.8.8 0 0 1 1.15.07l1.2 1.48a1 1 0 0 1-.1 1.35l-.7.7c.47.87 1.26 1.86 2.24 2.84s1.97 1.77 2.84 2.24l.7-.7a 1 1 0 0 1 1.35-.1l1.48 1.2a.8.8 0 0 1 .07 1.15z" fill="#fff"></path>
+        </svg>
+      </div>
+      <h2 id="csm-title">Contact Service Management</h2>
+    </div>
 
-function setLastUpdated(now = new Date()) {
-  document.getElementById('last-updated').textContent = formatDate(now);
-}
+    <div class="contact-content">
+      <ul class="contact-list">
+        <li>
+          <span class="label">US and Bermuda:</span>
+          <a class="tel" href="tel:+18045273843">+1 804 527 3843</a>
+          <span class="dial-note"> (To dial from UK:
+            <a class="tel" href="tel:+18045273843">001 804 527 3843</a>)
+          </span>
+        </li>
 
-function setError(msg) {
-  const el = document.getElementById('error');
-  el.textContent = msg;
-  el.style.display = msg ? 'block' : 'none';
-}
+        <li>
+          <span class="label">Markel International:</span>
+          <a class="tel" href="tel:+442079536782">+44 (0)207 953 6782</a>
+          <span class="dial-note"> (To dial from US:
+            <a class="tel" href="tel:+442079536782">011 44 207 953 6782</a>)
+          </span>
+        </li>
+      </ul>
 
-function applyStatusToRow(row, statusText, descriptionText) {
-  const statusCell = row.querySelector('.status');
-  const descCell = row.querySelector('.description');
-  if (descCell) descCell.textContent = descriptionText || '';
-  if (statusCell) {
-    let badge = statusCell.querySelector('.badge');
-    if (!badge) {
-      badge = document.createElement('span');
-      badge.className = 'badge';
-      statusCell.innerHTML = '';
-      statusCell.appendChild(badge);
+      <p class="muted">Please note Service Management email is not monitored</p>
+      <p>Web: <a class="sn-link" href="https://markel.service-now.com/sp" target="_blank" rel="noopener noreferrer">https://markel.service-now.com/sp</a></p>
+    </div>
+  </section>
+
+  <script>
+    const REFRESH_MS = 60000;
+    const severityOrder = { Major: 0, Minor: 1, Operational: 2, Unknown: 3 };
+
+    function badgeFor(status) {
+      const s = (status || 'Unknown').toLowerCase();
+      if (s === 'operational') return { cls:'ok', label:'Operational' };
+      if (s === 'minor')       return { cls:'warn', label:'Minor' };
+      if (s === 'major')       return { cls:'bad', label:'Major' };
+      return { cls:'unknown', label:'Unknown' };
     }
-    badge.className = 'badge ' + (statusText || 'Unknown');
-    badge.textContent = statusText || 'Unknown';
-  }
-}
 
-async function refreshStatus() {
-  setError('');
-  try {
-    const resp = await fetch(STATUS_JSON_URL, { cache: 'no-store' });
-    if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
-    const data = await resp.json();
-    const items = Array.isArray(data.services) ? data.services : [];
-    items.forEach(svc => {
-      const id = (svc.name || '').replace(/\s+/g, '_').replace(/[\/]/g, '_');
-      const row = document.getElementById(id);
-      if (row) applyStatusToRow(row, svc.status, svc.description);
-    });
-    setLastUpdated(new Date());
-  } catch (err) {
-    console.error('Error fetching status:', err);
-    setError('Error fetching status.json. Retrying...');
-  }
-}
+    function escapeHtml(s='') {
+      return s.replace(/[&<>"']/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[m]));
+    }
 
-setLastUpdated(new Date());
-refreshStatus();
-setInterval(refreshStatus, REFRESH_MS);
-</script>
+    /** Proper hyperlink generator with href/target/rel */
+    function linkHTML(url, text){
+      if(!url) return '';
+      const href = String(url).trim();
+      const label = escapeHtml(text || url);
+      return `<a href="${href}" target="_blank" rel="noopener noreferrer">${label}</a>`;
+    }
+
+    function readableSource(url, fallback) {
+      try { return fallback || new URL(url).hostname; } catch { return fallback || url || ''; }
+    }
+
+    function rowHTML(svc){
+      const { cls, label } = badgeFor(svc.status);
+      const desc = svc.description || (svc.status === 'Operational' ? 'All systems operational' : 'Status unknown');
+      const src = (svc.source || '').trim();
+      const srcText = readableSource(src, svc.name);
+
+      return `
+        <tr>
+          <td>${escapeHtml(svc.name || '')}</td>
+          <td><span class="badge ${cls}">${label}</span></td>
+          <td>${escapeHtml(desc)}</td>
+          <td>${linkHTML(src, srcText)}</td>
+        </tr>
+      `;
+    }
+
+    async function refresh(){
+      const res = await fetch('status.json?' + Date.now(), { cache:'no-store' });
+      const data = await res.json();
+      const list = Array.isArray(data.services) ? data.services.slice() : [];
+
+      // Sort: Major -> Minor -> Operational -> Unknown, then A–Z
+      list.sort((a,b) =>
+        (severityOrder[a.status] - severityOrder[b.status]) ||
+        (a.name || '').localeCompare(b.name || '')
+      );
+
+      document.querySelector('#statusTable tbody').innerHTML = list.map(rowHTML).join('');
+      document.getElementById('lastUpdated').textContent = new Date().toLocaleString();
+    }
+
+    refresh().catch(console.error);
+    setInterval(() => refresh().catch(console.error), REFRESH_MS);
+  </script>
 </body>
 </html>
