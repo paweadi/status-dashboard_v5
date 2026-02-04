@@ -86,8 +86,8 @@
     },
     {
       "name": "Brainboard",
-      "status": "Operational",
-      "description": "All services are online",
+      "status": "Unknown",
+      "description": "Status unknown",
       "incidents": [],
       "source": "https://status.brainboard.co/"
     },
@@ -99,5 +99,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1770213770
+  "generated_at": 1770219710
 }
