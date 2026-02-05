@@ -40,7 +40,7 @@ services: List[Dict[str, str]] = [
 
     # Non-Statuspage providers with custom parsers
     {"name": "Brainboard", "url": "https://status.brainboard.co/", "type": "brainboard"},
-    {"name": "Azure Databricks", "url": "https://status.azuredatabricks.net/", "type": "azdb_html"},
+    {"name": "Azure Databricks", "url": "https://status.azuredatabricks.net/", "type": "statuspage"},
 ]
 
 # Common keywords for HTML fallback
