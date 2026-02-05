@@ -23,9 +23,17 @@
     },
     {
       "name": "Jira",
-      "status": "Operational",
-      "description": "All Systems Operational",
-      "incidents": [],
+      "status": "Major",
+      "description": "Major System Outage",
+      "incidents": [
+        {
+          "title": "Some users in us-east-1 region unable to access Jira and JSM.",
+          "impact": "critical",
+          "started_at": "2026-02-05T14:13:18.969Z",
+          "updated_at": "2026-02-05T14:40:33.908Z",
+          "shortlink": "https://stspg.io/k304xzjryrpj"
+        }
+      ],
       "source": "https://jira-software.status.atlassian.com/"
     },
     {
@@ -99,5 +107,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1770300456
+  "generated_at": 1770305957
 }
