@@ -93,11 +93,11 @@
     },
     {
       "name": "Azure Databricks",
-      "status": "Minor",
-      "description": "Degraded Performance",
+      "status": "Operational",
+      "description": "All Systems Operational",
       "incidents": [],
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1770264964
+  "generated_at": 1770270855
 }
