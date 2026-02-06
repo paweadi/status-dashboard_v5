@@ -46,7 +46,15 @@
       "name": "Elastic",
       "status": "Operational",
       "description": "All Systems Operational",
-      "incidents": [],
+      "incidents": [
+        {
+          "title": "Issue creating new projects in AWS us-east-1",
+          "impact": "major",
+          "started_at": "2026-02-06T01:56:00.068Z",
+          "updated_at": "2026-02-06T02:43:33.620Z",
+          "shortlink": "https://stspg.io/225m1bs4qn8k"
+        }
+      ],
       "source": "https://status.elastic.co/"
     },
     {
@@ -99,5 +107,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1770342929
+  "generated_at": 1770351285
 }
