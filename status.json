@@ -23,9 +23,17 @@
     },
     {
       "name": "Jira",
-      "status": "Operational",
-      "description": "All Systems Operational",
-      "incidents": [],
+      "status": "Major",
+      "description": "Major System Outage",
+      "incidents": [
+        {
+          "title": "Disrupted JIRA and JSM availability",
+          "impact": "critical",
+          "started_at": "2026-02-06T20:24:43.016Z",
+          "updated_at": "2026-02-06T20:26:30.118Z",
+          "shortlink": "https://stspg.io/fgnlwb20d8kp"
+        }
+      ],
       "source": "https://jira-software.status.atlassian.com/"
     },
     {
@@ -99,5 +107,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1770406600
+  "generated_at": 1770409926
 }
