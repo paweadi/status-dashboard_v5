@@ -37,17 +37,9 @@
     },
     {
       "name": "JFrog",
-      "status": "Minor",
-      "description": "Minor Service Outage",
-      "incidents": [
-        {
-          "title": "Partial outage in JFrog Cloud Platform affecting services on Azure US West",
-          "impact": "major",
-          "started_at": "2026-02-07T08:33:33.420Z",
-          "updated_at": "2026-02-07T10:52:19.326Z",
-          "shortlink": "https://stspg.io/gggbf0qk28lh"
-        }
-      ],
+      "status": "Operational",
+      "description": "All Systems Operational",
+      "incidents": [],
       "source": "https://status.jfrog.io/"
     },
     {
@@ -107,5 +99,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1770477765
+  "generated_at": 1770481689
 }
