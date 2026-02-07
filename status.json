@@ -44,7 +44,7 @@
           "title": "Partial outage in JFrog Cloud Platform affecting services on Azure US West",
           "impact": "major",
           "started_at": "2026-02-07T08:33:33.420Z",
-          "updated_at": "2026-02-07T08:56:31.897Z",
+          "updated_at": "2026-02-07T10:52:19.326Z",
           "shortlink": "https://stspg.io/gggbf0qk28lh"
         }
       ],
@@ -107,5 +107,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1770459857
+  "generated_at": 1770463210
 }
