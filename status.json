@@ -2,8 +2,8 @@
   "services": [
     {
       "name": "Azure",
-      "status": "Unknown",
-      "description": "Status unknown",
+      "status": "Operational",
+      "description": "All Systems Operational",
       "incidents": [],
       "source": "https://azure.status.microsoft/en-us/status"
     },
@@ -99,5 +99,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1770526925
+  "generated_at": 1770533213
 }
