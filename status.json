@@ -79,8 +79,8 @@
     },
     {
       "name": "Port",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Unknown",
+      "description": "Status unknown",
       "incidents": [],
       "source": "https://status.port.io/"
     },
@@ -99,5 +99,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1770571487
+  "generated_at": 1770575680
 }
