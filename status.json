@@ -16,9 +16,17 @@
     },
     {
       "name": "GitHub",
-      "status": "Operational",
-      "description": "All Systems Operational",
-      "incidents": [],
+      "status": "Minor",
+      "description": "Minor Service Outage",
+      "incidents": [
+        {
+          "title": "Degraded Performance in Webhooks API and UI, Pull Requests",
+          "impact": "minor",
+          "started_at": "2026-02-09T08:15:33.035Z",
+          "updated_at": "2026-02-09T08:52:54.064Z",
+          "shortlink": "https://stspg.io/2xnh8znb33vr"
+        }
+      ],
       "source": "https://www.githubstatus.com/"
     },
     {
@@ -99,5 +107,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1770623787
+  "generated_at": 1770627286
 }
