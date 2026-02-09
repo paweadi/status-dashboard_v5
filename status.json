@@ -20,24 +20,17 @@
       "description": "Minor Service Outage",
       "incidents": [
         {
-          "title": "Incident with Pull Requests",
-          "impact": "major",
-          "started_at": "2026-02-09T16:19:22.223Z",
-          "updated_at": "2026-02-09T17:37:15.630Z",
-          "shortlink": "https://stspg.io/0bh72947r0m2"
-        },
-        {
           "title": "Notifications are delayed",
           "impact": "minor",
           "started_at": "2026-02-09T15:54:52.815Z",
-          "updated_at": "2026-02-09T17:25:50.780Z",
+          "updated_at": "2026-02-09T18:33:40.416Z",
           "shortlink": "https://stspg.io/4k2cyb4hg0nk"
         },
         {
           "title": "Copilot Policy Propagation Delays",
           "impact": "minor",
           "started_at": "2026-02-09T16:29:41.371Z",
-          "updated_at": "2026-02-09T17:24:00.716Z",
+          "updated_at": "2026-02-09T18:06:13.403Z",
           "shortlink": "https://stspg.io/485py7lrgkjt"
         }
       ],
@@ -109,8 +102,8 @@
     },
     {
       "name": "Port",
-      "status": "Minor",
-      "description": "Minor Service Outage",
+      "status": "Operational",
+      "description": "All Systems Operational",
       "incidents": [],
       "source": "https://status.port.io/"
     },
@@ -129,5 +122,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1770658672
+  "generated_at": 1770662203
 }
