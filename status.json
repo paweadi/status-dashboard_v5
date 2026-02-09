@@ -16,16 +16,9 @@
     },
     {
       "name": "GitHub",
-      "status": "Major",
-      "description": "Partial System Outage",
+      "status": "Minor",
+      "description": "Minor Service Outage",
       "incidents": [
-        {
-          "title": "Incident with Issues, Actions and Git Operations",
-          "impact": "major",
-          "started_at": "2026-02-09T19:01:33.049Z",
-          "updated_at": "2026-02-09T19:31:59.076Z",
-          "shortlink": "https://stspg.io/k16wk8tbvdvk"
-        },
         {
           "title": "Copilot Policy Propagation Delays",
           "impact": "minor",
@@ -102,8 +95,8 @@
     },
     {
       "name": "Port",
-      "status": "Major",
-      "description": "Partial System Outage",
+      "status": "Operational",
+      "description": "All Systems Operational",
       "incidents": [],
       "source": "https://status.port.io/"
     },
@@ -122,5 +115,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1770666758
+  "generated_at": 1770669391
 }
