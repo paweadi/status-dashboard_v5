@@ -3,7 +3,7 @@ name: Auto Update Service Status
 
 on:
   schedule:
-    - cron: "0 * * * *"   # once per hour on the hour; equivalent to */60 but cleaner
+    - cron: "*/15 * * * *" 
   workflow_dispatch:
 
 permissions:
