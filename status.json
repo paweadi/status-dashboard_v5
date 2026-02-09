@@ -16,15 +16,29 @@
     },
     {
       "name": "GitHub",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Minor",
+      "description": "Minor Service Outage",
       "incidents": [
+        {
+          "title": "Incident with Pull Requests",
+          "impact": "major",
+          "started_at": "2026-02-09T16:19:22.223Z",
+          "updated_at": "2026-02-09T17:37:15.630Z",
+          "shortlink": "https://stspg.io/0bh72947r0m2"
+        },
         {
           "title": "Notifications are delayed",
           "impact": "minor",
           "started_at": "2026-02-09T15:54:52.815Z",
-          "updated_at": "2026-02-09T15:54:52.866Z",
+          "updated_at": "2026-02-09T17:25:50.780Z",
           "shortlink": "https://stspg.io/4k2cyb4hg0nk"
+        },
+        {
+          "title": "Copilot Policy Propagation Delays",
+          "impact": "minor",
+          "started_at": "2026-02-09T16:29:41.371Z",
+          "updated_at": "2026-02-09T17:24:00.716Z",
+          "shortlink": "https://stspg.io/485py7lrgkjt"
         }
       ],
       "source": "https://www.githubstatus.com/"
@@ -54,7 +68,15 @@
       "name": "Elastic",
       "status": "Operational",
       "description": "All Systems Operational",
-      "incidents": [],
+      "incidents": [
+        {
+          "title": "Degradation in the `openai-gpt-oss-120b` model in EIS",
+          "impact": "major",
+          "started_at": "2026-02-09T16:53:21.420Z",
+          "updated_at": "2026-02-09T16:53:21.847Z",
+          "shortlink": "https://stspg.io/7l00yqq83xxw"
+        }
+      ],
       "source": "https://status.elastic.co/"
     },
     {
@@ -87,8 +109,8 @@
     },
     {
       "name": "Port",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Minor",
+      "description": "Minor Service Outage",
       "incidents": [],
       "source": "https://status.port.io/"
     },
@@ -107,5 +129,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1770653252
+  "generated_at": 1770658672
 }
