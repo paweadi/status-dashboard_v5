@@ -16,22 +16,15 @@
     },
     {
       "name": "GitHub",
-      "status": "Minor",
-      "description": "Minor Service Outage",
+      "status": "Operational",
+      "description": "All Systems Operational",
       "incidents": [
         {
           "title": "Degraded performance for Copilot Coding Agent",
           "impact": "minor",
           "started_at": "2026-02-09T10:01:18.049Z",
-          "updated_at": "2026-02-09T10:01:18.099Z",
+          "updated_at": "2026-02-09T11:14:18.752Z",
           "shortlink": "https://stspg.io/dx8zycd3v68n"
-        },
-        {
-          "title": "Degraded Performance in Webhooks API and UI, Pull Requests",
-          "impact": "minor",
-          "started_at": "2026-02-09T08:15:33.035Z",
-          "updated_at": "2026-02-09T09:31:42.377Z",
-          "shortlink": "https://stspg.io/2xnh8znb33vr"
         }
       ],
       "source": "https://www.githubstatus.com/"
@@ -94,8 +87,8 @@
     },
     {
       "name": "Port",
-      "status": "Minor",
-      "description": "Minor Service Outage",
+      "status": "Operational",
+      "description": "All Systems Operational",
       "incidents": [],
       "source": "https://status.port.io/"
     },
@@ -114,5 +107,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1770631295
+  "generated_at": 1770637375
 }
