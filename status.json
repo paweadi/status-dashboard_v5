@@ -46,7 +46,15 @@
       "name": "Elastic",
       "status": "Operational",
       "description": "All Systems Operational",
-      "incidents": [],
+      "incidents": [
+        {
+          "title": "Degradation with BYOK deployment creation in Azure regions",
+          "impact": "major",
+          "started_at": "2026-02-10T18:35:08.023Z",
+          "updated_at": "2026-02-10T18:35:08.407Z",
+          "shortlink": "https://stspg.io/5hqpdr6q6y96"
+        }
+      ],
       "source": "https://status.elastic.co/"
     },
     {
@@ -99,5 +107,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1770743888
+  "generated_at": 1770748525
 }
