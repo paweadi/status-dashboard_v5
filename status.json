@@ -16,14 +16,14 @@
     },
     {
       "name": "GitHub",
-      "status": "Minor",
-      "description": "Minor Service Outage",
+      "status": "Operational",
+      "description": "All Systems Operational",
       "incidents": [
         {
           "title": "Copilot Policy Propagation Delays",
           "impact": "minor",
           "started_at": "2026-02-09T16:29:41.371Z",
-          "updated_at": "2026-02-09T22:09:59.208Z",
+          "updated_at": "2026-02-10T00:51:52.539Z",
           "shortlink": "https://stspg.io/485py7lrgkjt"
         }
       ],
@@ -115,5 +115,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1770680595
+  "generated_at": 1770685461
 }
