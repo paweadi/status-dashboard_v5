@@ -51,7 +51,7 @@
           "title": "Degradation with BYOK deployment creation in Azure regions",
           "impact": "major",
           "started_at": "2026-02-10T18:35:08.023Z",
-          "updated_at": "2026-02-10T18:35:08.407Z",
+          "updated_at": "2026-02-10T19:49:08.432Z",
           "shortlink": "https://stspg.io/5hqpdr6q6y96"
         }
       ],
@@ -107,5 +107,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1770752716
+  "generated_at": 1770757947
 }
