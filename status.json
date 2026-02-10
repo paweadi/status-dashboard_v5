@@ -46,15 +46,7 @@
       "name": "Elastic",
       "status": "Operational",
       "description": "All Systems Operational",
-      "incidents": [
-        {
-          "title": "Degradation in the `openai-gpt-oss-120b` model in EIS",
-          "impact": "major",
-          "started_at": "2026-02-09T16:53:21.420Z",
-          "updated_at": "2026-02-09T19:35:50.638Z",
-          "shortlink": "https://stspg.io/7l00yqq83xxw"
-        }
-      ],
+      "incidents": [],
       "source": "https://status.elastic.co/"
     },
     {
@@ -107,5 +99,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1770718526
+  "generated_at": 1770722007
 }
