@@ -18,7 +18,15 @@
       "name": "GitHub",
       "status": "Operational",
       "description": "All Systems Operational",
-      "incidents": [],
+      "incidents": [
+        {
+          "title": "Disruption with some GitHub services",
+          "impact": "minor",
+          "started_at": "2026-02-11T18:58:10.094Z",
+          "updated_at": "2026-02-11T19:37:45.895Z",
+          "shortlink": "https://stspg.io/0lr3l9p5bggb"
+        }
+      ],
       "source": "https://www.githubstatus.com/"
     },
     {
@@ -99,5 +107,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1770835196
+  "generated_at": 1770838908
 }
