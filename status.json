@@ -23,15 +23,8 @@
           "title": "Incident with API Requests",
           "impact": "minor",
           "started_at": "2026-02-11T15:26:53.478Z",
-          "updated_at": "2026-02-11T15:27:22.400Z",
+          "updated_at": "2026-02-11T15:54:34.591Z",
           "shortlink": "https://stspg.io/205xtprvt8vw"
-        },
-        {
-          "title": "Incident with Copilot",
-          "impact": "minor",
-          "started_at": "2026-02-11T15:26:49.297Z",
-          "updated_at": "2026-02-11T15:27:00.301Z",
-          "shortlink": "https://stspg.io/0yj91sbr5qtp"
         }
       ],
       "source": "https://www.githubstatus.com/"
@@ -114,5 +107,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1770824401
+  "generated_at": 1770828176
 }
