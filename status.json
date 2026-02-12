@@ -18,14 +18,30 @@
       "name": "GitHub",
       "status": "Operational",
       "description": "All Systems Operational",
-      "incidents": [],
+      "incidents": [
+        {
+          "title": "Disruption with some GitHub services",
+          "impact": "major",
+          "started_at": "2026-02-12T10:38:35.067Z",
+          "updated_at": "2026-02-12T10:39:34.620Z",
+          "shortlink": "https://stspg.io/plkvv7xkwrm4"
+        }
+      ],
       "source": "https://www.githubstatus.com/"
     },
     {
       "name": "Jira",
-      "status": "Operational",
-      "description": "All Systems Operational",
-      "incidents": [],
+      "status": "Minor",
+      "description": "Partially Degraded Service",
+      "incidents": [
+        {
+          "title": "Increased error rates on Jira and Jira Service Management Ecosystem Apps",
+          "impact": "minor",
+          "started_at": "2026-02-12T10:44:05.355Z",
+          "updated_at": "2026-02-12T10:44:05.427Z",
+          "shortlink": "https://stspg.io/tw4gbncsn0m5"
+        }
+      ],
       "source": "https://jira-software.status.atlassian.com/"
     },
     {
@@ -99,5 +115,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1770890864
+  "generated_at": 1770894119
 }
