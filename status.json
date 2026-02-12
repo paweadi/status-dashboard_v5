@@ -23,7 +23,7 @@
           "title": "Intermittent disruption with Copilot completions and inline suggestions",
           "impact": "minor",
           "started_at": "2026-02-12T14:06:48.917Z",
-          "updated_at": "2026-02-12T14:08:21.659Z",
+          "updated_at": "2026-02-12T15:33:22.080Z",
           "shortlink": "https://stspg.io/yxnj1jc92qr6"
         }
       ],
@@ -115,5 +115,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1770908986
+  "generated_at": 1770912524
 }
