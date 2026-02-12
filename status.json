@@ -18,15 +18,7 @@
       "name": "GitHub",
       "status": "Operational",
       "description": "All Systems Operational",
-      "incidents": [
-        {
-          "title": "Intermittent disruption with Copilot completions and inline suggestions",
-          "impact": "minor",
-          "started_at": "2026-02-12T14:06:48.917Z",
-          "updated_at": "2026-02-12T15:33:22.080Z",
-          "shortlink": "https://stspg.io/yxnj1jc92qr6"
-        }
-      ],
+      "incidents": [],
       "source": "https://www.githubstatus.com/"
     },
     {
@@ -115,5 +107,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1770912524
+  "generated_at": 1770916545
 }
