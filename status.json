@@ -23,7 +23,7 @@
           "title": "Incident with Codespaces",
           "impact": "major",
           "started_at": "2026-02-12T07:53:58.030Z",
-          "updated_at": "2026-02-12T08:02:00.676Z",
+          "updated_at": "2026-02-12T09:04:39.031Z",
           "shortlink": "https://stspg.io/0fdc3bbq1qx0"
         }
       ],
@@ -107,5 +107,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1770883437
+  "generated_at": 1770887161
 }
