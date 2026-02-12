@@ -16,9 +16,17 @@
     },
     {
       "name": "GitHub",
-      "status": "Operational",
-      "description": "All Systems Operational",
-      "incidents": [],
+      "status": "Major",
+      "description": "Partial System Outage",
+      "incidents": [
+        {
+          "title": "Incident with Codespaces",
+          "impact": "major",
+          "started_at": "2026-02-12T07:53:58.030Z",
+          "updated_at": "2026-02-12T08:02:00.676Z",
+          "shortlink": "https://stspg.io/0fdc3bbq1qx0"
+        }
+      ],
       "source": "https://www.githubstatus.com/"
     },
     {
@@ -99,5 +107,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1770880672
+  "generated_at": 1770883437
 }
