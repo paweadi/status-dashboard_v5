@@ -52,8 +52,8 @@
     },
     {
       "name": "Elastic",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Unknown",
+      "description": "Status unknown",
       "incidents": [],
       "source": "https://status.elastic.co/"
     },
@@ -73,30 +73,22 @@
     },
     {
       "name": "CucumberStudio",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Unknown",
+      "description": "Status unknown",
       "incidents": [],
       "source": "https://status.cucumberstudio.com/"
     },
     {
       "name": "Fivetran",
-      "status": "Operational",
-      "description": "All Systems Operational",
-      "incidents": [
-        {
-          "title": "3rd Party: NetSuite connection syncs are failing with reconnect task and error \"TCP/IP error, connection reset by peer\" due to an issue on NetSuite side",
-          "impact": "minor",
-          "started_at": "2026-02-13T08:25:10.952Z",
-          "updated_at": "2026-02-13T13:11:18.831Z",
-          "shortlink": "https://stspg.io/mkj88qhnsjy4"
-        }
-      ],
+      "status": "Unknown",
+      "description": "Status unknown",
+      "incidents": [],
       "source": "https://status.fivetran.com/"
     },
     {
       "name": "Port",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Unknown",
+      "description": "Status unknown",
       "incidents": [],
       "source": "https://status.port.io/"
     },
@@ -115,5 +107,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1771009989
+  "generated_at": 1771012683
 }
