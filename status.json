@@ -54,15 +54,7 @@
       "name": "Elastic",
       "status": "Operational",
       "description": "All Systems Operational",
-      "incidents": [
-        {
-          "title": "Old Clusters Appearing on Billing Usage Page",
-          "impact": "major",
-          "started_at": "2026-02-12T18:21:13.886Z",
-          "updated_at": "2026-02-12T18:21:14.525Z",
-          "shortlink": "https://stspg.io/c1k0nm2pq7lc"
-        }
-      ],
+      "incidents": [],
       "source": "https://status.elastic.co/"
     },
     {
@@ -115,5 +107,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1770940067
+  "generated_at": 1770944441
 }
