@@ -24,13 +24,13 @@
     {
       "name": "Jira",
       "status": "Minor",
-      "description": "Partially Degraded Service",
+      "description": "Minor Service Outage",
       "incidents": [
         {
           "title": "Increased error rates on Jira and Jira Service Management Ecosystem Apps",
-          "impact": "minor",
+          "impact": "major",
           "started_at": "2026-02-12T10:44:05.355Z",
-          "updated_at": "2026-02-12T22:29:21.406Z",
+          "updated_at": "2026-02-13T07:41:40.289Z",
           "shortlink": "https://stspg.io/tw4gbncsn0m5"
         }
       ],
@@ -107,5 +107,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1770967069
+  "generated_at": 1770969640
 }
