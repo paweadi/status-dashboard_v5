@@ -87,7 +87,7 @@
           "title": "3rd Party: NetSuite connection syncs are failing with reconnect task and error \"TCP/IP error, connection reset by peer\" due to an issue on NetSuite side",
           "impact": "minor",
           "started_at": "2026-02-13T08:25:10.952Z",
-          "updated_at": "2026-02-13T09:40:05.659Z",
+          "updated_at": "2026-02-13T13:11:18.831Z",
           "shortlink": "https://stspg.io/mkj88qhnsjy4"
         }
       ],
@@ -115,5 +115,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1770987306
+  "generated_at": 1770991896
 }
