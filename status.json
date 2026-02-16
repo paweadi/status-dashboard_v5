@@ -30,7 +30,7 @@
           "title": "Increased error rates on Jira and Jira Service Management Ecosystem Apps",
           "impact": "major",
           "started_at": "2026-02-12T10:44:05.355Z",
-          "updated_at": "2026-02-16T00:24:28.929Z",
+          "updated_at": "2026-02-16T05:30:26.435Z",
           "shortlink": "https://stspg.io/tw4gbncsn0m5"
         }
       ],
@@ -107,5 +107,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1771214451
+  "generated_at": 1771220909
 }
