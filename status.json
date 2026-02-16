@@ -87,17 +87,9 @@
     },
     {
       "name": "Port",
-      "status": "Minor",
-      "description": "Partially Degraded Service",
-      "incidents": [
-        {
-          "title": "Can't access to Builder page",
-          "impact": "minor",
-          "started_at": "2026-02-16T07:14:09.748Z",
-          "updated_at": "2026-02-16T07:45:13.341Z",
-          "shortlink": "https://stspg.io/xg9zs3tc9d79"
-        }
-      ],
+      "status": "Operational",
+      "description": "All Systems Operational",
+      "incidents": [],
       "source": "https://status.port.io/"
     },
     {
@@ -115,5 +107,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1771227980
+  "generated_at": 1771230994
 }
