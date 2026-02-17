@@ -16,9 +16,17 @@
     },
     {
       "name": "GitHub",
-      "status": "Operational",
-      "description": "All Systems Operational",
-      "incidents": [],
+      "status": "Minor",
+      "description": "Minor Service Outage",
+      "incidents": [
+        {
+          "title": "Intermittent authentication failures on GitHub",
+          "impact": "minor",
+          "started_at": "2026-02-17T17:46:12.854Z",
+          "updated_at": "2026-02-17T18:18:25.237Z",
+          "shortlink": "https://stspg.io/l0t7nq7qn326"
+        }
+      ],
       "source": "https://www.githubstatus.com/"
     },
     {
@@ -87,8 +95,8 @@
     },
     {
       "name": "Port",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Minor",
+      "description": "Minor Service Outage",
       "incidents": [],
       "source": "https://status.port.io/"
     },
@@ -107,5 +115,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1771349473
+  "generated_at": 1771353864
 }
