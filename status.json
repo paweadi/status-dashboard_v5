@@ -16,17 +16,9 @@
     },
     {
       "name": "GitHub",
-      "status": "Minor",
-      "description": "Minor Service Outage",
-      "incidents": [
-        {
-          "title": "Degraded performance in merge queue",
-          "impact": "minor",
-          "started_at": "2026-02-18T18:25:38.228Z",
-          "updated_at": "2026-02-18T18:27:00.685Z",
-          "shortlink": "https://stspg.io/kv62hwwldqd6"
-        }
-      ],
+      "status": "Operational",
+      "description": "All Systems Operational",
+      "incidents": [],
       "source": "https://www.githubstatus.com/"
     },
     {
@@ -60,17 +52,9 @@
     },
     {
       "name": "Elastic",
-      "status": "Minor",
-      "description": "Partially Degraded Service",
-      "incidents": [
-        {
-          "title": "Issues provisioning new Elastic Cloud Hosted capacity in Azure regions",
-          "impact": "major",
-          "started_at": "2026-02-18T17:56:44.166Z",
-          "updated_at": "2026-02-18T17:56:44.648Z",
-          "shortlink": "https://stspg.io/8q9ctl41b7zb"
-        }
-      ],
+      "status": "Operational",
+      "description": "All Systems Operational",
+      "incidents": [],
       "source": "https://status.elastic.co/"
     },
     {
@@ -123,5 +107,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1771440021
+  "generated_at": 1771443707
 }
