@@ -23,8 +23,8 @@
     },
     {
       "name": "Jira",
-      "status": "Minor",
-      "description": "Minor Service Outage",
+      "status": "Operational",
+      "description": "All Systems Operational",
       "incidents": [
         {
           "title": "Increased error rates on Jira and Jira Service Management Ecosystem Apps",
@@ -107,5 +107,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1771410930
+  "generated_at": 1771414360
 }
