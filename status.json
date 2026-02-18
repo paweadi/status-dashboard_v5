@@ -82,15 +82,7 @@
       "name": "Fivetran",
       "status": "Operational",
       "description": "All Systems Operational",
-      "incidents": [
-        {
-          "title": "Multiple Oracle Connections Failing With \"ORA-00942: table or view does not exist\" Error",
-          "impact": "minor",
-          "started_at": "2026-02-18T06:40:14.379Z",
-          "updated_at": "2026-02-18T09:18:57.133Z",
-          "shortlink": "https://stspg.io/928w06s5mqtg"
-        }
-      ],
+      "incidents": [],
       "source": "https://status.fivetran.com/"
     },
     {
@@ -115,5 +107,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1771407473
+  "generated_at": 1771410930
 }
