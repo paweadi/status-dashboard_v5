@@ -23,9 +23,17 @@
     },
     {
       "name": "Jira",
-      "status": "Operational",
-      "description": "All Systems Operational",
-      "incidents": [],
+      "status": "Minor",
+      "description": "Partially Degraded Service",
+      "incidents": [
+        {
+          "title": "Degraded performance of JIRA",
+          "impact": "minor",
+          "started_at": "2026-02-19T16:44:49.262Z",
+          "updated_at": "2026-02-19T17:14:13.882Z",
+          "shortlink": "https://stspg.io/20v3sjq49703"
+        }
+      ],
       "source": "https://jira-software.status.atlassian.com/"
     },
     {
@@ -107,5 +115,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1771517361
+  "generated_at": 1771522025
 }
