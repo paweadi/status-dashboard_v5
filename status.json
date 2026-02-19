@@ -32,7 +32,15 @@
       "name": "Confluence",
       "status": "Operational",
       "description": "All Systems Operational",
-      "incidents": [],
+      "incidents": [
+        {
+          "title": "Disrupted availability of Confluence Cloud in several regions",
+          "impact": "major",
+          "started_at": "2026-02-19T15:44:25.949Z",
+          "updated_at": "2026-02-19T15:44:37.230Z",
+          "shortlink": "https://stspg.io/rkc1nbjg025k"
+        }
+      ],
       "source": "https://confluence.status.atlassian.com/"
     },
     {
@@ -74,15 +82,7 @@
       "name": "Fivetran",
       "status": "Operational",
       "description": "All Systems Operational",
-      "incidents": [
-        {
-          "title": "3rd Party: Survey Monkey connections are failing with Validation Error on Surveys endpoint",
-          "impact": "minor",
-          "started_at": "2026-02-19T12:40:14.000Z",
-          "updated_at": "2026-02-19T14:53:00.085Z",
-          "shortlink": "https://stspg.io/9y81js1wrjvd"
-        }
-      ],
+      "incidents": [],
       "source": "https://status.fivetran.com/"
     },
     {
@@ -107,5 +107,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1771513908
+  "generated_at": 1771517361
 }
