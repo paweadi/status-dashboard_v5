@@ -30,7 +30,7 @@
           "title": "Degraded performance of JIRA",
           "impact": "minor",
           "started_at": "2026-02-19T16:44:49.262Z",
-          "updated_at": "2026-02-19T17:14:13.882Z",
+          "updated_at": "2026-02-19T17:34:12.985Z",
           "shortlink": "https://stspg.io/20v3sjq49703"
         }
       ],
@@ -40,15 +40,7 @@
       "name": "Confluence",
       "status": "Operational",
       "description": "All Systems Operational",
-      "incidents": [
-        {
-          "title": "Disrupted availability of Confluence Cloud in several regions",
-          "impact": "major",
-          "started_at": "2026-02-19T15:44:25.949Z",
-          "updated_at": "2026-02-19T15:44:37.230Z",
-          "shortlink": "https://stspg.io/rkc1nbjg025k"
-        }
-      ],
+      "incidents": [],
       "source": "https://confluence.status.atlassian.com/"
     },
     {
@@ -115,5 +107,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1771522025
+  "generated_at": 1771524638
 }
