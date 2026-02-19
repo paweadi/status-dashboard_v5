@@ -30,7 +30,7 @@
           "title": "Degraded performance of JIRA",
           "impact": "minor",
           "started_at": "2026-02-19T16:44:49.262Z",
-          "updated_at": "2026-02-19T17:34:12.985Z",
+          "updated_at": "2026-02-19T18:56:09.511Z",
           "shortlink": "https://stspg.io/20v3sjq49703"
         }
       ],
@@ -107,5 +107,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1771524638
+  "generated_at": 1771528555
 }
