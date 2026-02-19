@@ -74,7 +74,15 @@
       "name": "Fivetran",
       "status": "Operational",
       "description": "All Systems Operational",
-      "incidents": [],
+      "incidents": [
+        {
+          "title": "3rd Party: Survey Monkey connections are failing with Validation Error on Surveys endpoint",
+          "impact": "minor",
+          "started_at": "2026-02-19T12:40:14.592Z",
+          "updated_at": "2026-02-19T12:40:14.687Z",
+          "shortlink": "https://stspg.io/9y81js1wrjvd"
+        }
+      ],
       "source": "https://status.fivetran.com/"
     },
     {
@@ -99,5 +107,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1771500735
+  "generated_at": 1771504880
 }
