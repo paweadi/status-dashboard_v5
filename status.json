@@ -25,15 +25,7 @@
       "name": "Jira",
       "status": "Operational",
       "description": "All Systems Operational",
-      "incidents": [
-        {
-          "title": "Increased error rates on Jira and Jira Service Management Ecosystem Apps",
-          "impact": "major",
-          "started_at": "2026-02-12T10:44:05.355Z",
-          "updated_at": "2026-02-19T00:51:11.525Z",
-          "shortlink": "https://stspg.io/tw4gbncsn0m5"
-        }
-      ],
+      "incidents": [],
       "source": "https://jira-software.status.atlassian.com/"
     },
     {
@@ -107,5 +99,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1771487010
+  "generated_at": 1771490004
 }
