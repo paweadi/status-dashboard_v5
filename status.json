@@ -16,17 +16,9 @@
     },
     {
       "name": "GitHub",
-      "status": "Minor",
-      "description": "Minor Service Outage",
-      "incidents": [
-        {
-          "title": "Incident with Copilot GPT-5.1-Codex",
-          "impact": "minor",
-          "started_at": "2026-02-20T10:02:19.236Z",
-          "updated_at": "2026-02-20T10:36:21.118Z",
-          "shortlink": "https://stspg.io/z5nxbm5x340d"
-        }
-      ],
+      "status": "Operational",
+      "description": "All Systems Operational",
+      "incidents": [],
       "source": "https://www.githubstatus.com/"
     },
     {
@@ -123,5 +115,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1771585372
+  "generated_at": 1771588274
 }
