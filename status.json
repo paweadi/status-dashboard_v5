@@ -27,10 +27,10 @@
       "description": "Partially Degraded Service",
       "incidents": [
         {
-          "title": "Degraded performance of JIRA",
+          "title": "Degraded performance of JIRA and Jira Service Management",
           "impact": "minor",
           "started_at": "2026-02-19T16:44:49.262Z",
-          "updated_at": "2026-02-19T21:04:23.173Z",
+          "updated_at": "2026-02-20T02:55:18.109Z",
           "shortlink": "https://stspg.io/20v3sjq49703"
         }
       ],
@@ -107,5 +107,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1771550027
+  "generated_at": 1771559053
 }
