@@ -23,32 +23,16 @@
     },
     {
       "name": "Jira",
-      "status": "Minor",
-      "description": "Partially Degraded Service",
-      "incidents": [
-        {
-          "title": "Degraded performance of Cloud Products when selecting users or teams",
-          "impact": "minor",
-          "started_at": "2026-02-19T16:44:49.262Z",
-          "updated_at": "2026-02-20T07:13:09.798Z",
-          "shortlink": "https://stspg.io/20v3sjq49703"
-        }
-      ],
+      "status": "Operational",
+      "description": "All Systems Operational",
+      "incidents": [],
       "source": "https://jira-software.status.atlassian.com/"
     },
     {
       "name": "Confluence",
-      "status": "Minor",
-      "description": "Partially Degraded Service",
-      "incidents": [
-        {
-          "title": "Degraded performance of Cloud Products when selecting users or teams",
-          "impact": "minor",
-          "started_at": "2026-02-20T04:14:19.445Z",
-          "updated_at": "2026-02-20T07:13:09.222Z",
-          "shortlink": "https://stspg.io/d2d12xvl1zkl"
-        }
-      ],
+      "status": "Operational",
+      "description": "All Systems Operational",
+      "incidents": [],
       "source": "https://confluence.status.atlassian.com/"
     },
     {
@@ -115,5 +99,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1771588274
+  "generated_at": 1771591008
 }
