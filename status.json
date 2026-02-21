@@ -79,7 +79,7 @@
           "title": "3rd Party: Airtable Connection Syncs are Failing with \"Unknown Authentication or Authorization\" Error",
           "impact": "minor",
           "started_at": "2026-02-20T20:05:15.844Z",
-          "updated_at": "2026-02-20T20:19:41.662Z",
+          "updated_at": "2026-02-20T23:58:33.191Z",
           "shortlink": "https://stspg.io/6cz7yyn2mj37"
         }
       ],
@@ -107,5 +107,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1771631362
+  "generated_at": 1771636280
 }
