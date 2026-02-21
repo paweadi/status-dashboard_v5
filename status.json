@@ -72,14 +72,14 @@
     },
     {
       "name": "Fivetran",
-      "status": "Minor",
-      "description": "Minor Service Outage",
+      "status": "Operational",
+      "description": "All Systems Operational",
       "incidents": [
         {
           "title": "3rd Party: Airtable Connection Syncs are Failing with \"Unknown Authentication or Authorization\" Error",
           "impact": "minor",
           "started_at": "2026-02-20T20:05:15.844Z",
-          "updated_at": "2026-02-20T23:58:33.191Z",
+          "updated_at": "2026-02-21T02:32:47.834Z",
           "shortlink": "https://stspg.io/6cz7yyn2mj37"
         }
       ],
@@ -107,5 +107,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1771636280
+  "generated_at": 1771644934
 }
