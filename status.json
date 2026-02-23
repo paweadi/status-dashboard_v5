@@ -23,7 +23,7 @@
           "title": "Code search experiencing degraded performance",
           "impact": "minor",
           "started_at": "2026-02-23T19:59:55.624Z",
-          "updated_at": "2026-02-23T21:18:05.823Z",
+          "updated_at": "2026-02-23T22:22:56.582Z",
           "shortlink": "https://stspg.io/vlsdcsk5grvk"
         }
       ],
@@ -107,5 +107,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1771882581
+  "generated_at": 1771885945
 }
