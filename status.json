@@ -74,15 +74,7 @@
       "name": "Fivetran",
       "status": "Operational",
       "description": "All Systems Operational",
-      "incidents": [
-        {
-          "title": "3rd Party: Some Box Connections are failing with HTTP \"429 Too Many Requests\" errors",
-          "impact": "minor",
-          "started_at": "2026-02-24T23:50:18.656Z",
-          "updated_at": "2026-02-25T00:35:18.641Z",
-          "shortlink": "https://stspg.io/mzzf9jc0xwxw"
-        }
-      ],
+      "incidents": [],
       "source": "https://status.fivetran.com/"
     },
     {
@@ -107,5 +99,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1771982413
+  "generated_at": 1771991838
 }
