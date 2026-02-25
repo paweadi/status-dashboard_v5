@@ -79,14 +79,14 @@
     },
     {
       "name": "Port",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Minor",
+      "description": "Partially Degraded Service",
       "incidents": [
         {
           "title": "US general slowness",
           "impact": "minor",
           "started_at": "2026-02-25T15:07:44.000Z",
-          "updated_at": "2026-02-25T18:52:00.409Z",
+          "updated_at": "2026-02-25T20:02:00.048Z",
           "shortlink": "https://stspg.io/xqfjw91fx9kg"
         }
       ],
@@ -107,5 +107,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1772048716
+  "generated_at": 1772051204
 }
