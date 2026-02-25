@@ -16,9 +16,17 @@
     },
     {
       "name": "GitHub",
-      "status": "Operational",
-      "description": "All Systems Operational",
-      "incidents": [],
+      "status": "Minor",
+      "description": "Minor Service Outage",
+      "incidents": [
+        {
+          "title": "Incident with Copilot Agent Sessions impacting CCA/CCR",
+          "impact": "minor",
+          "started_at": "2026-02-25T16:38:11.346Z",
+          "updated_at": "2026-02-25T16:38:11.440Z",
+          "shortlink": "https://stspg.io/hzmqt1dbcjn1"
+        }
+      ],
       "source": "https://www.githubstatus.com/"
     },
     {
@@ -79,14 +87,14 @@
     },
     {
       "name": "Port",
-      "status": "Minor",
-      "description": "Partially Degraded Service",
+      "status": "Operational",
+      "description": "All Systems Operational",
       "incidents": [
         {
           "title": "US general slowness",
           "impact": "minor",
           "started_at": "2026-02-25T15:07:44.000Z",
-          "updated_at": "2026-02-25T15:11:13.019Z",
+          "updated_at": "2026-02-25T16:40:52.167Z",
           "shortlink": "https://stspg.io/xqfjw91fx9kg"
         }
       ],
@@ -107,5 +115,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1772033391
+  "generated_at": 1772037747
 }
