@@ -57,8 +57,8 @@
         {
           "title": "Emails are currently not being delivered",
           "impact": "major",
-          "started_at": "2026-02-26T01:51:58.033Z",
-          "updated_at": "2026-02-26T01:51:58.149Z",
+          "started_at": "2026-02-26T01:51:58.000Z",
+          "updated_at": "2026-02-26T05:11:46.506Z",
           "shortlink": "https://stspg.io/h6972d163hcg"
         }
       ],
@@ -107,5 +107,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1772077532
+  "generated_at": 1772083014
 }
