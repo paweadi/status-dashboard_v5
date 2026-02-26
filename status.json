@@ -16,9 +16,17 @@
     },
     {
       "name": "GitHub",
-      "status": "Operational",
-      "description": "All Systems Operational",
-      "incidents": [],
+      "status": "Minor",
+      "description": "Minor Service Outage",
+      "incidents": [
+        {
+          "title": "Incident with Copilot",
+          "impact": "minor",
+          "started_at": "2026-02-26T10:22:00.429Z",
+          "updated_at": "2026-02-26T10:22:00.517Z",
+          "shortlink": "https://stspg.io/3nyv61b5k0g6"
+        }
+      ],
       "source": "https://www.githubstatus.com/"
     },
     {
@@ -99,5 +107,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1772098784
+  "generated_at": 1772102220
 }
