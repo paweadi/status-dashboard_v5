@@ -16,17 +16,9 @@
     },
     {
       "name": "GitHub",
-      "status": "Minor",
-      "description": "Minor Service Outage",
-      "incidents": [
-        {
-          "title": "Incident with Copilot",
-          "impact": "minor",
-          "started_at": "2026-02-26T10:22:00.429Z",
-          "updated_at": "2026-02-26T10:22:00.517Z",
-          "shortlink": "https://stspg.io/3nyv61b5k0g6"
-        }
-      ],
+      "status": "Operational",
+      "description": "All Systems Operational",
+      "incidents": [],
       "source": "https://www.githubstatus.com/"
     },
     {
@@ -52,9 +44,17 @@
     },
     {
       "name": "Elastic",
-      "status": "Operational",
-      "description": "All Systems Operational",
-      "incidents": [],
+      "status": "Minor",
+      "description": "Partially Degraded Service",
+      "incidents": [
+        {
+          "title": "fleet-server rejecting new incoming connections",
+          "impact": "major",
+          "started_at": "2026-02-26T11:29:20.970Z",
+          "updated_at": "2026-02-26T11:29:21.101Z",
+          "shortlink": "https://stspg.io/68x10w551mwy"
+        }
+      ],
       "source": "https://status.elastic.co/"
     },
     {
@@ -107,5 +107,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1772102220
+  "generated_at": 1772105633
 }
