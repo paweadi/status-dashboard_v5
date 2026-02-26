@@ -46,15 +46,7 @@
       "name": "Elastic",
       "status": "Operational",
       "description": "All Systems Operational",
-      "incidents": [
-        {
-          "title": "fleet-server rejecting new incoming connections",
-          "impact": "major",
-          "started_at": "2026-02-26T11:29:20.970Z",
-          "updated_at": "2026-02-26T12:24:17.221Z",
-          "shortlink": "https://stspg.io/68x10w551mwy"
-        }
-      ],
+      "incidents": [],
       "source": "https://status.elastic.co/"
     },
     {
@@ -107,5 +99,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1772122376
+  "generated_at": 1772127217
 }
