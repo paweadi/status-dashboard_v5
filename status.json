@@ -16,9 +16,17 @@
     },
     {
       "name": "GitHub",
-      "status": "Operational",
-      "description": "All Systems Operational",
-      "incidents": [],
+      "status": "Minor",
+      "description": "Minor Service Outage",
+      "incidents": [
+        {
+          "title": "Incident with Copilot agent sessions",
+          "impact": "minor",
+          "started_at": "2026-02-27T23:18:12.400Z",
+          "updated_at": "2026-02-27T23:35:19.980Z",
+          "shortlink": "https://stspg.io/k350x50r7bt4"
+        }
+      ],
       "source": "https://www.githubstatus.com/"
     },
     {
@@ -99,5 +107,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1772234213
+  "generated_at": 1772235855
 }
