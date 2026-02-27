@@ -18,7 +18,15 @@
       "name": "GitHub",
       "status": "Operational",
       "description": "All Systems Operational",
-      "incidents": [],
+      "incidents": [
+        {
+          "title": "Code view fails to load when content contains some non-ASCII characters",
+          "impact": "minor",
+          "started_at": "2026-02-27T03:08:23.488Z",
+          "updated_at": "2026-02-27T03:28:00.436Z",
+          "shortlink": "https://stspg.io/5zqmjwwn4z1q"
+        }
+      ],
       "source": "https://www.githubstatus.com/"
     },
     {
@@ -99,5 +107,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1772154755
+  "generated_at": 1772163701
 }
