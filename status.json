@@ -37,9 +37,17 @@
     },
     {
       "name": "JFrog",
-      "status": "Operational",
-      "description": "All Systems Operational",
-      "incidents": [],
+      "status": "Minor",
+      "description": "Partially Degraded Service",
+      "incidents": [
+        {
+          "title": "JFrog Cloud Platform potential impact due to AWS Datacenter issues in UAE Region",
+          "impact": "minor",
+          "started_at": "2026-03-02T08:29:18.196Z",
+          "updated_at": "2026-03-02T08:29:18.565Z",
+          "shortlink": "https://stspg.io/y32zl3xm8t7n"
+        }
+      ],
       "source": "https://status.jfrog.io/"
     },
     {
@@ -107,5 +115,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1772436630
+  "generated_at": 1772440444
 }
