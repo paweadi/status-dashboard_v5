@@ -16,9 +16,17 @@
     },
     {
       "name": "GitHub",
-      "status": "Operational",
-      "description": "All Systems Operational",
-      "incidents": [],
+      "status": "Minor",
+      "description": "Minor Service Outage",
+      "incidents": [
+        {
+          "title": "Delayed visibility of newly added issues on project boards",
+          "impact": "minor",
+          "started_at": "2026-03-02T23:10:28.133Z",
+          "updated_at": "2026-03-02T23:12:46.825Z",
+          "shortlink": "https://stspg.io/9ynj2pcf723l"
+        }
+      ],
       "source": "https://www.githubstatus.com/"
     },
     {
@@ -115,5 +123,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1772491941
+  "generated_at": 1772493452
 }
