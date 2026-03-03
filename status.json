@@ -16,9 +16,17 @@
     },
     {
       "name": "GitHub",
-      "status": "Operational",
-      "description": "All Systems Operational",
-      "incidents": [],
+      "status": "Minor",
+      "description": "Minor Service Outage",
+      "incidents": [
+        {
+          "title": "Incident with Copilot and Actions",
+          "impact": "major",
+          "started_at": "2026-03-03T18:59:49.431Z",
+          "updated_at": "2026-03-03T19:33:38.793Z",
+          "shortlink": "https://stspg.io/9dmdz253g6n1"
+        }
+      ],
       "source": "https://www.githubstatus.com/"
     },
     {
@@ -95,7 +103,7 @@
           "title": "HubSpot Connections Failing with NullPointerException for email_campaign",
           "impact": "minor",
           "started_at": "2026-03-03T18:25:15.704Z",
-          "updated_at": "2026-03-03T18:27:07.292Z",
+          "updated_at": "2026-03-03T19:15:15.943Z",
           "shortlink": "https://stspg.io/l6zphvk1xmn6"
         }
       ],
@@ -103,8 +111,8 @@
     },
     {
       "name": "Port",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Minor",
+      "description": "Minor Service Outage",
       "incidents": [],
       "source": "https://status.port.io/"
     },
@@ -123,5 +131,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1772562965
+  "generated_at": 1772566441
 }
