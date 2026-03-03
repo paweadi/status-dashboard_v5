@@ -95,7 +95,7 @@
           "title": "The Partner Built Destination and Connection Setup is failing with the \"Operation timeout\" error",
           "impact": "minor",
           "started_at": "2026-03-03T12:10:19.000Z",
-          "updated_at": "2026-03-03T12:27:08.661Z",
+          "updated_at": "2026-03-03T12:50:15.547Z",
           "shortlink": "https://stspg.io/1m8j29vkp801"
         }
       ],
@@ -123,5 +123,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1772541332
+  "generated_at": 1772545999
 }
