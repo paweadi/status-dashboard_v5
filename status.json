@@ -88,9 +88,17 @@
     },
     {
       "name": "Fivetran",
-      "status": "Operational",
-      "description": "All Systems Operational",
-      "incidents": [],
+      "status": "Minor",
+      "description": "Minor Service Outage",
+      "incidents": [
+        {
+          "title": "The Partner Built Destination and Connection Setup is failing with the \"Operation timeout\" error",
+          "impact": "minor",
+          "started_at": "2026-03-03T12:10:19.000Z",
+          "updated_at": "2026-03-03T12:27:08.661Z",
+          "shortlink": "https://stspg.io/1m8j29vkp801"
+        }
+      ],
       "source": "https://status.fivetran.com/"
     },
     {
@@ -115,5 +123,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1772538729
+  "generated_at": 1772541332
 }
