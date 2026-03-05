@@ -88,24 +88,9 @@
     },
     {
       "name": "Fivetran",
-      "status": "Minor",
-      "description": "Minor Service Outage",
-      "incidents": [
-        {
-          "title": "3rd Party: Some HubSpot connections intermittently failing with \"The requested resource does not exist\" error",
-          "impact": "minor",
-          "started_at": "2026-03-05T12:10:16.394Z",
-          "updated_at": "2026-03-05T12:31:19.818Z",
-          "shortlink": "https://stspg.io/2stxbx4jf7ly"
-        },
-        {
-          "title": "Fivetran : All DBT and Quickstart Transformation models are failing",
-          "impact": "minor",
-          "started_at": "2026-03-05T11:05:18.000Z",
-          "updated_at": "2026-03-05T11:35:17.944Z",
-          "shortlink": "https://stspg.io/bn0kh3z057n0"
-        }
-      ],
+      "status": "Operational",
+      "description": "All Systems Operational",
+      "incidents": [],
       "source": "https://status.fivetran.com/"
     },
     {
@@ -130,5 +115,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1772714308
+  "generated_at": 1772718959
 }
