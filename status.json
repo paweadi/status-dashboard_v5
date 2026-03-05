@@ -88,9 +88,17 @@
     },
     {
       "name": "Fivetran",
-      "status": "Operational",
-      "description": "All Systems Operational",
-      "incidents": [],
+      "status": "Minor",
+      "description": "Minor Service Outage",
+      "incidents": [
+        {
+          "title": "All DBT and Quickstart Transformation models are failing",
+          "impact": "minor",
+          "started_at": "2026-03-05T11:05:18.000Z",
+          "updated_at": "2026-03-05T11:06:11.962Z",
+          "shortlink": "https://stspg.io/bn0kh3z057n0"
+        }
+      ],
       "source": "https://status.fivetran.com/"
     },
     {
@@ -115,5 +123,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1772706641
+  "generated_at": 1772710024
 }
