@@ -16,9 +16,17 @@
     },
     {
       "name": "GitHub",
-      "status": "Operational",
-      "description": "All Systems Operational",
-      "incidents": [],
+      "status": "Major",
+      "description": "Partial System Outage",
+      "incidents": [
+        {
+          "title": "Multiple services are affected, service degradation",
+          "impact": "major",
+          "started_at": "2026-03-05T16:35:32.412Z",
+          "updated_at": "2026-03-05T17:48:26.223Z",
+          "shortlink": "https://stspg.io/7b52c82jrq42"
+        }
+      ],
       "source": "https://www.githubstatus.com/"
     },
     {
@@ -95,8 +103,8 @@
     },
     {
       "name": "Port",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Major",
+      "description": "Partial System Outage",
       "incidents": [],
       "source": "https://status.port.io/"
     },
@@ -115,5 +123,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1772725301
+  "generated_at": 1772733291
 }
