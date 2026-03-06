@@ -23,7 +23,7 @@
           "title": "Incident with Webhooks",
           "impact": "minor",
           "started_at": "2026-03-06T16:58:10.892Z",
-          "updated_at": "2026-03-06T19:39:05.364Z",
+          "updated_at": "2026-03-06T20:18:25.140Z",
           "shortlink": "https://stspg.io/0ghhcmrrl5rn"
         }
       ],
@@ -123,5 +123,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1772826858
+  "generated_at": 1772828521
 }
