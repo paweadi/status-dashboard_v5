@@ -95,9 +95,17 @@
     },
     {
       "name": "Port",
-      "status": "Operational",
-      "description": "All Systems Operational",
-      "incidents": [],
+      "status": "Minor",
+      "description": "Partially Degraded Service",
+      "incidents": [
+        {
+          "title": "Delay in automation executions for some customers in US",
+          "impact": "minor",
+          "started_at": "2026-03-06T07:42:19.672Z",
+          "updated_at": "2026-03-06T07:42:19.786Z",
+          "shortlink": "https://stspg.io/h17srkt40dvx"
+        }
+      ],
       "source": "https://status.port.io/"
     },
     {
@@ -115,5 +123,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1772781086
+  "generated_at": 1772783734
 }
