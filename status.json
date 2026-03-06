@@ -16,17 +16,9 @@
     },
     {
       "name": "GitHub",
-      "status": "Minor",
-      "description": "Minor Service Outage",
-      "incidents": [
-        {
-          "title": "Incident with Webhooks",
-          "impact": "minor",
-          "started_at": "2026-03-06T16:58:10.892Z",
-          "updated_at": "2026-03-06T22:35:08.501Z",
-          "shortlink": "https://stspg.io/0ghhcmrrl5rn"
-        }
-      ],
+      "status": "Operational",
+      "description": "All Systems Operational",
+      "incidents": [],
       "source": "https://www.githubstatus.com/"
     },
     {
@@ -123,5 +115,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1772839180
+  "generated_at": 1772840858
 }
