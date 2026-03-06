@@ -16,17 +16,9 @@
     },
     {
       "name": "GitHub",
-      "status": "Major",
-      "description": "Partial System Outage",
-      "incidents": [
-        {
-          "title": "Actions is experiencing degraded availability",
-          "impact": "major",
-          "started_at": "2026-03-05T22:53:42.821Z",
-          "updated_at": "2026-03-05T23:15:20.869Z",
-          "shortlink": "https://stspg.io/293glf6p6rh8"
-        }
-      ],
+      "status": "Operational",
+      "description": "All Systems Operational",
+      "incidents": [],
       "source": "https://www.githubstatus.com/"
     },
     {
@@ -103,8 +95,8 @@
     },
     {
       "name": "Port",
-      "status": "Major",
-      "description": "Partial System Outage",
+      "status": "Operational",
+      "description": "All Systems Operational",
       "incidents": [],
       "source": "https://status.port.io/"
     },
@@ -123,5 +115,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1772753605
+  "generated_at": 1772759923
 }
