@@ -88,17 +88,9 @@
     },
     {
       "name": "Fivetran",
-      "status": "Minor",
-      "description": "Minor Service Outage",
-      "incidents": [
-        {
-          "title": "Some Spotify Ads Connections are failing with \"unknown failure\" error.",
-          "impact": "minor",
-          "started_at": "2026-03-07T10:15:18.706Z",
-          "updated_at": "2026-03-07T10:18:09.710Z",
-          "shortlink": "https://stspg.io/sn8xbsy9dx3v"
-        }
-      ],
+      "status": "Operational",
+      "description": "All Systems Operational",
+      "incidents": [],
       "source": "https://status.fivetran.com/"
     },
     {
@@ -123,5 +115,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1772881974
+  "generated_at": 1772883630
 }
