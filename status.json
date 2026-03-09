@@ -56,18 +56,18 @@
       "description": "Partial System Outage",
       "incidents": [
         {
+          "title": "Connectivity disruption for AWS Bahrain (me-south-1)",
+          "impact": "major",
+          "started_at": "2026-03-02T06:23:20.780Z",
+          "updated_at": "2026-03-09T15:01:24.451Z",
+          "shortlink": "https://stspg.io/w6dmrtc20hz7"
+        },
+        {
           "title": "GCP us-central1 hosting problems",
           "impact": "minor",
           "started_at": "2026-03-09T11:32:34.677Z",
           "updated_at": "2026-03-09T13:16:48.204Z",
           "shortlink": "https://stspg.io/g8z99ngjxfvb"
-        },
-        {
-          "title": "Connectivity disruption for AWS Bahrain (me-south-1)",
-          "impact": "major",
-          "started_at": "2026-03-02T06:23:20.780Z",
-          "updated_at": "2026-03-02T06:23:21.103Z",
-          "shortlink": "https://stspg.io/w6dmrtc20hz7"
         }
       ],
       "source": "https://status.elastic.co/"
@@ -122,5 +122,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1773068050
+  "generated_at": 1773071381
 }
