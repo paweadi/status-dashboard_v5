@@ -59,7 +59,7 @@
           "title": "GCP us-central1 hosting problems",
           "impact": "minor",
           "started_at": "2026-03-09T11:32:34.677Z",
-          "updated_at": "2026-03-09T12:05:46.294Z",
+          "updated_at": "2026-03-09T13:16:48.204Z",
           "shortlink": "https://stspg.io/g8z99ngjxfvb"
         },
         {
@@ -122,5 +122,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1773060344
+  "generated_at": 1773064784
 }
