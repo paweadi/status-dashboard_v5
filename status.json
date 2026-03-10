@@ -9,8 +9,8 @@
     },
     {
       "name": "Azure DevOps",
-      "status": "Minor",
-      "description": "Investigating a service disruption",
+      "status": "Operational",
+      "description": "Everything is looking good",
       "incidents": [],
       "source": "https://status.dev.azure.com/"
     },
@@ -95,7 +95,7 @@
           "title": "Fivetran: Setup tests for the destinations are failing across regions.",
           "impact": "minor",
           "started_at": "2026-03-10T11:15:13.819Z",
-          "updated_at": "2026-03-10T11:23:01.501Z",
+          "updated_at": "2026-03-10T15:41:36.098Z",
           "shortlink": "https://stspg.io/n89b698mg8lm"
         }
       ],
@@ -123,5 +123,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1773153759
+  "generated_at": 1773157958
 }
