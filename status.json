@@ -95,7 +95,7 @@
           "title": "Some Criteo Connections are failing with 'Failed to Upsert Additional Attributes for Creative' Error",
           "impact": "minor",
           "started_at": "2026-03-10T18:25:15.052Z",
-          "updated_at": "2026-03-10T18:27:15.936Z",
+          "updated_at": "2026-03-10T20:15:39.179Z",
           "shortlink": "https://stspg.io/zd6thzzmzfyb"
         }
       ],
@@ -123,5 +123,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1773171143
+  "generated_at": 1773174237
 }
