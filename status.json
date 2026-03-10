@@ -92,10 +92,17 @@
       "description": "Minor Service Outage",
       "incidents": [
         {
+          "title": "Some Criteo Connections are failing with 'Failed to Upsert Additional Attributes for Creative' Error",
+          "impact": "minor",
+          "started_at": "2026-03-10T18:25:15.052Z",
+          "updated_at": "2026-03-10T18:27:15.936Z",
+          "shortlink": "https://stspg.io/zd6thzzmzfyb"
+        },
+        {
           "title": "Fivetran: Setup tests for the destinations are failing across regions.",
           "impact": "minor",
           "started_at": "2026-03-10T11:15:13.819Z",
-          "updated_at": "2026-03-10T15:41:36.098Z",
+          "updated_at": "2026-03-10T17:59:14.558Z",
           "shortlink": "https://stspg.io/n89b698mg8lm"
         }
       ],
@@ -123,5 +130,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1773164360
+  "generated_at": 1773167777
 }
