@@ -88,9 +88,17 @@
     },
     {
       "name": "Fivetran",
-      "status": "Operational",
-      "description": "All Systems Operational",
-      "incidents": [],
+      "status": "Minor",
+      "description": "Minor Service Outage",
+      "incidents": [
+        {
+          "title": "MySQL connectors using Teleport are failing with the error: \u201cSome tables failed to sync.\u201d",
+          "impact": "minor",
+          "started_at": "2026-03-11T05:15:15.303Z",
+          "updated_at": "2026-03-11T05:51:05.125Z",
+          "shortlink": "https://stspg.io/dvspvqt9gpjv"
+        }
+      ],
       "source": "https://status.fivetran.com/"
     },
     {
@@ -115,5 +123,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1773205636
+  "generated_at": 1773209222
 }
