@@ -16,21 +16,14 @@
     },
     {
       "name": "GitHub",
-      "status": "Minor",
-      "description": "Minor Service Outage",
+      "status": "Operational",
+      "description": "All Systems Operational",
       "incidents": [
-        {
-          "title": "Incident with API Requests",
-          "impact": "minor",
-          "started_at": "2026-03-11T14:37:31.214Z",
-          "updated_at": "2026-03-11T14:37:31.318Z",
-          "shortlink": "https://stspg.io/vg3jh54ynrp5"
-        },
         {
           "title": "Degraded experience with Copilot Code Review",
           "impact": "minor",
           "started_at": "2026-03-11T14:25:17.526Z",
-          "updated_at": "2026-03-11T14:28:04.418Z",
+          "updated_at": "2026-03-11T15:31:21.868Z",
           "shortlink": "https://stspg.io/twfx8xg9nf33"
         }
       ],
@@ -110,8 +103,8 @@
     },
     {
       "name": "Port",
-      "status": "Minor",
-      "description": "Minor Service Outage",
+      "status": "Operational",
+      "description": "All Systems Operational",
       "incidents": [],
       "source": "https://status.port.io/"
     },
@@ -130,5 +123,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1773240610
+  "generated_at": 1773243546
 }
