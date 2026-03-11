@@ -95,7 +95,7 @@
           "title": "MySQL connectors using Teleport are failing with the error: \u201cSome tables failed to sync.\u201d",
           "impact": "minor",
           "started_at": "2026-03-11T05:15:15.303Z",
-          "updated_at": "2026-03-11T05:51:05.125Z",
+          "updated_at": "2026-03-11T07:43:46.433Z",
           "shortlink": "https://stspg.io/dvspvqt9gpjv"
         }
       ],
@@ -123,5 +123,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1773213280
+  "generated_at": 1773215964
 }
