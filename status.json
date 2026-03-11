@@ -88,14 +88,14 @@
     },
     {
       "name": "Fivetran",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Minor",
+      "description": "Partially Degraded Service",
       "incidents": [
         {
           "title": "Postgres: Expanding column in schema tab throws \"Fetch source columns failed\"",
           "impact": "minor",
           "started_at": "2026-03-11T21:25:14.808Z",
-          "updated_at": "2026-03-11T21:25:14.882Z",
+          "updated_at": "2026-03-11T21:28:08.911Z",
           "shortlink": "https://stspg.io/q055t850t49k"
         }
       ],
@@ -123,5 +123,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1773264323
+  "generated_at": 1773266005
 }
