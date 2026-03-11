@@ -9,8 +9,8 @@
     },
     {
       "name": "Azure DevOps",
-      "status": "Unknown",
-      "description": "Status unknown",
+      "status": "Operational",
+      "description": "Everything is looking good",
       "incidents": [],
       "source": "https://status.dev.azure.com/"
     },
@@ -88,14 +88,14 @@
     },
     {
       "name": "Fivetran",
-      "status": "Minor",
-      "description": "Minor Service Outage",
+      "status": "Operational",
+      "description": "All Systems Operational",
       "incidents": [
         {
           "title": "MySQL connectors using Teleport are failing with the error: \u201cSome tables failed to sync.\u201d",
           "impact": "minor",
           "started_at": "2026-03-11T05:15:15.303Z",
-          "updated_at": "2026-03-11T07:43:46.433Z",
+          "updated_at": "2026-03-11T09:13:28.522Z",
           "shortlink": "https://stspg.io/dvspvqt9gpjv"
         }
       ],
@@ -123,5 +123,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1773218708
+  "generated_at": 1773221641
 }
