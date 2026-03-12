@@ -16,17 +16,9 @@
     },
     {
       "name": "GitHub",
-      "status": "Minor",
-      "description": "Minor Service Outage",
-      "incidents": [
-        {
-          "title": "Degraded Codespaces experience",
-          "impact": "minor",
-          "started_at": "2026-03-12T13:06:54.982Z",
-          "updated_at": "2026-03-12T17:59:56.439Z",
-          "shortlink": "https://stspg.io/lq4q8bqfnkqn"
-        }
-      ],
+      "status": "Operational",
+      "description": "All Systems Operational",
+      "incidents": [],
       "source": "https://www.githubstatus.com/"
     },
     {
@@ -106,7 +98,15 @@
       "name": "Fivetran",
       "status": "Operational",
       "description": "All Systems Operational",
-      "incidents": [],
+      "incidents": [
+        {
+          "title": "Some of connections may experience dashboard sync bar delay in showing data",
+          "impact": "minor",
+          "started_at": "2026-03-12T19:35:18.281Z",
+          "updated_at": "2026-03-12T19:35:18.346Z",
+          "shortlink": "https://stspg.io/l7g6n6km1k29"
+        }
+      ],
       "source": "https://status.fivetran.com/"
     },
     {
@@ -131,5 +131,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1773340820
+  "generated_at": 1773344181
 }
