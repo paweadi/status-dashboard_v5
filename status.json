@@ -96,17 +96,9 @@
     },
     {
       "name": "Fivetran",
-      "status": "Minor",
-      "description": "Minor Service Outage",
-      "incidents": [
-        {
-          "title": "Some of connections may experience dashboard sync bar delay in showing data",
-          "impact": "minor",
-          "started_at": "2026-03-12T19:35:18.281Z",
-          "updated_at": "2026-03-12T19:55:16.437Z",
-          "shortlink": "https://stspg.io/l7g6n6km1k29"
-        }
-      ],
+      "status": "Operational",
+      "description": "All Systems Operational",
+      "incidents": [],
       "source": "https://status.fivetran.com/"
     },
     {
@@ -131,5 +123,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1773349115
+  "generated_at": 1773351185
 }
