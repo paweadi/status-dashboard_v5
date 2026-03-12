@@ -16,9 +16,17 @@
     },
     {
       "name": "GitHub",
-      "status": "Operational",
-      "description": "All Systems Operational",
-      "incidents": [],
+      "status": "Minor",
+      "description": "Minor Service Outage",
+      "incidents": [
+        {
+          "title": "Degraded Codespaces experience",
+          "impact": "minor",
+          "started_at": "2026-03-12T13:06:54.982Z",
+          "updated_at": "2026-03-12T13:50:06.510Z",
+          "shortlink": "https://stspg.io/lq4q8bqfnkqn"
+        }
+      ],
       "source": "https://www.githubstatus.com/"
     },
     {
@@ -37,7 +45,7 @@
           "title": "Static macro rendering is failing in Confluence Cloud",
           "impact": "major",
           "started_at": "2026-03-12T11:42:39.652Z",
-          "updated_at": "2026-03-12T11:42:39.742Z",
+          "updated_at": "2026-03-12T13:38:24.364Z",
           "shortlink": "https://stspg.io/ylgpnwlnv9bb"
         }
       ],
@@ -123,5 +131,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1773319065
+  "generated_at": 1773323832
 }
