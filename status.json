@@ -23,7 +23,7 @@
           "title": "Degraded Codespaces experience",
           "impact": "minor",
           "started_at": "2026-03-12T13:06:54.982Z",
-          "updated_at": "2026-03-12T14:29:31.028Z",
+          "updated_at": "2026-03-12T15:08:15.932Z",
           "shortlink": "https://stspg.io/lq4q8bqfnkqn"
         }
       ],
@@ -131,5 +131,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1773326651
+  "generated_at": 1773330591
 }
