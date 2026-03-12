@@ -30,9 +30,17 @@
     },
     {
       "name": "Confluence",
-      "status": "Operational",
-      "description": "All Systems Operational",
-      "incidents": [],
+      "status": "Minor",
+      "description": "Minor Service Outage",
+      "incidents": [
+        {
+          "title": "Static macro rendering is failing in Confluence Cloud",
+          "impact": "major",
+          "started_at": "2026-03-12T11:42:39.652Z",
+          "updated_at": "2026-03-12T11:42:39.742Z",
+          "shortlink": "https://stspg.io/ylgpnwlnv9bb"
+        }
+      ],
       "source": "https://confluence.status.atlassian.com/"
     },
     {
@@ -115,5 +123,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1773313432
+  "generated_at": 1773316080
 }
