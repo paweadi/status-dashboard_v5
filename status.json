@@ -16,17 +16,9 @@
     },
     {
       "name": "GitHub",
-      "status": "Minor",
-      "description": "Minor Service Outage",
-      "incidents": [
-        {
-          "title": "Degraded performance for various services",
-          "impact": "minor",
-          "started_at": "2026-03-13T15:12:48.279Z",
-          "updated_at": "2026-03-13T15:20:01.382Z",
-          "shortlink": "https://stspg.io/xrr4ln3tbt88"
-        }
-      ],
+      "status": "Operational",
+      "description": "All Systems Operational",
+      "incidents": [],
       "source": "https://www.githubstatus.com/"
     },
     {
@@ -103,8 +95,8 @@
     },
     {
       "name": "Port",
-      "status": "Minor",
-      "description": "Minor Service Outage",
+      "status": "Operational",
+      "description": "All Systems Operational",
       "incidents": [],
       "source": "https://status.port.io/"
     },
@@ -123,5 +115,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1773416077
+  "generated_at": 1773419375
 }
