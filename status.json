@@ -92,10 +92,10 @@
       "description": "Minor Service Outage",
       "incidents": [
         {
-          "title": "Endpoint Sync Failure - Webhook Setting endpoint failing with HTTP 477 response",
+          "title": "Some HubSpot connections sync are failing with an HTTP 477 RefreshCredentials error.",
           "impact": "minor",
           "started_at": "2026-03-14T09:00:20.672Z",
-          "updated_at": "2026-03-14T09:00:23.100Z",
+          "updated_at": "2026-03-14T09:55:47.160Z",
           "shortlink": "https://stspg.io/pqn54c1gjpnb"
         }
       ],
@@ -123,5 +123,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1773480599
+  "generated_at": 1773482177
 }
