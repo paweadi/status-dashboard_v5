@@ -92,10 +92,10 @@
       "description": "All Systems Operational",
       "incidents": [
         {
-          "title": "Multiple connection syncs and transformations are delayed",
+          "title": "Fivetran: Multiple connection syncs and transformations are delayed",
           "impact": "minor",
           "started_at": "2026-03-15T07:35:19.000Z",
-          "updated_at": "2026-03-15T09:56:13.382Z",
+          "updated_at": "2026-03-15T10:35:22.476Z",
           "shortlink": "https://stspg.io/xdr4y72dh5kf"
         }
       ],
@@ -123,5 +123,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1773570070
+  "generated_at": 1773572113
 }
