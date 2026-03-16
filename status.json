@@ -95,17 +95,9 @@
     },
     {
       "name": "Port",
-      "status": "Minor",
-      "description": "Partially Degraded Service",
-      "incidents": [
-        {
-          "title": "New SaaS integration installations are stuck on \"Creating\"",
-          "impact": "minor",
-          "started_at": "2026-03-16T10:22:00.272Z",
-          "updated_at": "2026-03-16T10:28:38.115Z",
-          "shortlink": "https://stspg.io/7hrvrffb8d4l"
-        }
-      ],
+      "status": "Operational",
+      "description": "All Systems Operational",
+      "incidents": [],
       "source": "https://status.port.io/"
     },
     {
@@ -123,5 +115,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1773658070
+  "generated_at": 1773661212
 }
