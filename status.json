@@ -30,7 +30,7 @@
           "title": "Automations aren't triggering on work item creation, field updates, or comment additions",
           "impact": "critical",
           "started_at": "2026-03-18T11:29:14.244Z",
-          "updated_at": "2026-03-18T14:53:59.683Z",
+          "updated_at": "2026-03-18T21:44:30.510Z",
           "shortlink": "https://stspg.io/1ssct6stzkcg"
         }
       ],
@@ -115,5 +115,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1773870943
+  "generated_at": 1773872740
 }
