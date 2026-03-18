@@ -23,7 +23,7 @@
           "title": "Disruption with some GitHub services",
           "impact": "minor",
           "started_at": "2026-03-18T22:36:15.341Z",
-          "updated_at": "2026-03-18T22:48:03.937Z",
+          "updated_at": "2026-03-18T23:33:53.326Z",
           "shortlink": "https://stspg.io/g773dw43b88l"
         }
       ],
@@ -38,7 +38,7 @@
           "title": "Automations aren't triggering on work item creation, field updates, or comment additions",
           "impact": "critical",
           "started_at": "2026-03-18T11:29:14.244Z",
-          "updated_at": "2026-03-18T21:44:30.510Z",
+          "updated_at": "2026-03-18T23:44:16.918Z",
           "shortlink": "https://stspg.io/1ssct6stzkcg"
         }
       ],
@@ -123,5 +123,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1773876232
+  "generated_at": 1773877805
 }
