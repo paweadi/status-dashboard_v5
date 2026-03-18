@@ -30,7 +30,7 @@
           "title": "Automations aren't triggering on work item creation, field updates, or comment additions",
           "impact": "major",
           "started_at": "2026-03-18T11:29:14.244Z",
-          "updated_at": "2026-03-18T11:32:45.194Z",
+          "updated_at": "2026-03-18T12:24:15.328Z",
           "shortlink": "https://stspg.io/1ssct6stzkcg"
         }
       ],
@@ -45,17 +45,9 @@
     },
     {
       "name": "JFrog",
-      "status": "Minor",
-      "description": "Partially Degraded Service",
-      "incidents": [
-        {
-          "title": "JFrog Cloud Platform potential impact due to AWS Datacenter issues in UAE Region",
-          "impact": "minor",
-          "started_at": "2026-03-02T08:29:18.196Z",
-          "updated_at": "2026-03-02T08:29:18.565Z",
-          "shortlink": "https://stspg.io/y32zl3xm8t7n"
-        }
-      ],
+      "status": "Operational",
+      "description": "All Systems Operational",
+      "incidents": [],
       "source": "https://status.jfrog.io/"
     },
     {
@@ -123,5 +115,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1773833920
+  "generated_at": 1773838059
 }
