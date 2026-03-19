@@ -16,9 +16,17 @@
     },
     {
       "name": "GitHub",
-      "status": "Operational",
-      "description": "All Systems Operational",
-      "incidents": [],
+      "status": "Minor",
+      "description": "Minor Service Outage",
+      "incidents": [
+        {
+          "title": "Git operations for users in the west coast are experiencing an increase in latency",
+          "impact": "minor",
+          "started_at": "2026-03-19T16:25:04.684Z",
+          "updated_at": "2026-03-19T17:01:25.422Z",
+          "shortlink": "https://stspg.io/skszmdcydgwg"
+        }
+      ],
       "source": "https://www.githubstatus.com/"
     },
     {
@@ -107,5 +115,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1773936788
+  "generated_at": 1773941395
 }
