@@ -25,15 +25,7 @@
       "name": "Jira",
       "status": "Operational",
       "description": "All Systems Operational",
-      "incidents": [
-        {
-          "title": "Automations aren't triggering on work item creation, field updates, or comment additions",
-          "impact": "critical",
-          "started_at": "2026-03-18T11:29:14.244Z",
-          "updated_at": "2026-03-18T23:44:16.918Z",
-          "shortlink": "https://stspg.io/1ssct6stzkcg"
-        }
-      ],
+      "incidents": [],
       "source": "https://jira-software.status.atlassian.com/"
     },
     {
@@ -115,5 +107,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1773892771
+  "generated_at": 1773897812
 }
