@@ -18,7 +18,15 @@
       "name": "GitHub",
       "status": "Operational",
       "description": "All Systems Operational",
-      "incidents": [],
+      "incidents": [
+        {
+          "title": "Issues with Copilot Coding Agent",
+          "impact": "major",
+          "started_at": "2026-03-19T13:44:15.723Z",
+          "updated_at": "2026-03-19T14:06:44.688Z",
+          "shortlink": "https://stspg.io/2wv8jbdygp2k"
+        }
+      ],
       "source": "https://www.githubstatus.com/"
     },
     {
@@ -107,5 +115,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1773925186
+  "generated_at": 1773929340
 }
