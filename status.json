@@ -23,7 +23,7 @@
           "title": "Git operations for users in the west coast are experiencing an increase in latency",
           "impact": "minor",
           "started_at": "2026-03-19T16:25:04.684Z",
-          "updated_at": "2026-03-19T17:49:51.791Z",
+          "updated_at": "2026-03-19T18:27:25.354Z",
           "shortlink": "https://stspg.io/skszmdcydgwg"
         }
       ],
@@ -115,5 +115,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1773943744
+  "generated_at": 1773948372
 }
