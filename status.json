@@ -16,15 +16,15 @@
     },
     {
       "name": "GitHub",
-      "status": "Minor",
-      "description": "Minor Service Outage",
+      "status": "Operational",
+      "description": "All Systems Operational",
       "incidents": [
         {
-          "title": "Git operations for users in the west coast are experiencing an increase in latency",
-          "impact": "minor",
-          "started_at": "2026-03-19T16:25:04.684Z",
-          "updated_at": "2026-03-19T22:57:16.032Z",
-          "shortlink": "https://stspg.io/skszmdcydgwg"
+          "title": "Disruption with Copilot Coding Agent Sessions",
+          "impact": "major",
+          "started_at": "2026-03-20T00:58:34.220Z",
+          "updated_at": "2026-03-20T01:00:53.172Z",
+          "shortlink": "https://stspg.io/5vnmx2tddlg2"
         }
       ],
       "source": "https://www.githubstatus.com/"
@@ -90,7 +90,15 @@
       "name": "Fivetran",
       "status": "Operational",
       "description": "All Systems Operational",
-      "incidents": [],
+      "incidents": [
+        {
+          "title": "3rd Party: Some Amazon S3 Connections Intermittently Failing with HTTP Connection Timeout Error",
+          "impact": "minor",
+          "started_at": "2026-03-20T01:05:21.000Z",
+          "updated_at": "2026-03-20T01:10:45.765Z",
+          "shortlink": "https://stspg.io/1p7cykgbmrlb"
+        }
+      ],
       "source": "https://status.fivetran.com/"
     },
     {
@@ -115,5 +123,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1773964232
+  "generated_at": 1773969327
 }
