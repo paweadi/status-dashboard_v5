@@ -82,7 +82,15 @@
       "name": "Fivetran",
       "status": "Operational",
       "description": "All Systems Operational",
-      "incidents": [],
+      "incidents": [
+        {
+          "title": "3rd Party: Sync delays in GCP Australia Southeast1 region",
+          "impact": "minor",
+          "started_at": "2026-03-20T19:30:16.496Z",
+          "updated_at": "2026-03-20T19:40:14.809Z",
+          "shortlink": "https://stspg.io/x7zs7yl88hgz"
+        }
+      ],
       "source": "https://status.fivetran.com/"
     },
     {
@@ -107,5 +115,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1774033799
+  "generated_at": 1774036383
 }
