@@ -18,15 +18,7 @@
       "name": "GitHub",
       "status": "Operational",
       "description": "All Systems Operational",
-      "incidents": [
-        {
-          "title": "Disruption with Copilot Coding Agent Sessions",
-          "impact": "major",
-          "started_at": "2026-03-20T00:58:34.220Z",
-          "updated_at": "2026-03-20T01:00:53.172Z",
-          "shortlink": "https://stspg.io/5vnmx2tddlg2"
-        }
-      ],
+      "incidents": [],
       "source": "https://www.githubstatus.com/"
     },
     {
@@ -90,15 +82,7 @@
       "name": "Fivetran",
       "status": "Operational",
       "description": "All Systems Operational",
-      "incidents": [
-        {
-          "title": "3rd Party: Some Amazon S3 Connections Intermittently Failing with HTTP Connection Timeout Error",
-          "impact": "minor",
-          "started_at": "2026-03-20T01:05:21.000Z",
-          "updated_at": "2026-03-20T01:10:45.765Z",
-          "shortlink": "https://stspg.io/1p7cykgbmrlb"
-        }
-      ],
+      "incidents": [],
       "source": "https://status.fivetran.com/"
     },
     {
@@ -123,5 +107,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1773969327
+  "generated_at": 1773978178
 }
