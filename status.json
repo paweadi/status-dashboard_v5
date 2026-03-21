@@ -86,8 +86,8 @@
         {
           "title": "3rd Party: Snowflake Downtime Causing Sync Failures Across Multiple Connections Using Snowflake as Destination",
           "impact": "minor",
-          "started_at": "2026-03-21T07:05:16.888Z",
-          "updated_at": "2026-03-21T07:30:18.654Z",
+          "started_at": "2026-03-21T09:37:18.000Z",
+          "updated_at": "2026-03-21T09:42:20.546Z",
           "shortlink": "https://stspg.io/qrhw18206xdj"
         }
       ],
@@ -115,5 +115,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1774085015
+  "generated_at": 1774086731
 }
