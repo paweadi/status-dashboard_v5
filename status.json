@@ -37,8 +37,8 @@
     },
     {
       "name": "JFrog",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Unknown",
+      "description": "Status unknown",
       "incidents": [],
       "source": "https://status.jfrog.io/"
     },
@@ -80,9 +80,17 @@
     },
     {
       "name": "Fivetran",
-      "status": "Operational",
-      "description": "All Systems Operational",
-      "incidents": [],
+      "status": "Minor",
+      "description": "Minor Service Outage",
+      "incidents": [
+        {
+          "title": "Some itunes_connect Connections Failing Due to Intermittent Apple App Store Connect Reporter Unavailability",
+          "impact": "minor",
+          "started_at": "2026-03-22T07:40:17.000Z",
+          "updated_at": "2026-03-22T07:51:13.791Z",
+          "shortlink": "https://stspg.io/h7z7b1r2mjd5"
+        }
+      ],
       "source": "https://status.fivetran.com/"
     },
     {
@@ -107,5 +115,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1774163513
+  "generated_at": 1774166062
 }
