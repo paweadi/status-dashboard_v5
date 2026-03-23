@@ -80,14 +80,14 @@
     },
     {
       "name": "Fivetran",
-      "status": "Minor",
-      "description": "Minor Service Outage",
+      "status": "Operational",
+      "description": "All Systems Operational",
       "incidents": [
         {
           "title": "Some Box Connections are failing with HTTP \"429 Too Many Requests\" errors",
           "impact": "minor",
           "started_at": "2026-03-23T20:10:18.641Z",
-          "updated_at": "2026-03-23T20:12:13.847Z",
+          "updated_at": "2026-03-23T20:40:17.482Z",
           "shortlink": "https://stspg.io/tmlmzt7xtph9"
         }
       ],
@@ -115,5 +115,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1774297794
+  "generated_at": 1774299819
 }
