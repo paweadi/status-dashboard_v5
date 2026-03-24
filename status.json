@@ -23,7 +23,7 @@
           "title": "Teams Github Notifications App is down",
           "impact": "major",
           "started_at": "2026-03-24T16:59:27.646Z",
-          "updated_at": "2026-03-24T17:43:14.240Z",
+          "updated_at": "2026-03-24T18:50:56.180Z",
           "shortlink": "https://stspg.io/g3zv7t9bmccs"
         }
       ],
@@ -131,5 +131,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1774378220
+  "generated_at": 1774381699
 }
