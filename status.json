@@ -16,15 +16,15 @@
     },
     {
       "name": "GitHub",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Minor",
+      "description": "Minor Service Outage",
       "incidents": [
         {
-          "title": "Teams Github Notifications App is down",
-          "impact": "major",
-          "started_at": "2026-03-24T16:59:27.646Z",
-          "updated_at": "2026-03-24T18:50:56.180Z",
-          "shortlink": "https://stspg.io/g3zv7t9bmccs"
+          "title": "Disruption with some GitHub services",
+          "impact": "minor",
+          "started_at": "2026-03-24T20:18:06.860Z",
+          "updated_at": "2026-03-24T20:23:45.729Z",
+          "shortlink": "https://stspg.io/dl16chvwsj7l"
         }
       ],
       "source": "https://www.githubstatus.com/"
@@ -131,5 +131,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1774381699
+  "generated_at": 1774384348
 }
