@@ -16,17 +16,9 @@
     },
     {
       "name": "GitHub",
-      "status": "Minor",
-      "description": "Minor Service Outage",
-      "incidents": [
-        {
-          "title": "Disruption with some GitHub services",
-          "impact": "minor",
-          "started_at": "2026-03-24T20:18:06.860Z",
-          "updated_at": "2026-03-24T20:23:45.729Z",
-          "shortlink": "https://stspg.io/dl16chvwsj7l"
-        }
-      ],
+      "status": "Operational",
+      "description": "All Systems Operational",
+      "incidents": [],
       "source": "https://www.githubstatus.com/"
     },
     {
@@ -131,5 +123,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1774384348
+  "generated_at": 1774387764
 }
