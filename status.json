@@ -87,17 +87,9 @@
     },
     {
       "name": "Port",
-      "status": "Minor",
-      "description": "Minor Service Outage",
-      "incidents": [
-        {
-          "title": "Intermittent AI feature failures in EU region",
-          "impact": "major",
-          "started_at": "2026-03-24T12:10:02.117Z",
-          "updated_at": "2026-03-24T12:10:02.228Z",
-          "shortlink": "https://stspg.io/vnxh4yz07nzy"
-        }
-      ],
+      "status": "Operational",
+      "description": "All Systems Operational",
+      "incidents": [],
       "source": "https://status.port.io/"
     },
     {
@@ -115,5 +107,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1774435187
+  "generated_at": 1774438514
 }
