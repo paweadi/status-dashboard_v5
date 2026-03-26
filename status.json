@@ -84,10 +84,17 @@
       "description": "Minor Service Outage",
       "incidents": [
         {
-          "title": "Multiple Twitter and Twitter Ads connections are failing with \"HTTP 503 Service Unavailable\"",
+          "title": "Fivetran REST API Failing with 404 Errors",
+          "impact": "minor",
+          "started_at": "2026-03-26T04:35:16.652Z",
+          "updated_at": "2026-03-26T05:47:32.651Z",
+          "shortlink": "https://stspg.io/gvpgdv1cp20f"
+        },
+        {
+          "title": "3rd Party: Multiple Twitter and Twitter Ads connections are failing with \"HTTP 503 Service Unavailable\"",
           "impact": "minor",
           "started_at": "2026-03-26T03:30:19.768Z",
-          "updated_at": "2026-03-26T04:09:04.839Z",
+          "updated_at": "2026-03-26T04:15:16.584Z",
           "shortlink": "https://stspg.io/tlp3vwy42yh5"
         }
       ],
@@ -115,5 +122,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1774498344
+  "generated_at": 1774504505
 }
