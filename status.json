@@ -87,9 +87,17 @@
     },
     {
       "name": "Fivetran",
-      "status": "Operational",
-      "description": "All Systems Operational",
-      "incidents": [],
+      "status": "Minor",
+      "description": "Minor Service Outage",
+      "incidents": [
+        {
+          "title": "Fivetran: OAuth Authentication Issues Affecting Multiple Connections",
+          "impact": "minor",
+          "started_at": "2026-03-26T16:05:17.247Z",
+          "updated_at": "2026-03-26T16:06:09.916Z",
+          "shortlink": "https://stspg.io/7zgzdphng8pq"
+        }
+      ],
       "source": "https://status.fivetran.com/"
     },
     {
@@ -114,5 +122,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1774540097
+  "generated_at": 1774543991
 }
