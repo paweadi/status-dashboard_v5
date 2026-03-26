@@ -48,13 +48,6 @@
       "description": "Partial System Outage",
       "incidents": [
         {
-          "title": "Issue creating new projects in GCP europe-west3",
-          "impact": "major",
-          "started_at": "2026-03-26T10:51:36.204Z",
-          "updated_at": "2026-03-26T13:06:13.895Z",
-          "shortlink": "https://stspg.io/n5h2y719bzw2"
-        },
-        {
           "title": "Connectivity disruption for AWS Bahrain (me-south-1)",
           "impact": "major",
           "started_at": "2026-03-02T06:23:20.780Z",
@@ -87,17 +80,9 @@
     },
     {
       "name": "Fivetran",
-      "status": "Minor",
-      "description": "Minor Service Outage",
-      "incidents": [
-        {
-          "title": "Fivetran: OAuth Authentication Issues Affecting Multiple Connections",
-          "impact": "minor",
-          "started_at": "2026-03-26T16:05:17.247Z",
-          "updated_at": "2026-03-26T16:06:09.916Z",
-          "shortlink": "https://stspg.io/7zgzdphng8pq"
-        }
-      ],
+      "status": "Operational",
+      "description": "All Systems Operational",
+      "incidents": [],
       "source": "https://status.fivetran.com/"
     },
     {
@@ -122,5 +107,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1774543991
+  "generated_at": 1774547619
 }
