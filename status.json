@@ -51,7 +51,7 @@
           "title": "Issue creating new projects in GCP europe-west3",
           "impact": "major",
           "started_at": "2026-03-26T10:51:36.204Z",
-          "updated_at": "2026-03-26T10:51:36.329Z",
+          "updated_at": "2026-03-26T13:06:13.895Z",
           "shortlink": "https://stspg.io/n5h2y719bzw2"
         },
         {
@@ -89,15 +89,7 @@
       "name": "Fivetran",
       "status": "Operational",
       "description": "All Systems Operational",
-      "incidents": [
-        {
-          "title": "3rd Party: Multiple Twitter and Twitter Ads connections are failing with \"HTTP 503 Service Unavailable\"",
-          "impact": "minor",
-          "started_at": "2026-03-26T03:30:19.768Z",
-          "updated_at": "2026-03-26T11:41:32.079Z",
-          "shortlink": "https://stspg.io/tlp3vwy42yh5"
-        }
-      ],
+      "incidents": [],
       "source": "https://status.fivetran.com/"
     },
     {
@@ -122,5 +114,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1774529586
+  "generated_at": 1774534873
 }
