@@ -87,7 +87,7 @@
           "title": "Fivetran: Fivetran REST API Failing with 404 Errors",
           "impact": "minor",
           "started_at": "2026-03-26T04:35:16.652Z",
-          "updated_at": "2026-03-26T06:47:09.775Z",
+          "updated_at": "2026-03-26T07:05:19.541Z",
           "shortlink": "https://stspg.io/gvpgdv1cp20f"
         },
         {
@@ -129,5 +129,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1774508274
+  "generated_at": 1774512078
 }
