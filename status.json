@@ -84,17 +84,24 @@
       "description": "Minor Service Outage",
       "incidents": [
         {
-          "title": "Fivetran REST API Failing with 404 Errors",
+          "title": "Fivetran: Fivetran REST API Failing with 404 Errors",
           "impact": "minor",
           "started_at": "2026-03-26T04:35:16.652Z",
-          "updated_at": "2026-03-26T05:47:32.651Z",
+          "updated_at": "2026-03-26T06:47:09.775Z",
           "shortlink": "https://stspg.io/gvpgdv1cp20f"
+        },
+        {
+          "title": "Fivetran: PostgreSQL Connections Using RDS Proxy Are Failing with the Error: The source database does not support a provided lock_timeout parameter",
+          "impact": "minor",
+          "started_at": "2026-03-26T06:20:17.281Z",
+          "updated_at": "2026-03-26T06:25:16.756Z",
+          "shortlink": "https://stspg.io/8qjs1gv74xtn"
         },
         {
           "title": "3rd Party: Multiple Twitter and Twitter Ads connections are failing with \"HTTP 503 Service Unavailable\"",
           "impact": "minor",
           "started_at": "2026-03-26T03:30:19.768Z",
-          "updated_at": "2026-03-26T04:15:16.584Z",
+          "updated_at": "2026-03-26T05:56:33.756Z",
           "shortlink": "https://stspg.io/tlp3vwy42yh5"
         }
       ],
@@ -122,5 +129,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1774504505
+  "generated_at": 1774508274
 }
