@@ -48,6 +48,13 @@
       "description": "Partial System Outage",
       "incidents": [
         {
+          "title": "AutoOps deployments marked as Inactive in AWS us-east-1 region",
+          "impact": "major",
+          "started_at": "2026-03-27T04:33:19.432Z",
+          "updated_at": "2026-03-27T05:37:17.916Z",
+          "shortlink": "https://stspg.io/tjf3974s21v1"
+        },
+        {
           "title": "Connectivity disruption for AWS Bahrain (me-south-1)",
           "impact": "major",
           "started_at": "2026-03-02T06:23:20.780Z",
@@ -107,5 +114,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1774584591
+  "generated_at": 1774590920
 }
