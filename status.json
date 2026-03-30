@@ -48,13 +48,6 @@
       "description": "Partial System Outage",
       "incidents": [
         {
-          "title": "Elevated error rates for Claude Sonnet 4.5 EIS inference endpoints",
-          "impact": "major",
-          "started_at": "2026-03-30T18:46:47.959Z",
-          "updated_at": "2026-03-30T18:46:48.108Z",
-          "shortlink": "https://stspg.io/vk1fjxc7b051"
-        },
-        {
           "title": "Connectivity disruption for AWS Bahrain (me-south-1)",
           "impact": "major",
           "started_at": "2026-03-02T06:23:20.780Z",
@@ -122,5 +115,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1774900157
+  "generated_at": 1774902950
 }
