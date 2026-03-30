@@ -48,6 +48,13 @@
       "description": "Partial System Outage",
       "incidents": [
         {
+          "title": "Elevated error rates for Claude Sonnet 4.5 EIS inference endpoints",
+          "impact": "major",
+          "started_at": "2026-03-30T18:46:47.959Z",
+          "updated_at": "2026-03-30T18:46:48.108Z",
+          "shortlink": "https://stspg.io/vk1fjxc7b051"
+        },
+        {
           "title": "Connectivity disruption for AWS Bahrain (me-south-1)",
           "impact": "major",
           "started_at": "2026-03-02T06:23:20.780Z",
@@ -80,9 +87,17 @@
     },
     {
       "name": "Fivetran",
-      "status": "Operational",
-      "description": "All Systems Operational",
-      "incidents": [],
+      "status": "Minor",
+      "description": "Minor Service Outage",
+      "incidents": [
+        {
+          "title": "Multiple Twitter Ads and Twitter Organic Connections Failing with error \"HTTP 503 Service Unavailable\"",
+          "impact": "minor",
+          "started_at": "2026-03-30T17:55:17.581Z",
+          "updated_at": "2026-03-30T18:40:16.944Z",
+          "shortlink": "https://stspg.io/lv326m90nk4v"
+        }
+      ],
       "source": "https://status.fivetran.com/"
     },
     {
@@ -107,5 +122,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1774892645
+  "generated_at": 1774896419
 }
