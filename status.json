@@ -87,7 +87,7 @@
           "title": "Multiple Twitter Ads and Twitter Organic Connections Failing with error \"HTTP 503 Service Unavailable\"",
           "impact": "minor",
           "started_at": "2026-03-30T17:55:17.581Z",
-          "updated_at": "2026-03-30T19:20:17.510Z",
+          "updated_at": "2026-03-30T22:51:40.767Z",
           "shortlink": "https://stspg.io/lv326m90nk4v"
         }
       ],
@@ -115,5 +115,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1774909557
+  "generated_at": 1774911698
 }
