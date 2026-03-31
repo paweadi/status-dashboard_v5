@@ -18,7 +18,15 @@
       "name": "GitHub",
       "status": "Operational",
       "description": "All Systems Operational",
-      "incidents": [],
+      "incidents": [
+        {
+          "title": "Issues with metered billing report generation",
+          "impact": "minor",
+          "started_at": "2026-03-31T13:47:46.083Z",
+          "updated_at": "2026-03-31T13:56:41.719Z",
+          "shortlink": "https://stspg.io/4pyzfm2phb3b"
+        }
+      ],
       "source": "https://www.githubstatus.com/"
     },
     {
@@ -115,5 +123,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1774961728
+  "generated_at": 1774967029
 }
