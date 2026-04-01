@@ -18,7 +18,15 @@
       "name": "GitHub",
       "status": "Operational",
       "description": "All Systems Operational",
-      "incidents": [],
+      "incidents": [
+        {
+          "title": "Disruption with GitHub's code search",
+          "impact": "major",
+          "started_at": "2026-04-01T15:02:54.247Z",
+          "updated_at": "2026-04-01T15:02:54.304Z",
+          "shortlink": "https://stspg.io/1zgx17jdj4k7"
+        }
+      ],
       "source": "https://www.githubstatus.com/"
     },
     {
@@ -115,5 +123,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1775053607
+  "generated_at": 1775058680
 }
