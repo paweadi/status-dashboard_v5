@@ -23,7 +23,7 @@
           "title": "Disruption with GitHub's code search",
           "impact": "major",
           "started_at": "2026-04-01T15:02:54.247Z",
-          "updated_at": "2026-04-01T17:48:15.076Z",
+          "updated_at": "2026-04-01T19:37:57.578Z",
           "shortlink": "https://stspg.io/1zgx17jdj4k7"
         }
       ],
@@ -96,9 +96,17 @@
     },
     {
       "name": "Fivetran",
-      "status": "Operational",
-      "description": "All Systems Operational",
-      "incidents": [],
+      "status": "Minor",
+      "description": "Minor Service Outage",
+      "incidents": [
+        {
+          "title": "Some Reddit Ads connections are failing with an HTTP 500 Internal Server error",
+          "impact": "minor",
+          "started_at": "2026-04-01T19:30:19.661Z",
+          "updated_at": "2026-04-01T19:50:55.286Z",
+          "shortlink": "https://stspg.io/q4k8rn7y6hht"
+        }
+      ],
       "source": "https://status.fivetran.com/"
     },
     {
@@ -123,5 +131,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1775069251
+  "generated_at": 1775073174
 }
