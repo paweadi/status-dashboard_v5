@@ -9,8 +9,8 @@
     },
     {
       "name": "Azure DevOps",
-      "status": "Operational",
-      "description": "Everything is looking good",
+      "status": "Minor",
+      "description": "Service maintenance is in effect",
       "incidents": [],
       "source": "https://status.dev.azure.com/"
     },
@@ -123,5 +123,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1775061856
+  "generated_at": 1775065363
 }
