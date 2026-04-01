@@ -65,8 +65,8 @@
         {
           "title": "AWS Deployment Failures for Cloud Customers",
           "impact": "major",
-          "started_at": "2026-04-01T08:06:18.161Z",
-          "updated_at": "2026-04-01T08:06:18.217Z",
+          "started_at": "2026-04-01T08:36:09.000Z",
+          "updated_at": "2026-04-01T08:51:06.370Z",
           "shortlink": "https://stspg.io/slpby92g6q6f"
         }
       ],
@@ -115,5 +115,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1775031278
+  "generated_at": 1775036514
 }
