@@ -23,7 +23,7 @@
           "title": "Disruption with GitHub's code search",
           "impact": "major",
           "started_at": "2026-04-01T15:02:54.247Z",
-          "updated_at": "2026-04-01T15:02:54.304Z",
+          "updated_at": "2026-04-01T16:00:31.115Z",
           "shortlink": "https://stspg.io/1zgx17jdj4k7"
         }
       ],
@@ -123,5 +123,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1775058680
+  "generated_at": 1775061856
 }
