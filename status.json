@@ -88,14 +88,14 @@
     },
     {
       "name": "Fivetran",
-      "status": "Minor",
-      "description": "Minor Service Outage",
+      "status": "Operational",
+      "description": "All Systems Operational",
       "incidents": [
         {
           "title": "3rd Party: Multiple Twitter Ads connections are failing with an HTTP 500 Internal Server Error",
           "impact": "minor",
-          "started_at": "2026-04-02T10:20:19.501Z",
-          "updated_at": "2026-04-02T10:29:39.349Z",
+          "started_at": "2026-04-02T10:29:13.000Z",
+          "updated_at": "2026-04-02T14:51:25.841Z",
           "shortlink": "https://stspg.io/c61fq2m0v83n"
         }
       ],
@@ -123,5 +123,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1775139446
+  "generated_at": 1775143977
 }
