@@ -96,17 +96,9 @@
     },
     {
       "name": "Fivetran",
-      "status": "Minor",
-      "description": "Minor Service Outage",
-      "incidents": [
-        {
-          "title": "Fivetran: SQL Server TELEPORT and Epic CSA Connector POTENTIAL Failures Due to Unsupported\u00a0Type in VIEW tables",
-          "impact": "minor",
-          "started_at": "2026-04-02T17:45:17.000Z",
-          "updated_at": "2026-04-02T18:40:19.560Z",
-          "shortlink": "https://stspg.io/4sckg38t2gtz"
-        }
-      ],
+      "status": "Operational",
+      "description": "All Systems Operational",
+      "incidents": [],
       "source": "https://status.fivetran.com/"
     },
     {
@@ -131,5 +123,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1775163624
+  "generated_at": 1775166151
 }
