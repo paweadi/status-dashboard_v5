@@ -23,7 +23,7 @@
           "title": "Disruption with some GitHub services",
           "impact": "minor",
           "started_at": "2026-04-02T17:49:36.914Z",
-          "updated_at": "2026-04-02T18:25:50.680Z",
+          "updated_at": "2026-04-02T19:28:43.922Z",
           "shortlink": "https://stspg.io/5b7098zw5zw7"
         }
       ],
@@ -131,5 +131,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1775155373
+  "generated_at": 1775158964
 }
