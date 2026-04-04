@@ -94,8 +94,8 @@
         {
           "title": "Awin connection syncs are failing with 500 internal server error for transaction endpoint",
           "impact": "minor",
-          "started_at": "2026-04-04T08:05:17.909Z",
-          "updated_at": "2026-04-04T08:50:18.618Z",
+          "started_at": "2026-04-04T08:05:17.000Z",
+          "updated_at": "2026-04-04T09:47:27.330Z",
           "shortlink": "https://stspg.io/l25rsyylh94b"
         }
       ],
@@ -123,5 +123,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1775294957
+  "generated_at": 1775296918
 }
