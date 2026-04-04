@@ -88,9 +88,17 @@
     },
     {
       "name": "Fivetran",
-      "status": "Operational",
-      "description": "All Systems Operational",
-      "incidents": [],
+      "status": "Minor",
+      "description": "Minor Service Outage",
+      "incidents": [
+        {
+          "title": "Awin connection syncs are failing with 500 internal server error for transaction endpoint",
+          "impact": "minor",
+          "started_at": "2026-04-04T08:05:17.909Z",
+          "updated_at": "2026-04-04T08:06:09.461Z",
+          "shortlink": "https://stspg.io/l25rsyylh94b"
+        }
+      ],
       "source": "https://status.fivetran.com/"
     },
     {
@@ -115,5 +123,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1775288568
+  "generated_at": 1775291434
 }
