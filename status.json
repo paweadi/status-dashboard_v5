@@ -51,7 +51,7 @@
           "title": "Synthetics service may not run on schedule (us-east-4)",
           "impact": "major",
           "started_at": "2026-04-06T17:58:07.315Z",
-          "updated_at": "2026-04-06T17:58:07.386Z",
+          "updated_at": "2026-04-06T19:16:20.963Z",
           "shortlink": "https://stspg.io/mq1zxhymc8nn"
         },
         {
@@ -122,5 +122,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1775501024
+  "generated_at": 1775504715
 }
