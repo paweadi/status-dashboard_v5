@@ -95,7 +95,7 @@
           "title": "Twitter Ads and Twitter Organic connections are experiencing sync failures due to an HTTP 503 (Service Unavailable) error",
           "impact": "minor",
           "started_at": "2026-04-07T17:18:37.000Z",
-          "updated_at": "2026-04-07T17:25:16.283Z",
+          "updated_at": "2026-04-07T17:55:16.446Z",
           "shortlink": "https://stspg.io/hygb8kt934qp"
         }
       ],
@@ -123,5 +123,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1775583021
+  "generated_at": 1775586674
 }
