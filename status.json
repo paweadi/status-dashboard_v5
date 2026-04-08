@@ -23,16 +23,32 @@
     },
     {
       "name": "Jira",
-      "status": "Operational",
-      "description": "All Systems Operational",
-      "incidents": [],
+      "status": "Major",
+      "description": "Partial System Outage",
+      "incidents": [
+        {
+          "title": "Multiple products impacted by search failures",
+          "impact": "critical",
+          "started_at": "2026-04-08T05:41:18.097Z",
+          "updated_at": "2026-04-08T06:25:52.714Z",
+          "shortlink": "https://stspg.io/tbdmw675spnc"
+        }
+      ],
       "source": "https://jira-software.status.atlassian.com/"
     },
     {
       "name": "Confluence",
-      "status": "Operational",
-      "description": "All Systems Operational",
-      "incidents": [],
+      "status": "Major",
+      "description": "Partial System Outage",
+      "incidents": [
+        {
+          "title": "Multiple products impacted by search failures",
+          "impact": "critical",
+          "started_at": "2026-04-08T05:41:18.002Z",
+          "updated_at": "2026-04-08T06:25:52.780Z",
+          "shortlink": "https://stspg.io/1kmsszd6095z"
+        }
+      ],
       "source": "https://confluence.status.atlassian.com/"
     },
     {
@@ -107,5 +123,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1775624699
+  "generated_at": 1775631162
 }
