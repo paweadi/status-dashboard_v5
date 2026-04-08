@@ -30,7 +30,7 @@
           "title": "Multiple products impacted by search failures",
           "impact": "critical",
           "started_at": "2026-04-08T05:41:18.097Z",
-          "updated_at": "2026-04-08T07:40:26.434Z",
+          "updated_at": "2026-04-08T09:03:45.091Z",
           "shortlink": "https://stspg.io/tbdmw675spnc"
         }
       ],
@@ -45,7 +45,7 @@
           "title": "Multiple products impacted by search failures",
           "impact": "critical",
           "started_at": "2026-04-08T05:41:18.002Z",
-          "updated_at": "2026-04-08T07:40:26.444Z",
+          "updated_at": "2026-04-08T09:03:45.084Z",
           "shortlink": "https://stspg.io/1kmsszd6095z"
         }
       ],
@@ -123,5 +123,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1775635605
+  "generated_at": 1775641302
 }
