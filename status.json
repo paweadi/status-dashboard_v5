@@ -80,14 +80,14 @@
     },
     {
       "name": "Fivetran",
-      "status": "Minor",
-      "description": "Minor Service Outage",
+      "status": "Operational",
+      "description": "All Systems Operational",
       "incidents": [
         {
-          "title": "Few Amazon Selling partner connections are failing for the all_listings_report",
+          "title": "Fivetran : Few Amazon Selling partner connections are failing for the all_listings_report",
           "impact": "minor",
-          "started_at": "2026-04-08T12:50:18.349Z",
-          "updated_at": "2026-04-08T12:51:10.673Z",
+          "started_at": "2026-04-08T12:50:18.000Z",
+          "updated_at": "2026-04-08T14:07:25.255Z",
           "shortlink": "https://stspg.io/jg1p2f799sbb"
         }
       ],
@@ -115,5 +115,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1775653184
+  "generated_at": 1775659574
 }
