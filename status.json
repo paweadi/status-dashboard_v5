@@ -23,7 +23,7 @@
           "title": "Disruption with some GitHub services",
           "impact": "major",
           "started_at": "2026-04-09T16:20:03.684Z",
-          "updated_at": "2026-04-09T16:20:12.475Z",
+          "updated_at": "2026-04-09T17:48:11.686Z",
           "shortlink": "https://stspg.io/h8kh83zv9jyr"
         }
       ],
@@ -81,8 +81,8 @@
     },
     {
       "name": "Lucid",
-      "status": "Major",
-      "description": "Partial System Outage",
+      "status": "Operational",
+      "description": "All Systems Operational",
       "incidents": [],
       "source": "https://status.lucid.co/"
     },
@@ -122,5 +122,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1775753110
+  "generated_at": 1775757256
 }
