@@ -18,7 +18,15 @@
       "name": "GitHub",
       "status": "Operational",
       "description": "All Systems Operational",
-      "incidents": [],
+      "incidents": [
+        {
+          "title": "Disruption with some GitHub services",
+          "impact": "major",
+          "started_at": "2026-04-09T16:20:03.684Z",
+          "updated_at": "2026-04-09T16:20:12.475Z",
+          "shortlink": "https://stspg.io/h8kh83zv9jyr"
+        }
+      ],
       "source": "https://www.githubstatus.com/"
     },
     {
@@ -48,6 +56,13 @@
       "description": "Partial System Outage",
       "incidents": [
         {
+          "title": "Connection issue to Kibana via the Cloud UI SSO",
+          "impact": "major",
+          "started_at": "2026-04-09T15:37:13.381Z",
+          "updated_at": "2026-04-09T16:41:52.876Z",
+          "shortlink": "https://stspg.io/xtyzzm4k08pc"
+        },
+        {
           "title": "Connectivity disruption for AWS Bahrain (me-south-1)",
           "impact": "major",
           "started_at": "2026-03-02T06:23:20.780Z",
@@ -66,8 +81,8 @@
     },
     {
       "name": "Lucid",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Major",
+      "description": "Partial System Outage",
       "incidents": [],
       "source": "https://status.lucid.co/"
     },
@@ -107,5 +122,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1775746982
+  "generated_at": 1775753110
 }
