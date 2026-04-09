@@ -18,15 +18,7 @@
       "name": "GitHub",
       "status": "Operational",
       "description": "All Systems Operational",
-      "incidents": [
-        {
-          "title": "Disruption with some GitHub services",
-          "impact": "major",
-          "started_at": "2026-04-09T16:20:03.684Z",
-          "updated_at": "2026-04-09T19:52:45.030Z",
-          "shortlink": "https://stspg.io/h8kh83zv9jyr"
-        }
-      ],
+      "incidents": [],
       "source": "https://www.githubstatus.com/"
     },
     {
@@ -55,6 +47,13 @@
       "status": "Major",
       "description": "Partial System Outage",
       "incidents": [
+        {
+          "title": "Privatelink hostnames reported by API are incorrect",
+          "impact": "major",
+          "started_at": "2026-04-09T20:46:43.838Z",
+          "updated_at": "2026-04-09T20:46:43.908Z",
+          "shortlink": "https://stspg.io/ycwz074xy7tr"
+        },
         {
           "title": "Connection issue to Kibana via the Cloud UI SSO",
           "impact": "major",
@@ -122,5 +121,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1775764720
+  "generated_at": 1775767912
 }
