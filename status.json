@@ -9,8 +9,8 @@
     },
     {
       "name": "Azure DevOps",
-      "status": "Operational",
-      "description": "Everything is looking good",
+      "status": "Minor",
+      "description": "Investigating a service disruption",
       "incidents": [],
       "source": "https://status.dev.azure.com/"
     },
@@ -87,14 +87,14 @@
     },
     {
       "name": "Fivetran",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Minor",
+      "description": "Minor Service Outage",
       "incidents": [
         {
           "title": "3rd Party: Twitter and Twitter Ads connections are failing with \"HTTP 503 Service Unavailable\" error",
           "impact": "minor",
           "started_at": "2026-04-10T09:59:07.000Z",
-          "updated_at": "2026-04-10T12:21:49.177Z",
+          "updated_at": "2026-04-10T18:51:49.674Z",
           "shortlink": "https://stspg.io/x6ykpgkgn715"
         }
       ],
@@ -122,5 +122,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1775844361
+  "generated_at": 1775849116
 }
