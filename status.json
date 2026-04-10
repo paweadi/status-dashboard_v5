@@ -100,8 +100,8 @@
         {
           "title": "3rd Party: Twitter and Twitter Ads connections are failing with \"HTTP 503 Service Unavailable\" error",
           "impact": "minor",
-          "started_at": "2026-04-10T04:15:17.364Z",
-          "updated_at": "2026-04-10T06:09:08.963Z",
+          "started_at": "2026-04-10T09:59:07.000Z",
+          "updated_at": "2026-04-10T10:01:04.547Z",
           "shortlink": "https://stspg.io/x6ykpgkgn715"
         }
       ],
@@ -129,5 +129,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1775814223
+  "generated_at": 1775817811
 }
