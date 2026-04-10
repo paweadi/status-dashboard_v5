@@ -48,13 +48,6 @@
       "description": "Partial System Outage",
       "incidents": [
         {
-          "title": "Privatelink hostnames reported by API are incorrect",
-          "impact": "major",
-          "started_at": "2026-04-09T20:46:43.838Z",
-          "updated_at": "2026-04-10T12:18:37.383Z",
-          "shortlink": "https://stspg.io/ycwz074xy7tr"
-        },
-        {
           "title": "Connectivity disruption for AWS Bahrain (me-south-1)",
           "impact": "major",
           "started_at": "2026-03-02T06:23:20.780Z",
@@ -94,7 +87,7 @@
           "title": "3rd Party: Twitter and Twitter Ads connections are failing with \"HTTP 503 Service Unavailable\" error",
           "impact": "minor",
           "started_at": "2026-04-10T09:59:07.000Z",
-          "updated_at": "2026-04-10T18:51:49.674Z",
+          "updated_at": "2026-04-10T19:58:17.676Z",
           "shortlink": "https://stspg.io/x6ykpgkgn715"
         }
       ],
@@ -122,5 +115,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1775849116
+  "generated_at": 1775851199
 }
