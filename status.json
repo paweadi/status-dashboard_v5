@@ -94,15 +94,15 @@
     },
     {
       "name": "Fivetran",
-      "status": "Minor",
-      "description": "Minor Service Outage",
+      "status": "Operational",
+      "description": "All Systems Operational",
       "incidents": [
         {
-          "title": "Transformation jobs are failing with \"UnsatisfiedDependencyException\" error",
+          "title": "Twitter and Twitter Ads connections are failing with \"HTTP 503 Service Unavailable\" error",
           "impact": "minor",
-          "started_at": "2026-04-10T00:34:19.000Z",
-          "updated_at": "2026-04-10T00:55:28.067Z",
-          "shortlink": "https://stspg.io/wb2d0t2m5js9"
+          "started_at": "2026-04-10T04:15:17.364Z",
+          "updated_at": "2026-04-10T04:15:17.438Z",
+          "shortlink": "https://stspg.io/x6ykpgkgn715"
         }
       ],
       "source": "https://status.fivetran.com/"
@@ -129,5 +129,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1775784478
+  "generated_at": 1775795187
 }
