@@ -80,17 +80,9 @@
     },
     {
       "name": "Fivetran",
-      "status": "Minor",
-      "description": "Minor Service Outage",
-      "incidents": [
-        {
-          "title": "3rd Party: Twitter and Twitter Ads connections are failing with \"HTTP 503 Service Unavailable\" error",
-          "impact": "minor",
-          "started_at": "2026-04-10T09:59:07.000Z",
-          "updated_at": "2026-04-10T19:58:17.676Z",
-          "shortlink": "https://stspg.io/x6ykpgkgn715"
-        }
-      ],
+      "status": "Operational",
+      "description": "All Systems Operational",
+      "incidents": [],
       "source": "https://status.fivetran.com/"
     },
     {
@@ -115,5 +107,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1775853779
+  "generated_at": 1775856540
 }
