@@ -82,7 +82,15 @@
       "name": "Fivetran",
       "status": "Operational",
       "description": "All Systems Operational",
-      "incidents": [],
+      "incidents": [
+        {
+          "title": "Twitter Ads and Twitter Organic connections are experiencing sync failures due to URI is not absolute error with HTTP 500 Response",
+          "impact": "minor",
+          "started_at": "2026-04-11T11:55:16.845Z",
+          "updated_at": "2026-04-11T11:55:16.908Z",
+          "shortlink": "https://stspg.io/8cwrkqzcphhd"
+        }
+      ],
       "source": "https://status.fivetran.com/"
     },
     {
@@ -107,5 +115,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1775908247
+  "generated_at": 1775910975
 }
