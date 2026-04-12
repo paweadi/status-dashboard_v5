@@ -87,7 +87,7 @@
           "title": "3rd Party: Sync failures due to Bad Authentication data (code 215) error",
           "impact": "minor",
           "started_at": "2026-04-11T22:45:19.195Z",
-          "updated_at": "2026-04-11T23:20:19.080Z",
+          "updated_at": "2026-04-12T00:10:21.380Z",
           "shortlink": "https://stspg.io/85sspl72lp4v"
         }
       ],
@@ -115,5 +115,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1775950479
+  "generated_at": 1775958283
 }
