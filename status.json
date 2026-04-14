@@ -84,10 +84,10 @@
       "description": "All Systems Operational",
       "incidents": [
         {
-          "title": "Few connections are failing with Null primary key Exception",
+          "title": "Some Twitter Ads connections are failing due to a null primary key exception",
           "impact": "minor",
           "started_at": "2026-04-14T16:40:20.419Z",
-          "updated_at": "2026-04-14T16:40:20.489Z",
+          "updated_at": "2026-04-14T18:15:17.189Z",
           "shortlink": "https://stspg.io/r19pgnk67j9y"
         }
       ],
@@ -115,5 +115,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1776188369
+  "generated_at": 1776193156
 }
