@@ -30,7 +30,7 @@
           "title": "Disrupted Rovo availability for Automation rules",
           "impact": "critical",
           "started_at": "2026-04-14T12:12:58.144Z",
-          "updated_at": "2026-04-14T12:25:18.228Z",
+          "updated_at": "2026-04-14T14:11:39.455Z",
           "shortlink": "https://stspg.io/m6lh2fg2dg38"
         }
       ],
@@ -45,7 +45,7 @@
           "title": "Disrupted Rovo availability for Automation rules",
           "impact": "critical",
           "started_at": "2026-04-14T12:25:17.072Z",
-          "updated_at": "2026-04-14T12:25:18.235Z",
+          "updated_at": "2026-04-14T14:11:39.438Z",
           "shortlink": "https://stspg.io/2ypzgvkf46j6"
         }
       ],
@@ -123,5 +123,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1776171810
+  "generated_at": 1776178689
 }
