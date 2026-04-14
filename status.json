@@ -23,16 +23,32 @@
     },
     {
       "name": "Jira",
-      "status": "Operational",
-      "description": "All Systems Operational",
-      "incidents": [],
+      "status": "Major",
+      "description": "Partial System Outage",
+      "incidents": [
+        {
+          "title": "Disrupted Rovo availability for Automation rules",
+          "impact": "critical",
+          "started_at": "2026-04-14T12:12:58.144Z",
+          "updated_at": "2026-04-14T12:25:18.228Z",
+          "shortlink": "https://stspg.io/m6lh2fg2dg38"
+        }
+      ],
       "source": "https://jira-software.status.atlassian.com/"
     },
     {
       "name": "Confluence",
-      "status": "Operational",
-      "description": "All Systems Operational",
-      "incidents": [],
+      "status": "Major",
+      "description": "Partial System Outage",
+      "incidents": [
+        {
+          "title": "Disrupted Rovo availability for Automation rules",
+          "impact": "critical",
+          "started_at": "2026-04-14T12:25:17.072Z",
+          "updated_at": "2026-04-14T12:25:18.235Z",
+          "shortlink": "https://stspg.io/2ypzgvkf46j6"
+        }
+      ],
       "source": "https://confluence.status.atlassian.com/"
     },
     {
@@ -107,5 +123,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1776166455
+  "generated_at": 1776171810
 }
