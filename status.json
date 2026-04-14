@@ -25,30 +25,14 @@
       "name": "Jira",
       "status": "Operational",
       "description": "All Systems Operational",
-      "incidents": [
-        {
-          "title": "Disrupted Rovo availability for Automation rules",
-          "impact": "critical",
-          "started_at": "2026-04-14T12:12:58.144Z",
-          "updated_at": "2026-04-14T15:46:12.773Z",
-          "shortlink": "https://stspg.io/m6lh2fg2dg38"
-        }
-      ],
+      "incidents": [],
       "source": "https://jira-software.status.atlassian.com/"
     },
     {
       "name": "Confluence",
       "status": "Operational",
       "description": "All Systems Operational",
-      "incidents": [
-        {
-          "title": "Disrupted Rovo availability for Automation rules",
-          "impact": "critical",
-          "started_at": "2026-04-14T12:25:17.072Z",
-          "updated_at": "2026-04-14T15:46:12.774Z",
-          "shortlink": "https://stspg.io/2ypzgvkf46j6"
-        }
-      ],
+      "incidents": [],
       "source": "https://confluence.status.atlassian.com/"
     },
     {
@@ -98,7 +82,15 @@
       "name": "Fivetran",
       "status": "Operational",
       "description": "All Systems Operational",
-      "incidents": [],
+      "incidents": [
+        {
+          "title": "Few connections are failing with Null primary key Exception",
+          "impact": "minor",
+          "started_at": "2026-04-14T16:40:20.419Z",
+          "updated_at": "2026-04-14T16:40:20.489Z",
+          "shortlink": "https://stspg.io/r19pgnk67j9y"
+        }
+      ],
       "source": "https://status.fivetran.com/"
     },
     {
@@ -123,5 +115,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1776182774
+  "generated_at": 1776188369
 }
