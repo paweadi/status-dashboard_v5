@@ -87,7 +87,7 @@
           "title": "Some Twitter Ads connections are failing due to a null primary key exception",
           "impact": "minor",
           "started_at": "2026-04-14T16:40:20.419Z",
-          "updated_at": "2026-04-14T19:25:24.382Z",
+          "updated_at": "2026-04-14T22:48:15.422Z",
           "shortlink": "https://stspg.io/r19pgnk67j9y"
         }
       ],
@@ -115,5 +115,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1776204523
+  "generated_at": 1776208102
 }
