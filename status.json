@@ -80,17 +80,9 @@
     },
     {
       "name": "Fivetran",
-      "status": "Minor",
-      "description": "Minor Service Outage",
-      "incidents": [
-        {
-          "title": "Some Twitter Ads connections are failing due to a null primary key exception",
-          "impact": "minor",
-          "started_at": "2026-04-14T16:40:20.419Z",
-          "updated_at": "2026-04-14T22:48:15.422Z",
-          "shortlink": "https://stspg.io/r19pgnk67j9y"
-        }
-      ],
+      "status": "Operational",
+      "description": "All Systems Operational",
+      "incidents": [],
       "source": "https://status.fivetran.com/"
     },
     {
@@ -115,5 +107,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1776208102
+  "generated_at": 1776211462
 }
