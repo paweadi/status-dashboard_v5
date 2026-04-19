@@ -37,8 +37,8 @@
     },
     {
       "name": "JFrog",
-      "status": "Unknown",
-      "description": "Status unknown",
+      "status": "Operational",
+      "description": "All Systems Operational",
       "incidents": [],
       "source": "https://status.jfrog.io/"
     },
@@ -101,11 +101,11 @@
     },
     {
       "name": "Azure Databricks",
-      "status": "Minor",
-      "description": "Degraded Performance",
+      "status": "Operational",
+      "description": "All Systems Operational",
       "incidents": [],
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1776609293
+  "generated_at": 1776612607
 }
