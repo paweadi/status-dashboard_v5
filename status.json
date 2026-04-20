@@ -23,7 +23,7 @@
           "title": "Partial degradation for code scanning default setup and for code quality",
           "impact": "major",
           "started_at": "2026-04-20T13:28:48.564Z",
-          "updated_at": "2026-04-20T16:48:35.390Z",
+          "updated_at": "2026-04-20T17:32:37.161Z",
           "shortlink": "https://stspg.io/qxk1qwhj9xdd"
         }
       ],
@@ -59,7 +59,7 @@
           "title": "Connectivity disruption for AWS Bahrain (me-south-1)",
           "impact": "major",
           "started_at": "2026-03-02T06:23:20.780Z",
-          "updated_at": "2026-04-02T00:00:11.650Z",
+          "updated_at": "2026-04-20T17:46:35.105Z",
           "shortlink": "https://stspg.io/w6dmrtc20hz7"
         }
       ],
@@ -115,5 +115,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1776704150
+  "generated_at": 1776707479
 }
