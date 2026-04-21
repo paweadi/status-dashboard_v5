@@ -23,7 +23,7 @@
           "title": "Disruption with projects service",
           "impact": "minor",
           "started_at": "2026-04-21T15:03:21.155Z",
-          "updated_at": "2026-04-21T15:42:20.761Z",
+          "updated_at": "2026-04-21T16:45:22.678Z",
           "shortlink": "https://stspg.io/z7byhh6vyyrb"
         }
       ],
@@ -115,5 +115,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1776786550
+  "generated_at": 1776790145
 }
