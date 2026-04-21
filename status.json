@@ -23,7 +23,7 @@
           "title": "Disruption with projects service",
           "impact": "minor",
           "started_at": "2026-04-21T15:03:21.155Z",
-          "updated_at": "2026-04-21T19:41:18.908Z",
+          "updated_at": "2026-04-21T21:15:06.184Z",
           "shortlink": "https://stspg.io/z7byhh6vyyrb"
         }
       ],
@@ -88,9 +88,17 @@
     },
     {
       "name": "Fivetran",
-      "status": "Operational",
-      "description": "All Systems Operational",
-      "incidents": [],
+      "status": "Minor",
+      "description": "Minor Service Outage",
+      "incidents": [
+        {
+          "title": "3rd Party: Multiple Twitter Ads Connections Sync Failures Due to Access Level/Permission Error (Code 453)",
+          "impact": "minor",
+          "started_at": "2026-04-21T22:00:17.937Z",
+          "updated_at": "2026-04-21T22:00:18.010Z",
+          "shortlink": "https://stspg.io/r306v3434bf1"
+        }
+      ],
       "source": "https://status.fivetran.com/"
     },
     {
@@ -115,5 +123,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1776805730
+  "generated_at": 1776809120
 }
