@@ -23,7 +23,7 @@
           "title": "Partial degradation for code scanning default setup and for code quality",
           "impact": "major",
           "started_at": "2026-04-20T13:28:48.564Z",
-          "updated_at": "2026-04-20T21:36:26.146Z",
+          "updated_at": "2026-04-21T04:18:47.454Z",
           "shortlink": "https://stspg.io/qxk1qwhj9xdd"
         }
       ],
@@ -115,5 +115,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1776735918
+  "generated_at": 1776746511
 }
