@@ -23,7 +23,7 @@
           "title": "Disruption with projects service",
           "impact": "minor",
           "started_at": "2026-04-21T15:03:21.155Z",
-          "updated_at": "2026-04-21T21:15:06.184Z",
+          "updated_at": "2026-04-21T22:49:52.603Z",
           "shortlink": "https://stspg.io/z7byhh6vyyrb"
         }
       ],
@@ -45,8 +45,8 @@
     },
     {
       "name": "JFrog",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Unknown",
+      "description": "Status unknown",
       "incidents": [],
       "source": "https://status.jfrog.io/"
     },
@@ -123,5 +123,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1776809120
+  "generated_at": 1776812582
 }
