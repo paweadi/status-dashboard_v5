@@ -18,15 +18,7 @@
       "name": "GitHub",
       "status": "Operational",
       "description": "All Systems Operational",
-      "incidents": [
-        {
-          "title": "Partial degradation for code scanning default setup and for code quality",
-          "impact": "major",
-          "started_at": "2026-04-20T13:28:48.564Z",
-          "updated_at": "2026-04-21T04:18:47.454Z",
-          "shortlink": "https://stspg.io/qxk1qwhj9xdd"
-        }
-      ],
+      "incidents": [],
       "source": "https://www.githubstatus.com/"
     },
     {
@@ -115,5 +107,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1776746511
+  "generated_at": 1776752989
 }
