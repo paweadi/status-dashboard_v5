@@ -23,7 +23,7 @@
           "title": "Disruption with Copilot chat and Copilot Coding Agent",
           "impact": "critical",
           "started_at": "2026-04-22T15:35:45.288Z",
-          "updated_at": "2026-04-22T16:58:36.977Z",
+          "updated_at": "2026-04-22T18:05:40.216Z",
           "shortlink": "https://stspg.io/0m0g0r5htdxy"
         }
       ],
@@ -45,17 +45,9 @@
     },
     {
       "name": "JFrog",
-      "status": "Minor",
-      "description": "Minor Service Outage",
-      "incidents": [
-        {
-          "title": "JFrog platform services outage affecting a subset of AWS customers due to AWS infrastructure issues",
-          "impact": "major",
-          "started_at": "2026-04-22T17:03:32.954Z",
-          "updated_at": "2026-04-22T17:25:53.509Z",
-          "shortlink": "https://stspg.io/gslwpbbccn1h"
-        }
-      ],
+      "status": "Unknown",
+      "description": "Status unknown",
+      "incidents": [],
       "source": "https://status.jfrog.io/"
     },
     {
@@ -103,9 +95,17 @@
     },
     {
       "name": "Port",
-      "status": "Operational",
-      "description": "All Systems Operational",
-      "incidents": [],
+      "status": "Minor",
+      "description": "Minor Service Outage",
+      "incidents": [
+        {
+          "title": "Issue accessing Port's Web UI in the EU",
+          "impact": "critical",
+          "started_at": "2026-04-22T18:47:08.101Z",
+          "updated_at": "2026-04-22T18:51:02.838Z",
+          "shortlink": "https://stspg.io/knccqnwdmt7k"
+        }
+      ],
       "source": "https://status.port.io/"
     },
     {
@@ -123,5 +123,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1776879026
+  "generated_at": 1776884358
 }
