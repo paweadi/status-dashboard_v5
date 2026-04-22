@@ -37,8 +37,8 @@
     },
     {
       "name": "JFrog",
-      "status": "Unknown",
-      "description": "Status unknown",
+      "status": "Operational",
+      "description": "All Systems Operational",
       "incidents": [],
       "source": "https://status.jfrog.io/"
     },
@@ -82,15 +82,7 @@
       "name": "Fivetran",
       "status": "Operational",
       "description": "All Systems Operational",
-      "incidents": [
-        {
-          "title": "3rd Party: Multiple Twitter Ads Connections Sync Failures Due to Access Level/Permission Error (Code 453)",
-          "impact": "minor",
-          "started_at": "2026-04-21T22:00:17.937Z",
-          "updated_at": "2026-04-22T00:25:18.799Z",
-          "shortlink": "https://stspg.io/r306v3434bf1"
-        }
-      ],
+      "incidents": [],
       "source": "https://status.fivetran.com/"
     },
     {
@@ -115,5 +107,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1776823932
+  "generated_at": 1776834632
 }
