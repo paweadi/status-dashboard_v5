@@ -16,17 +16,9 @@
     },
     {
       "name": "GitHub",
-      "status": "Minor",
-      "description": "Partially Degraded Service",
-      "incidents": [
-        {
-          "title": "Disruption with some GitHub services",
-          "impact": "minor",
-          "started_at": "2026-04-22T19:53:49.911Z",
-          "updated_at": "2026-04-22T20:37:21.963Z",
-          "shortlink": "https://stspg.io/xmhs8h2d6zlj"
-        }
-      ],
+      "status": "Operational",
+      "description": "All Systems Operational",
+      "incidents": [],
       "source": "https://www.githubstatus.com/"
     },
     {
@@ -115,5 +107,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1776895689
+  "generated_at": 1776899454
 }
