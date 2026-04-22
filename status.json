@@ -18,7 +18,15 @@
       "name": "GitHub",
       "status": "Operational",
       "description": "All Systems Operational",
-      "incidents": [],
+      "incidents": [
+        {
+          "title": "Disruption with Copilot chat and Copilot Coding Agent",
+          "impact": "critical",
+          "started_at": "2026-04-22T15:35:45.288Z",
+          "updated_at": "2026-04-22T15:43:55.213Z",
+          "shortlink": "https://stspg.io/0m0g0r5htdxy"
+        }
+      ],
       "source": "https://www.githubstatus.com/"
     },
     {
@@ -37,8 +45,8 @@
     },
     {
       "name": "JFrog",
-      "status": "Unknown",
-      "description": "Status unknown",
+      "status": "Operational",
+      "description": "All Systems Operational",
       "incidents": [],
       "source": "https://status.jfrog.io/"
     },
@@ -107,5 +115,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1776869701
+  "generated_at": 1776873791
 }
