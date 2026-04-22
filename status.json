@@ -9,8 +9,8 @@
     },
     {
       "name": "Azure DevOps",
-      "status": "Minor",
-      "description": "Service maintenance is in effect",
+      "status": "Operational",
+      "description": "Everything is looking good",
       "incidents": [],
       "source": "https://status.dev.azure.com/"
     },
@@ -23,7 +23,7 @@
           "title": "Disruption with some GitHub services",
           "impact": "minor",
           "started_at": "2026-04-22T19:53:49.911Z",
-          "updated_at": "2026-04-22T20:02:21.776Z",
+          "updated_at": "2026-04-22T20:37:21.963Z",
           "shortlink": "https://stspg.io/xmhs8h2d6zlj"
         }
       ],
@@ -115,5 +115,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1776888378
+  "generated_at": 1776892374
 }
