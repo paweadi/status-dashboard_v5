@@ -16,14 +16,14 @@
     },
     {
       "name": "GitHub",
-      "status": "Minor",
-      "description": "Partially Degraded Service",
+      "status": "Operational",
+      "description": "All Systems Operational",
       "incidents": [
         {
           "title": "Incident with Pull Requests",
           "impact": "minor",
           "started_at": "2026-04-23T19:50:51.284Z",
-          "updated_at": "2026-04-23T19:58:14.942Z",
+          "updated_at": "2026-04-23T20:47:01.213Z",
           "shortlink": "https://stspg.io/byp3p9jymrpl"
         }
       ],
@@ -115,5 +115,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1776974587
+  "generated_at": 1776978715
 }
