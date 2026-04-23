@@ -16,9 +16,17 @@
     },
     {
       "name": "GitHub",
-      "status": "Operational",
-      "description": "All Systems Operational",
-      "incidents": [],
+      "status": "Major",
+      "description": "Partial System Outage",
+      "incidents": [
+        {
+          "title": "Incident with multple GitHub services",
+          "impact": "critical",
+          "started_at": "2026-04-23T16:12:47.737Z",
+          "updated_at": "2026-04-23T16:12:47.820Z",
+          "shortlink": "https://stspg.io/1wm8c7d53454"
+        }
+      ],
       "source": "https://www.githubstatus.com/"
     },
     {
@@ -37,8 +45,8 @@
     },
     {
       "name": "JFrog",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Unknown",
+      "description": "Status unknown",
       "incidents": [],
       "source": "https://status.jfrog.io/"
     },
@@ -107,5 +115,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1776953834
+  "generated_at": 1776960931
 }
