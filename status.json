@@ -16,9 +16,17 @@
     },
     {
       "name": "GitHub",
-      "status": "Operational",
-      "description": "All Systems Operational",
-      "incidents": [],
+      "status": "Minor",
+      "description": "Partially Degraded Service",
+      "incidents": [
+        {
+          "title": "Incident with Pull Requests",
+          "impact": "minor",
+          "started_at": "2026-04-23T19:50:51.284Z",
+          "updated_at": "2026-04-23T19:58:14.942Z",
+          "shortlink": "https://stspg.io/byp3p9jymrpl"
+        }
+      ],
       "source": "https://www.githubstatus.com/"
     },
     {
@@ -82,15 +90,7 @@
       "name": "Fivetran",
       "status": "Operational",
       "description": "All Systems Operational",
-      "incidents": [
-        {
-          "title": "Some syncs are failing starting at 8AM Pacific time.",
-          "impact": "minor",
-          "started_at": "2026-04-23T17:20:19.975Z",
-          "updated_at": "2026-04-23T17:20:22.037Z",
-          "shortlink": "https://stspg.io/y0xjlg7z3s8g"
-        }
-      ],
+      "incidents": [],
       "source": "https://status.fivetran.com/"
     },
     {
@@ -115,5 +115,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1776970581
+  "generated_at": 1776974587
 }
