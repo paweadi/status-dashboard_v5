@@ -16,17 +16,9 @@
     },
     {
       "name": "GitHub",
-      "status": "Major",
-      "description": "Partial System Outage",
-      "incidents": [
-        {
-          "title": "Incident with multple GitHub services",
-          "impact": "critical",
-          "started_at": "2026-04-23T16:12:47.737Z",
-          "updated_at": "2026-04-23T16:12:47.820Z",
-          "shortlink": "https://stspg.io/1wm8c7d53454"
-        }
-      ],
+      "status": "Operational",
+      "description": "All Systems Operational",
+      "incidents": [],
       "source": "https://www.githubstatus.com/"
     },
     {
@@ -45,8 +37,8 @@
     },
     {
       "name": "JFrog",
-      "status": "Unknown",
-      "description": "Status unknown",
+      "status": "Operational",
+      "description": "All Systems Operational",
       "incidents": [],
       "source": "https://status.jfrog.io/"
     },
@@ -90,7 +82,15 @@
       "name": "Fivetran",
       "status": "Operational",
       "description": "All Systems Operational",
-      "incidents": [],
+      "incidents": [
+        {
+          "title": "Some syncs are failing starting at 8AM Pacific time.",
+          "impact": "minor",
+          "started_at": "2026-04-23T17:20:19.975Z",
+          "updated_at": "2026-04-23T17:20:22.037Z",
+          "shortlink": "https://stspg.io/y0xjlg7z3s8g"
+        }
+      ],
       "source": "https://status.fivetran.com/"
     },
     {
@@ -115,5 +115,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1776960931
+  "generated_at": 1776966705
 }
