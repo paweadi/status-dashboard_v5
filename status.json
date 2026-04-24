@@ -2,9 +2,17 @@
   "services": [
     {
       "name": "Azure",
-      "status": "Unknown",
-      "description": "Status unknown",
-      "incidents": [],
+      "status": "Minor",
+      "description": "Active - Multiservice impact for Azure Workloads in East US",
+      "incidents": [
+        {
+          "title": "Active - Multiservice impact for Azure Workloads in East US",
+          "impact": "minor",
+          "started_at": "Fri, 24 Apr 2026 11:39:00 Z",
+          "updated_at": "Fri, 24 Apr 2026 11:39:00 Z",
+          "shortlink": "https://azurestatusprodcac.azurewebsites.net/en-us/status/"
+        }
+      ],
       "source": "https://azure.status.microsoft/en-us/status"
     },
     {
@@ -45,8 +53,8 @@
     },
     {
       "name": "JFrog",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Unknown",
+      "description": "Status unknown",
       "incidents": [],
       "source": "https://status.jfrog.io/"
     },
@@ -123,5 +131,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1777059847
+  "generated_at": 1777063000
 }
