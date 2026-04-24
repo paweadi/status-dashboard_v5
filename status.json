@@ -2,17 +2,9 @@
   "services": [
     {
       "name": "Azure",
-      "status": "Minor",
-      "description": "Active - Multiservice impact for Azure Workloads in East US",
-      "incidents": [
-        {
-          "title": "Active - Multiservice impact for Azure Workloads in East US",
-          "impact": "minor",
-          "started_at": "Fri, 24 Apr 2026 11:39:00 Z",
-          "updated_at": "Fri, 24 Apr 2026 11:39:00 Z",
-          "shortlink": "https://azurestatusprodcac.azurewebsites.net/en-us/status/"
-        }
-      ],
+      "status": "Unknown",
+      "description": "Status unknown",
+      "incidents": [],
       "source": "https://azure.status.microsoft/en-us/status"
     },
     {
@@ -123,5 +115,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1777049900
+  "generated_at": 1777052996
 }
