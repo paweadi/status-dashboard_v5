@@ -10,7 +10,7 @@
           "impact": "minor",
           "started_at": "Fri, 24 Apr 2026 11:39:00 Z",
           "updated_at": "Fri, 24 Apr 2026 11:39:00 Z",
-          "shortlink": "https://azurestatusprodeus.azurewebsites.net/en-us/status/"
+          "shortlink": "https://azurestatusprodea.azurewebsites.net/en-us/status/"
         }
       ],
       "source": "https://azure.status.microsoft/en-us/status"
@@ -103,7 +103,7 @@
           "title": "Sync start delays caused by Azure outage in East-US-2 region",
           "impact": "minor",
           "started_at": "2026-04-24T18:35:20.113Z",
-          "updated_at": "2026-04-24T20:47:41.128Z",
+          "updated_at": "2026-04-24T21:49:14.755Z",
           "shortlink": "https://stspg.io/8sjtkv7qnd2p"
         }
       ],
@@ -131,5 +131,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1777066761
+  "generated_at": 1777069954
 }
