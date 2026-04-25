@@ -37,8 +37,8 @@
     },
     {
       "name": "JFrog",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Unknown",
+      "description": "Status unknown",
       "incidents": [],
       "source": "https://status.jfrog.io/"
     },
@@ -107,5 +107,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1777128005
+  "generated_at": 1777131164
 }
