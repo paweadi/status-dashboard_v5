@@ -82,15 +82,7 @@
       "name": "Fivetran",
       "status": "Operational",
       "description": "All Systems Operational",
-      "incidents": [
-        {
-          "title": "3rd Party: Multiple Twitter Ads connections failing due to 500 errors",
-          "impact": "minor",
-          "started_at": "2026-04-25T22:55:20.637Z",
-          "updated_at": "2026-04-26T12:26:39.383Z",
-          "shortlink": "https://stspg.io/x3wwy09q929s"
-        }
-      ],
+      "incidents": [],
       "source": "https://status.fivetran.com/"
     },
     {
@@ -115,5 +107,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1777207402
+  "generated_at": 1777211989
 }
