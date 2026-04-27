@@ -37,8 +37,8 @@
     },
     {
       "name": "JFrog",
-      "status": "Unknown",
-      "description": "Status unknown",
+      "status": "Operational",
+      "description": "All Systems Operational",
       "incidents": [],
       "source": "https://status.jfrog.io/"
     },
@@ -82,15 +82,7 @@
       "name": "Fivetran",
       "status": "Operational",
       "description": "All Systems Operational",
-      "incidents": [
-        {
-          "title": "3rd Party: All Amazon Selling Partner connections are rescheduled due to rate limit changes",
-          "impact": "minor",
-          "started_at": "2026-04-27T08:38:18.000Z",
-          "updated_at": "2026-04-27T13:15:38.577Z",
-          "shortlink": "https://stspg.io/wzjgtzpqjqh4"
-        }
-      ],
+      "incidents": [],
       "source": "https://status.fivetran.com/"
     },
     {
@@ -115,5 +107,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1777300304
+  "generated_at": 1777306794
 }
