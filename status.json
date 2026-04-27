@@ -16,14 +16,14 @@
     },
     {
       "name": "GitHub",
-      "status": "Major",
-      "description": "Partial System Outage",
+      "status": "Minor",
+      "description": "Partially Degraded Service",
       "incidents": [
         {
           "title": "GitHub search is degraded",
           "impact": "critical",
           "started_at": "2026-04-27T16:31:07.236Z",
-          "updated_at": "2026-04-27T18:19:33.647Z",
+          "updated_at": "2026-04-27T20:06:40.830Z",
           "shortlink": "https://stspg.io/x5cnngb211t7"
         }
       ],
@@ -45,8 +45,8 @@
     },
     {
       "name": "JFrog",
-      "status": "Unknown",
-      "description": "Status unknown",
+      "status": "Operational",
+      "description": "All Systems Operational",
       "incidents": [],
       "source": "https://status.jfrog.io/"
     },
@@ -115,5 +115,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1777316680
+  "generated_at": 1777322207
 }
