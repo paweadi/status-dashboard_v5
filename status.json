@@ -23,7 +23,7 @@
           "title": "GitHub search is degraded",
           "impact": "critical",
           "started_at": "2026-04-27T16:31:07.236Z",
-          "updated_at": "2026-04-27T21:33:20.449Z",
+          "updated_at": "2026-04-27T22:35:27.167Z",
           "shortlink": "https://stspg.io/x5cnngb211t7"
         }
       ],
@@ -115,5 +115,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1777326368
+  "generated_at": 1777329663
 }
