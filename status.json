@@ -16,14 +16,14 @@
     },
     {
       "name": "GitHub",
-      "status": "Minor",
-      "description": "Partially Degraded Service",
+      "status": "Operational",
+      "description": "All Systems Operational",
       "incidents": [
         {
           "title": "GitHub search is degraded",
           "impact": "critical",
           "started_at": "2026-04-27T16:31:07.236Z",
-          "updated_at": "2026-04-27T20:06:40.830Z",
+          "updated_at": "2026-04-27T21:33:20.449Z",
           "shortlink": "https://stspg.io/x5cnngb211t7"
         }
       ],
@@ -95,8 +95,8 @@
     },
     {
       "name": "Port",
-      "status": "Minor",
-      "description": "Partially Degraded Service",
+      "status": "Operational",
+      "description": "All Systems Operational",
       "incidents": [],
       "source": "https://status.port.io/"
     },
@@ -115,5 +115,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1777322207
+  "generated_at": 1777326368
 }
