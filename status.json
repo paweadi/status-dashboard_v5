@@ -16,22 +16,15 @@
     },
     {
       "name": "GitHub",
-      "status": "Minor",
-      "description": "Partially Degraded Service",
+      "status": "Major",
+      "description": "Partial System Outage",
       "incidents": [
         {
           "title": "GitHub search is degraded",
-          "impact": "minor",
+          "impact": "critical",
           "started_at": "2026-04-27T16:31:07.236Z",
-          "updated_at": "2026-04-27T17:35:01.418Z",
+          "updated_at": "2026-04-27T18:19:33.647Z",
           "shortlink": "https://stspg.io/x5cnngb211t7"
-        },
-        {
-          "title": "Disruption with some GitHub services",
-          "impact": "minor",
-          "started_at": "2026-04-27T16:48:18.023Z",
-          "updated_at": "2026-04-27T17:26:59.301Z",
-          "shortlink": "https://stspg.io/sqvl4sp1cfgz"
         }
       ],
       "source": "https://www.githubstatus.com/"
@@ -122,5 +115,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1777312024
+  "generated_at": 1777316680
 }
