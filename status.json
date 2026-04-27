@@ -37,8 +37,8 @@
     },
     {
       "name": "JFrog",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Unknown",
+      "description": "Status unknown",
       "incidents": [],
       "source": "https://status.jfrog.io/"
     },
@@ -47,13 +47,6 @@
       "status": "Major",
       "description": "Partial System Outage",
       "incidents": [
-        {
-          "title": "Elevated Error Rates and Latency \u2014 EU West Region",
-          "impact": "major",
-          "started_at": "2026-04-27T11:49:33.000Z",
-          "updated_at": "2026-04-27T11:57:50.159Z",
-          "shortlink": "https://stspg.io/bgpm0g1wmw1z"
-        },
         {
           "title": "Connectivity disruption for AWS Bahrain (me-south-1)",
           "impact": "major",
@@ -87,14 +80,14 @@
     },
     {
       "name": "Fivetran",
-      "status": "Minor",
-      "description": "Minor Service Outage",
+      "status": "Operational",
+      "description": "All Systems Operational",
       "incidents": [
         {
-          "title": "All Amazon Selling Partner connections are rescheduled due to rate limit changes",
+          "title": "3rd Party: All Amazon Selling Partner connections are rescheduled due to rate limit changes",
           "impact": "minor",
-          "started_at": "2026-04-27T08:35:21.200Z",
-          "updated_at": "2026-04-27T08:42:00.522Z",
+          "started_at": "2026-04-27T08:38:18.000Z",
+          "updated_at": "2026-04-27T13:15:38.577Z",
           "shortlink": "https://stspg.io/wzjgtzpqjqh4"
         }
       ],
@@ -122,5 +115,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1777291469
+  "generated_at": 1777300304
 }
