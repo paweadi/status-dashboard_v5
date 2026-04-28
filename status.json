@@ -80,22 +80,15 @@
     },
     {
       "name": "Fivetran",
-      "status": "Minor",
-      "description": "Minor Service Outage",
+      "status": "Operational",
+      "description": "All Systems Operational",
       "incidents": [
         {
           "title": "Fivetran: SharePoint and Microsoft Lists connections are failing with error \"Authentication failed: The client secret or certificate has expired\"",
           "impact": "minor",
           "started_at": "2026-04-28T01:10:21.467Z",
-          "updated_at": "2026-04-28T01:50:22.992Z",
+          "updated_at": "2026-04-28T03:21:17.660Z",
           "shortlink": "https://stspg.io/1zlqwphmpgp8"
-        },
-        {
-          "title": "3rd Party: Amazon Selling Partner Connection syncs are failing with 500 Internal Server Error",
-          "impact": "minor",
-          "started_at": "2026-04-28T00:45:18.350Z",
-          "updated_at": "2026-04-28T00:55:41.687Z",
-          "shortlink": "https://stspg.io/p4d68jxmj54l"
         }
       ],
       "source": "https://status.fivetran.com/"
@@ -122,5 +115,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1777341697
+  "generated_at": 1777354932
 }
