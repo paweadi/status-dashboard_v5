@@ -23,7 +23,7 @@
           "title": "Incomplete pull request results in repositories",
           "impact": "minor",
           "started_at": "2026-04-28T14:17:34.674Z",
-          "updated_at": "2026-04-28T15:58:40.536Z",
+          "updated_at": "2026-04-28T21:43:17.004Z",
           "shortlink": "https://stspg.io/87w0vmv3sz1r"
         }
       ],
@@ -45,8 +45,8 @@
     },
     {
       "name": "JFrog",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Unknown",
+      "description": "Status unknown",
       "incidents": [],
       "source": "https://status.jfrog.io/"
     },
@@ -90,15 +90,7 @@
       "name": "Fivetran",
       "status": "Operational",
       "description": "All Systems Operational",
-      "incidents": [
-        {
-          "title": "3rd Party: Amazon Selling Partner Connection syncs are failing with 500 Internal Server Error",
-          "impact": "minor",
-          "started_at": "2026-04-28T18:15:19.384Z",
-          "updated_at": "2026-04-28T18:54:56.546Z",
-          "shortlink": "https://stspg.io/cw3qdsgn59c7"
-        }
-      ],
+      "incidents": [],
       "source": "https://status.fivetran.com/"
     },
     {
@@ -123,5 +115,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1777412095
+  "generated_at": 1777416393
 }
