@@ -23,7 +23,7 @@
           "title": "Incomplete pull request results in repositories",
           "impact": "minor",
           "started_at": "2026-04-28T14:17:34.674Z",
-          "updated_at": "2026-04-28T21:43:17.004Z",
+          "updated_at": "2026-04-28T22:46:59.009Z",
           "shortlink": "https://stspg.io/87w0vmv3sz1r"
         }
       ],
@@ -115,5 +115,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1777416393
+  "generated_at": 1777419876
 }
