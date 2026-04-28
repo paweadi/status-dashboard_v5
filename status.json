@@ -16,9 +16,24 @@
     },
     {
       "name": "GitHub",
-      "status": "Operational",
-      "description": "All Systems Operational",
-      "incidents": [],
+      "status": "Minor",
+      "description": "Partially Degraded Service",
+      "incidents": [
+        {
+          "title": "Disruption with some GitHub services",
+          "impact": "minor",
+          "started_at": "2026-04-28T13:59:16.217Z",
+          "updated_at": "2026-04-28T16:36:01.306Z",
+          "shortlink": "https://stspg.io/70pkmpfqz6pc"
+        },
+        {
+          "title": "Incomplete pull request results in repositories",
+          "impact": "minor",
+          "started_at": "2026-04-28T14:17:34.674Z",
+          "updated_at": "2026-04-28T15:58:40.536Z",
+          "shortlink": "https://stspg.io/87w0vmv3sz1r"
+        }
+      ],
       "source": "https://www.githubstatus.com/"
     },
     {
@@ -47,6 +62,13 @@
       "status": "Major",
       "description": "Partial System Outage",
       "incidents": [
+        {
+          "title": "Missing Metrics in Cloud Console \u2014 US East (us-east-1)",
+          "impact": "major",
+          "started_at": "2026-04-28T14:46:42.561Z",
+          "updated_at": "2026-04-28T16:32:47.052Z",
+          "shortlink": "https://stspg.io/r99hn9c1nj8v"
+        },
         {
           "title": "Connectivity disruption for AWS Bahrain (me-south-1)",
           "impact": "major",
@@ -84,19 +106,19 @@
       "description": "All Systems Operational",
       "incidents": [
         {
-          "title": "Fivetran: SharePoint and Microsoft Lists connections are failing with error \"Authentication failed: The client secret or certificate has expired\"",
-          "impact": "major",
-          "started_at": "2026-04-28T01:10:30.000Z",
-          "updated_at": "2026-04-28T10:27:08.994Z",
-          "shortlink": "https://stspg.io/5njh0cr45swj"
+          "title": "3rd Party: Qualtrics connector syncs failing with error \"Ticket export failed.\"",
+          "impact": "minor",
+          "started_at": "2026-04-28T15:05:17.677Z",
+          "updated_at": "2026-04-28T16:25:17.078Z",
+          "shortlink": "https://stspg.io/7flfr480lkp4"
         }
       ],
       "source": "https://status.fivetran.com/"
     },
     {
       "name": "Port",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Minor",
+      "description": "Partially Degraded Service",
       "incidents": [],
       "source": "https://status.port.io/"
     },
@@ -115,5 +137,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1777378200
+  "generated_at": 1777396115
 }
