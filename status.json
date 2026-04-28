@@ -37,8 +37,8 @@
     },
     {
       "name": "JFrog",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Unknown",
+      "description": "Status unknown",
       "incidents": [],
       "source": "https://status.jfrog.io/"
     },
@@ -82,7 +82,15 @@
       "name": "Fivetran",
       "status": "Operational",
       "description": "All Systems Operational",
-      "incidents": [],
+      "incidents": [
+        {
+          "title": "Fivetran: SharePoint and Microsoft Lists connections are failing with error \"Authentication failed: The client secret or certificate has expired\"",
+          "impact": "major",
+          "started_at": "2026-04-28T01:10:30.000Z",
+          "updated_at": "2026-04-28T10:27:08.994Z",
+          "shortlink": "https://stspg.io/5njh0cr45swj"
+        }
+      ],
       "source": "https://status.fivetran.com/"
     },
     {
@@ -107,5 +115,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1777363663
+  "generated_at": 1777372101
 }
