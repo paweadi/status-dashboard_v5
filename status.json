@@ -20,13 +20,6 @@
       "description": "Partially Degraded Service",
       "incidents": [
         {
-          "title": "Disruption with some GitHub services",
-          "impact": "minor",
-          "started_at": "2026-04-28T13:59:16.217Z",
-          "updated_at": "2026-04-28T16:36:01.306Z",
-          "shortlink": "https://stspg.io/70pkmpfqz6pc"
-        },
-        {
           "title": "Incomplete pull request results in repositories",
           "impact": "minor",
           "started_at": "2026-04-28T14:17:34.674Z",
@@ -62,13 +55,6 @@
       "status": "Major",
       "description": "Partial System Outage",
       "incidents": [
-        {
-          "title": "Missing Metrics in Cloud Console \u2014 US East (us-east-1)",
-          "impact": "major",
-          "started_at": "2026-04-28T14:46:42.561Z",
-          "updated_at": "2026-04-28T16:32:47.052Z",
-          "shortlink": "https://stspg.io/r99hn9c1nj8v"
-        },
         {
           "title": "Connectivity disruption for AWS Bahrain (me-south-1)",
           "impact": "major",
@@ -106,19 +92,19 @@
       "description": "All Systems Operational",
       "incidents": [
         {
-          "title": "3rd Party: Qualtrics connector syncs failing with error \"Ticket export failed.\"",
+          "title": "3rd Party: Amazon Selling Partner Connection syncs are failing with 500 Internal Server Error",
           "impact": "minor",
-          "started_at": "2026-04-28T15:05:17.677Z",
-          "updated_at": "2026-04-28T16:25:17.078Z",
-          "shortlink": "https://stspg.io/7flfr480lkp4"
+          "started_at": "2026-04-28T18:15:19.384Z",
+          "updated_at": "2026-04-28T18:54:56.546Z",
+          "shortlink": "https://stspg.io/cw3qdsgn59c7"
         }
       ],
       "source": "https://status.fivetran.com/"
     },
     {
       "name": "Port",
-      "status": "Minor",
-      "description": "Partially Degraded Service",
+      "status": "Operational",
+      "description": "All Systems Operational",
       "incidents": [],
       "source": "https://status.port.io/"
     },
@@ -137,5 +123,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1777396115
+  "generated_at": 1777402789
 }
