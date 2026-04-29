@@ -23,7 +23,7 @@
           "title": "Incomplete pull request results in repositories",
           "impact": "minor",
           "started_at": "2026-04-28T14:17:34.674Z",
-          "updated_at": "2026-04-29T00:40:41.826Z",
+          "updated_at": "2026-04-29T22:22:22.212Z",
           "shortlink": "https://stspg.io/87w0vmv3sz1r"
         }
       ],
@@ -45,8 +45,8 @@
     },
     {
       "name": "JFrog",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Unknown",
+      "description": "Status unknown",
       "incidents": [],
       "source": "https://status.jfrog.io/"
     },
@@ -115,5 +115,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1777498629
+  "generated_at": 1777502799
 }
