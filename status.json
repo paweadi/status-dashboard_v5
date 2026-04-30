@@ -56,13 +56,6 @@
       "description": "Partial System Outage",
       "incidents": [
         {
-          "title": "Delayed AutoOps Metrics in AWS us-east-1",
-          "impact": "major",
-          "started_at": "2026-04-30T21:46:01.586Z",
-          "updated_at": "2026-04-30T21:46:01.716Z",
-          "shortlink": "https://stspg.io/fw6w1ctyqw8n"
-        },
-        {
           "title": "Connectivity disruption for AWS Bahrain (me-south-1)",
           "impact": "major",
           "started_at": "2026-03-02T06:23:20.780Z",
@@ -122,5 +115,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1777585786
+  "generated_at": 1777588939
 }
