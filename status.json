@@ -31,17 +31,9 @@
     },
     {
       "name": "Jira",
-      "status": "Minor",
-      "description": "Partially Degraded Service",
-      "incidents": [
-        {
-          "title": "Delays in Jira webhook delivery",
-          "impact": "minor",
-          "started_at": "2026-04-30T08:59:03.723Z",
-          "updated_at": "2026-04-30T10:05:20.748Z",
-          "shortlink": "https://stspg.io/8d57ztk9gylp"
-        }
-      ],
+      "status": "Operational",
+      "description": "All Systems Operational",
+      "incidents": [],
       "source": "https://jira-software.status.atlassian.com/"
     },
     {
@@ -123,5 +115,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1777555588
+  "generated_at": 1777562791
 }
