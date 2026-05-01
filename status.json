@@ -45,8 +45,8 @@
     },
     {
       "name": "JFrog",
-      "status": "Unknown",
-      "description": "Status unknown",
+      "status": "Operational",
+      "description": "All Systems Operational",
       "incidents": [],
       "source": "https://status.jfrog.io/"
     },
@@ -88,9 +88,17 @@
     },
     {
       "name": "Fivetran",
-      "status": "Operational",
-      "description": "All Systems Operational",
-      "incidents": [],
+      "status": "Minor",
+      "description": "Minor Service Outage",
+      "incidents": [
+        {
+          "title": "3rd Party: Hubspot connection syncs are failing with error \"Your HubSpot source is not responding at this time. We'll retry the sync later\"",
+          "impact": "minor",
+          "started_at": "2026-05-01T01:10:20.984Z",
+          "updated_at": "2026-05-01T01:15:27.710Z",
+          "shortlink": "https://stspg.io/g44dkkt7ff0x"
+        }
+      ],
       "source": "https://status.fivetran.com/"
     },
     {
@@ -115,5 +123,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1777592562
+  "generated_at": 1777601204
 }
