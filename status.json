@@ -9,24 +9,16 @@
     },
     {
       "name": "Azure DevOps",
-      "status": "Minor",
-      "description": "Investigating a service disruption",
+      "status": "Operational",
+      "description": "Everything is looking good",
       "incidents": [],
       "source": "https://status.dev.azure.com/"
     },
     {
       "name": "GitHub",
-      "status": "Minor",
-      "description": "Partially Degraded Service",
-      "incidents": [
-        {
-          "title": "Incident with Issues and Webhooks",
-          "impact": "critical",
-          "started_at": "2026-05-04T15:45:34.949Z",
-          "updated_at": "2026-05-04T16:25:34.416Z",
-          "shortlink": "https://stspg.io/59t64kh1cxkr"
-        }
-      ],
+      "status": "Operational",
+      "description": "All Systems Operational",
+      "incidents": [],
       "source": "https://www.githubstatus.com/"
     },
     {
@@ -103,8 +95,8 @@
     },
     {
       "name": "Port",
-      "status": "Minor",
-      "description": "Partially Degraded Service",
+      "status": "Operational",
+      "description": "All Systems Operational",
       "incidents": [],
       "source": "https://status.port.io/"
     },
@@ -123,5 +115,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1777911966
+  "generated_at": 1777917459
 }
