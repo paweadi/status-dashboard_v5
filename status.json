@@ -37,8 +37,8 @@
     },
     {
       "name": "JFrog",
-      "status": "Unknown",
-      "description": "Status unknown",
+      "status": "Operational",
+      "description": "All Systems Operational",
       "incidents": [],
       "source": "https://status.jfrog.io/"
     },
@@ -87,7 +87,7 @@
           "title": "The Connector SDK Connection state not advancing",
           "impact": "minor",
           "started_at": "2026-05-04T09:35:20.000Z",
-          "updated_at": "2026-05-04T09:55:26.383Z",
+          "updated_at": "2026-05-04T11:21:38.775Z",
           "shortlink": "https://stspg.io/4235q3px7czq"
         }
       ],
@@ -115,5 +115,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1777890570
+  "generated_at": 1777896611
 }
