@@ -16,9 +16,17 @@
     },
     {
       "name": "GitHub",
-      "status": "Operational",
-      "description": "All Systems Operational",
-      "incidents": [],
+      "status": "Minor",
+      "description": "Partially Degraded Service",
+      "incidents": [
+        {
+          "title": "Incident with Issues and Webhooks",
+          "impact": "critical",
+          "started_at": "2026-05-04T15:45:34.949Z",
+          "updated_at": "2026-05-04T16:25:34.416Z",
+          "shortlink": "https://stspg.io/59t64kh1cxkr"
+        }
+      ],
       "source": "https://www.githubstatus.com/"
     },
     {
@@ -37,8 +45,8 @@
     },
     {
       "name": "JFrog",
-      "status": "Unknown",
-      "description": "Status unknown",
+      "status": "Operational",
+      "description": "All Systems Operational",
       "incidents": [],
       "source": "https://status.jfrog.io/"
     },
@@ -80,14 +88,14 @@
     },
     {
       "name": "Fivetran",
-      "status": "Minor",
-      "description": "Minor Service Outage",
+      "status": "Operational",
+      "description": "All Systems Operational",
       "incidents": [
         {
           "title": "Fivetran: Hybrid connections are delayed",
           "impact": "minor",
           "started_at": "2026-05-04T14:15:20.808Z",
-          "updated_at": "2026-05-04T14:25:21.950Z",
+          "updated_at": "2026-05-04T15:30:05.079Z",
           "shortlink": "https://stspg.io/6f49gx6tg331"
         }
       ],
@@ -95,8 +103,8 @@
     },
     {
       "name": "Port",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Minor",
+      "description": "Partially Degraded Service",
       "incidents": [],
       "source": "https://status.port.io/"
     },
@@ -115,5 +123,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1777905348
+  "generated_at": 1777911966
 }
