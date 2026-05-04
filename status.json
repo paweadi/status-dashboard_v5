@@ -9,8 +9,8 @@
     },
     {
       "name": "Azure DevOps",
-      "status": "Operational",
-      "description": "Everything is looking good",
+      "status": "Minor",
+      "description": "Investigating a service disruption",
       "incidents": [],
       "source": "https://status.dev.azure.com/"
     },
@@ -37,8 +37,8 @@
     },
     {
       "name": "JFrog",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Unknown",
+      "description": "Status unknown",
       "incidents": [],
       "source": "https://status.jfrog.io/"
     },
@@ -84,11 +84,11 @@
       "description": "Minor Service Outage",
       "incidents": [
         {
-          "title": "The Connector SDK Connection state not advancing",
+          "title": "Fivetran: Hybrid connections are delayed",
           "impact": "minor",
-          "started_at": "2026-05-04T09:35:20.000Z",
-          "updated_at": "2026-05-04T11:21:38.775Z",
-          "shortlink": "https://stspg.io/4235q3px7czq"
+          "started_at": "2026-05-04T14:15:20.808Z",
+          "updated_at": "2026-05-04T14:25:21.950Z",
+          "shortlink": "https://stspg.io/6f49gx6tg331"
         }
       ],
       "source": "https://status.fivetran.com/"
@@ -115,5 +115,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1777896611
+  "generated_at": 1777905348
 }
