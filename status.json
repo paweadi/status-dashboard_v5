@@ -16,17 +16,9 @@
     },
     {
       "name": "GitHub",
-      "status": "Minor",
-      "description": "Partially Degraded Service",
-      "incidents": [
-        {
-          "title": "Increased Latency and Failures for SSH Git Operations",
-          "impact": "minor",
-          "started_at": "2026-05-05T16:49:36.774Z",
-          "updated_at": "2026-05-05T17:26:03.501Z",
-          "shortlink": "https://stspg.io/x8fvngz3t6ck"
-        }
-      ],
+      "status": "Operational",
+      "description": "All Systems Operational",
+      "incidents": [],
       "source": "https://www.githubstatus.com/"
     },
     {
@@ -123,5 +115,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1778003836
+  "generated_at": 1778008442
 }
