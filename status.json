@@ -9,16 +9,24 @@
     },
     {
       "name": "Azure DevOps",
-      "status": "Operational",
-      "description": "Everything is looking good",
+      "status": "Minor",
+      "description": "Investigating a service disruption",
       "incidents": [],
       "source": "https://status.dev.azure.com/"
     },
     {
       "name": "GitHub",
-      "status": "Operational",
-      "description": "All Systems Operational",
-      "incidents": [],
+      "status": "Minor",
+      "description": "Minor Service Outage",
+      "incidents": [
+        {
+          "title": "Incident with Actions",
+          "impact": "major",
+          "started_at": "2026-05-05T13:37:58.317Z",
+          "updated_at": "2026-05-05T14:14:20.284Z",
+          "shortlink": "https://stspg.io/dbhtfmy83gg4"
+        }
+      ],
       "source": "https://www.githubstatus.com/"
     },
     {
@@ -59,9 +67,17 @@
     },
     {
       "name": "Octopus Deploy",
-      "status": "Operational",
-      "description": "All Systems Operational",
-      "incidents": [],
+      "status": "Minor",
+      "description": "Minor Service Outage",
+      "incidents": [
+        {
+          "title": "Dynamic Worker issues in West US 2",
+          "impact": "major",
+          "started_at": "2026-05-05T13:18:47.596Z",
+          "updated_at": "2026-05-05T13:43:21.140Z",
+          "shortlink": "https://stspg.io/1f20tgkzq23j"
+        }
+      ],
       "source": "https://status.octopus.com/"
     },
     {
@@ -87,8 +103,8 @@
     },
     {
       "name": "Port",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Minor",
+      "description": "Minor Service Outage",
       "incidents": [],
       "source": "https://status.port.io/"
     },
@@ -107,5 +123,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1777982527
+  "generated_at": 1777991376
 }
