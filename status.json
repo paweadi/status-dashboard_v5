@@ -87,7 +87,7 @@
           "title": "Many Connector SDK connections failed syncs with error \"Failed to pull image after max retries\"",
           "impact": "minor",
           "started_at": "2026-05-04T23:40:20.918Z",
-          "updated_at": "2026-05-04T23:40:22.527Z",
+          "updated_at": "2026-05-04T23:56:52.239Z",
           "shortlink": "https://stspg.io/9k0tk0s35sjt"
         }
       ],
@@ -115,5 +115,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1777938212
+  "generated_at": 1777946308
 }
