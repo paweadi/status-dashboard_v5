@@ -9,8 +9,8 @@
     },
     {
       "name": "Azure DevOps",
-      "status": "Operational",
-      "description": "Everything is looking good",
+      "status": "Minor",
+      "description": "Investigating a service disruption",
       "incidents": [],
       "source": "https://status.dev.azure.com/"
     },
@@ -23,7 +23,7 @@
           "title": "Incident with Pull Requests",
           "impact": "critical",
           "started_at": "2026-05-06T15:25:23.782Z",
-          "updated_at": "2026-05-06T16:20:41.681Z",
+          "updated_at": "2026-05-06T17:52:49.532Z",
           "shortlink": "https://stspg.io/dcjk8q4j4660"
         }
       ],
@@ -123,5 +123,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1778086685
+  "generated_at": 1778091261
 }
