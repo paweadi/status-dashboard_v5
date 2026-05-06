@@ -16,17 +16,9 @@
     },
     {
       "name": "GitHub",
-      "status": "Major",
-      "description": "Partial System Outage",
-      "incidents": [
-        {
-          "title": "Incident with Pull Requests",
-          "impact": "critical",
-          "started_at": "2026-05-06T15:25:23.782Z",
-          "updated_at": "2026-05-06T17:52:49.532Z",
-          "shortlink": "https://stspg.io/dcjk8q4j4660"
-        }
-      ],
+      "status": "Operational",
+      "description": "All Systems Operational",
+      "incidents": [],
       "source": "https://www.githubstatus.com/"
     },
     {
@@ -123,5 +115,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1778091261
+  "generated_at": 1778098025
 }
