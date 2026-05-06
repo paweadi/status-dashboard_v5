@@ -16,24 +16,24 @@
     },
     {
       "name": "GitHub",
-      "status": "Operational",
-      "description": "All Systems Operational",
-      "incidents": [],
-      "source": "https://www.githubstatus.com/"
-    },
-    {
-      "name": "Jira",
       "status": "Minor",
       "description": "Minor Service Outage",
       "incidents": [
         {
-          "title": "Jira users unable to log time while on business board",
+          "title": "Incident with Actions, we are investigating reports of degraded availability",
           "impact": "major",
-          "started_at": "2026-05-06T03:18:26.379Z",
-          "updated_at": "2026-05-06T04:16:20.690Z",
-          "shortlink": "https://stspg.io/8ktvsxw529ly"
+          "started_at": "2026-05-06T07:19:07.854Z",
+          "updated_at": "2026-05-06T07:19:07.934Z",
+          "shortlink": "https://stspg.io/j22b66h0j5xl"
         }
       ],
+      "source": "https://www.githubstatus.com/"
+    },
+    {
+      "name": "Jira",
+      "status": "Operational",
+      "description": "All Systems Operational",
+      "incidents": [],
       "source": "https://jira-software.status.atlassian.com/"
     },
     {
@@ -103,8 +103,8 @@
     },
     {
       "name": "Port",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Minor",
+      "description": "Minor Service Outage",
       "incidents": [],
       "source": "https://status.port.io/"
     },
@@ -123,5 +123,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1778045217
+  "generated_at": 1778054035
 }
