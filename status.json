@@ -23,9 +23,17 @@
     },
     {
       "name": "Jira",
-      "status": "Operational",
-      "description": "All Systems Operational",
-      "incidents": [],
+      "status": "Minor",
+      "description": "Minor Service Outage",
+      "incidents": [
+        {
+          "title": "Jira users unable to log time while on business board",
+          "impact": "major",
+          "started_at": "2026-05-06T03:18:26.379Z",
+          "updated_at": "2026-05-06T04:16:20.690Z",
+          "shortlink": "https://stspg.io/8ktvsxw529ly"
+        }
+      ],
       "source": "https://jira-software.status.atlassian.com/"
     },
     {
@@ -115,5 +123,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1778032647
+  "generated_at": 1778045217
 }
