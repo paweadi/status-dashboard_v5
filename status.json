@@ -87,7 +87,7 @@
           "title": "3rd Party: Klaviyo connection syncs are failing with Reconnect Error",
           "impact": "minor",
           "started_at": "2026-05-07T07:25:11.965Z",
-          "updated_at": "2026-05-07T07:55:11.985Z",
+          "updated_at": "2026-05-07T08:36:26.132Z",
           "shortlink": "https://stspg.io/bprh3bf4bnp4"
         }
       ],
@@ -115,5 +115,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1778141744
+  "generated_at": 1778150296
 }
