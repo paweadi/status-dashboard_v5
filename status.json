@@ -18,15 +18,7 @@
       "name": "GitHub",
       "status": "Operational",
       "description": "All Systems Operational",
-      "incidents": [
-        {
-          "title": "CCR and CCA failing to start for PR comments",
-          "impact": "critical",
-          "started_at": "2026-05-07T05:02:01.473Z",
-          "updated_at": "2026-05-07T05:02:01.525Z",
-          "shortlink": "https://stspg.io/3cmg3m4kbtsn"
-        }
-      ],
+      "incidents": [],
       "source": "https://www.githubstatus.com/"
     },
     {
@@ -69,15 +61,7 @@
       "name": "Octopus Deploy",
       "status": "Operational",
       "description": "All Systems Operational",
-      "incidents": [
-        {
-          "title": "Dynamic Worker issues in West US 2",
-          "impact": "major",
-          "started_at": "2026-05-05T13:18:47.596Z",
-          "updated_at": "2026-05-07T00:51:18.180Z",
-          "shortlink": "https://stspg.io/1f20tgkzq23j"
-        }
-      ],
+      "incidents": [],
       "source": "https://status.octopus.com/"
     },
     {
@@ -96,9 +80,17 @@
     },
     {
       "name": "Fivetran",
-      "status": "Operational",
-      "description": "All Systems Operational",
-      "incidents": [],
+      "status": "Minor",
+      "description": "Minor Service Outage",
+      "incidents": [
+        {
+          "title": "3rd Party: Klaviyo connection syncs are failing with Reconnect Error",
+          "impact": "minor",
+          "started_at": "2026-05-07T07:25:11.965Z",
+          "updated_at": "2026-05-07T07:55:11.985Z",
+          "shortlink": "https://stspg.io/bprh3bf4bnp4"
+        }
+      ],
       "source": "https://status.fivetran.com/"
     },
     {
@@ -123,5 +115,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1778132131
+  "generated_at": 1778141744
 }
