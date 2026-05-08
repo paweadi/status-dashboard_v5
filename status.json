@@ -30,7 +30,7 @@
           "title": "Multiple Atlassian services are experiencing issues",
           "impact": "minor",
           "started_at": "2026-05-08T01:31:38.218Z",
-          "updated_at": "2026-05-08T04:10:46.954Z",
+          "updated_at": "2026-05-08T05:53:41.468Z",
           "shortlink": "https://stspg.io/tjydw0f4pzy3"
         }
       ],
@@ -45,7 +45,7 @@
           "title": "Multiple Atlassian services are experiencing issues",
           "impact": "minor",
           "started_at": "2026-05-08T01:31:38.273Z",
-          "updated_at": "2026-05-08T04:10:46.768Z",
+          "updated_at": "2026-05-08T05:53:41.639Z",
           "shortlink": "https://stspg.io/b4c619vvm2pl"
         }
       ],
@@ -111,7 +111,7 @@
           "title": "3rd Party: Amazon Selling Partner Connection syncs are failing with 500 Internal Server Error",
           "impact": "minor",
           "started_at": "2026-05-08T02:35:12.668Z",
-          "updated_at": "2026-05-08T02:40:31.105Z",
+          "updated_at": "2026-05-08T05:37:21.379Z",
           "shortlink": "https://stspg.io/0xvl35vncts6"
         }
       ],
@@ -139,5 +139,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1778217274
+  "generated_at": 1778223734
 }
