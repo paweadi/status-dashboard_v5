@@ -23,23 +23,47 @@
     },
     {
       "name": "Jira",
-      "status": "Operational",
-      "description": "All Systems Operational",
-      "incidents": [],
+      "status": "Minor",
+      "description": "Partially Degraded Service",
+      "incidents": [
+        {
+          "title": "Multiple Atlassian services are experiencing issues",
+          "impact": "minor",
+          "started_at": "2026-05-08T01:31:38.218Z",
+          "updated_at": "2026-05-08T01:31:38.475Z",
+          "shortlink": "https://stspg.io/tjydw0f4pzy3"
+        }
+      ],
       "source": "https://jira-software.status.atlassian.com/"
     },
     {
       "name": "Confluence",
-      "status": "Operational",
-      "description": "All Systems Operational",
-      "incidents": [],
+      "status": "Minor",
+      "description": "Partially Degraded Service",
+      "incidents": [
+        {
+          "title": "Multiple Atlassian services are experiencing issues",
+          "impact": "minor",
+          "started_at": "2026-05-08T01:31:38.273Z",
+          "updated_at": "2026-05-08T01:31:38.675Z",
+          "shortlink": "https://stspg.io/b4c619vvm2pl"
+        }
+      ],
       "source": "https://confluence.status.atlassian.com/"
     },
     {
       "name": "JFrog",
-      "status": "Operational",
-      "description": "All Systems Operational",
-      "incidents": [],
+      "status": "Minor",
+      "description": "Partially Degraded Service",
+      "incidents": [
+        {
+          "title": "JFrog platform services degradation affecting a subset of AWS US East 1 customers due to AWS infrastructure issues",
+          "impact": "minor",
+          "started_at": "2026-05-08T01:21:13.284Z",
+          "updated_at": "2026-05-08T01:21:13.392Z",
+          "shortlink": "https://stspg.io/mv96v9tn8wkn"
+        }
+      ],
       "source": "https://status.jfrog.io/"
     },
     {
@@ -80,9 +104,17 @@
     },
     {
       "name": "Fivetran",
-      "status": "Operational",
-      "description": "All Systems Operational",
-      "incidents": [],
+      "status": "Minor",
+      "description": "Minor Service Outage",
+      "incidents": [
+        {
+          "title": "3rd Party: Hubspot connection syncs are failing with \"HTTP 500 Internal Server Error\" and message: \"Your HubSpot source is not available at this time. We'll retry the sync later.\"",
+          "impact": "minor",
+          "started_at": "2026-05-08T01:15:11.632Z",
+          "updated_at": "2026-05-08T01:30:11.925Z",
+          "shortlink": "https://stspg.io/n2jky3nmb5k7"
+        }
+      ],
       "source": "https://status.fivetran.com/"
     },
     {
@@ -107,5 +139,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1778197452
+  "generated_at": 1778205995
 }
