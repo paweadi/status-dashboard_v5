@@ -30,7 +30,7 @@
           "title": "Multiple Atlassian services are experiencing issues",
           "impact": "minor",
           "started_at": "2026-05-08T01:31:38.218Z",
-          "updated_at": "2026-05-08T01:31:38.475Z",
+          "updated_at": "2026-05-08T04:10:46.954Z",
           "shortlink": "https://stspg.io/tjydw0f4pzy3"
         }
       ],
@@ -45,7 +45,7 @@
           "title": "Multiple Atlassian services are experiencing issues",
           "impact": "minor",
           "started_at": "2026-05-08T01:31:38.273Z",
-          "updated_at": "2026-05-08T01:31:38.675Z",
+          "updated_at": "2026-05-08T04:10:46.768Z",
           "shortlink": "https://stspg.io/b4c619vvm2pl"
         }
       ],
@@ -60,7 +60,7 @@
           "title": "JFrog platform services degradation affecting a subset of AWS US East 1 customers due to AWS infrastructure issues",
           "impact": "minor",
           "started_at": "2026-05-08T01:21:13.284Z",
-          "updated_at": "2026-05-08T01:21:13.392Z",
+          "updated_at": "2026-05-08T05:07:31.569Z",
           "shortlink": "https://stspg.io/mv96v9tn8wkn"
         }
       ],
@@ -108,11 +108,11 @@
       "description": "Minor Service Outage",
       "incidents": [
         {
-          "title": "3rd Party: Hubspot connection syncs are failing with \"HTTP 500 Internal Server Error\" and message: \"Your HubSpot source is not available at this time. We'll retry the sync later.\"",
+          "title": "3rd Party: Amazon Selling Partner Connection syncs are failing with 500 Internal Server Error",
           "impact": "minor",
-          "started_at": "2026-05-08T01:15:11.632Z",
-          "updated_at": "2026-05-08T01:30:11.925Z",
-          "shortlink": "https://stspg.io/n2jky3nmb5k7"
+          "started_at": "2026-05-08T02:35:12.668Z",
+          "updated_at": "2026-05-08T02:40:31.105Z",
+          "shortlink": "https://stspg.io/0xvl35vncts6"
         }
       ],
       "source": "https://status.fivetran.com/"
@@ -139,5 +139,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1778205995
+  "generated_at": 1778217274
 }
