@@ -23,14 +23,14 @@
     },
     {
       "name": "Jira",
-      "status": "Minor",
-      "description": "Partially Degraded Service",
+      "status": "Operational",
+      "description": "All Systems Operational",
       "incidents": [
         {
           "title": "Multiple Atlassian services are experiencing issues",
           "impact": "minor",
           "started_at": "2026-05-08T01:31:38.218Z",
-          "updated_at": "2026-05-08T08:03:04.082Z",
+          "updated_at": "2026-05-08T11:12:09.758Z",
           "shortlink": "https://stspg.io/tjydw0f4pzy3"
         }
       ],
@@ -38,14 +38,14 @@
     },
     {
       "name": "Confluence",
-      "status": "Minor",
-      "description": "Partially Degraded Service",
+      "status": "Operational",
+      "description": "All Systems Operational",
       "incidents": [
         {
           "title": "Multiple Atlassian services are experiencing issues",
           "impact": "minor",
           "started_at": "2026-05-08T01:31:38.273Z",
-          "updated_at": "2026-05-08T08:03:03.506Z",
+          "updated_at": "2026-05-08T11:12:09.575Z",
           "shortlink": "https://stspg.io/b4c619vvm2pl"
         }
       ],
@@ -131,5 +131,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1778235469
+  "generated_at": 1778240969
 }
