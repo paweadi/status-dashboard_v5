@@ -30,7 +30,7 @@
           "title": "Multiple Atlassian services are experiencing issues",
           "impact": "minor",
           "started_at": "2026-05-08T01:31:38.218Z",
-          "updated_at": "2026-05-08T05:53:41.468Z",
+          "updated_at": "2026-05-08T08:03:04.082Z",
           "shortlink": "https://stspg.io/tjydw0f4pzy3"
         }
       ],
@@ -45,7 +45,7 @@
           "title": "Multiple Atlassian services are experiencing issues",
           "impact": "minor",
           "started_at": "2026-05-08T01:31:38.273Z",
-          "updated_at": "2026-05-08T05:53:41.639Z",
+          "updated_at": "2026-05-08T08:03:03.506Z",
           "shortlink": "https://stspg.io/b4c619vvm2pl"
         }
       ],
@@ -104,14 +104,14 @@
     },
     {
       "name": "Fivetran",
-      "status": "Minor",
-      "description": "Minor Service Outage",
+      "status": "Operational",
+      "description": "All Systems Operational",
       "incidents": [
         {
           "title": "3rd Party: Amazon Selling Partner Connection syncs are failing with 500 Internal Server Error",
           "impact": "minor",
           "started_at": "2026-05-08T02:35:12.668Z",
-          "updated_at": "2026-05-08T05:37:21.379Z",
+          "updated_at": "2026-05-08T07:32:26.629Z",
           "shortlink": "https://stspg.io/0xvl35vncts6"
         }
       ],
@@ -139,5 +139,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1778223734
+  "generated_at": 1778230358
 }
