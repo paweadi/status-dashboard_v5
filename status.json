@@ -88,9 +88,17 @@
     },
     {
       "name": "Fivetran",
-      "status": "Operational",
-      "description": "All Systems Operational",
-      "incidents": [],
+      "status": "Minor",
+      "description": "Minor Service Outage",
+      "incidents": [
+        {
+          "title": "Fivetran: Marketo Connections Experiencing Sync Failures",
+          "impact": "minor",
+          "started_at": "2026-05-10T10:10:16.000Z",
+          "updated_at": "2026-05-10T10:13:35.058Z",
+          "shortlink": "https://stspg.io/xp3f719jvw2x"
+        }
+      ],
       "source": "https://status.fivetran.com/"
     },
     {
@@ -115,5 +123,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1778405132
+  "generated_at": 1778409809
 }
