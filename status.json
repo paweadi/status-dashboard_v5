@@ -90,15 +90,7 @@
       "name": "Fivetran",
       "status": "Operational",
       "description": "All Systems Operational",
-      "incidents": [
-        {
-          "title": "3rd Party: Talkdesk connections are failing with \"HTTP 404: Report file not found\" Error",
-          "impact": "minor",
-          "started_at": "2026-05-10T01:45:13.866Z",
-          "updated_at": "2026-05-10T06:21:28.506Z",
-          "shortlink": "https://stspg.io/srl5kjh5y6qj"
-        }
-      ],
+      "incidents": [],
       "source": "https://status.fivetran.com/"
     },
     {
@@ -123,5 +115,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1778399832
+  "generated_at": 1778405132
 }
