@@ -37,17 +37,9 @@
     },
     {
       "name": "JFrog",
-      "status": "Minor",
-      "description": "Partially Degraded Service",
-      "incidents": [
-        {
-          "title": "JFrog platform services degradation affecting a subset of AWS US East 1 customers due to AWS infrastructure issues",
-          "impact": "minor",
-          "started_at": "2026-05-08T01:21:13.284Z",
-          "updated_at": "2026-05-08T05:07:31.569Z",
-          "shortlink": "https://stspg.io/mv96v9tn8wkn"
-        }
-      ],
+      "status": "Operational",
+      "description": "All Systems Operational",
+      "incidents": [],
       "source": "https://status.jfrog.io/"
     },
     {
@@ -115,5 +107,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1778465399
+  "generated_at": 1778479869
 }
