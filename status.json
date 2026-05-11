@@ -80,9 +80,17 @@
     },
     {
       "name": "Fivetran",
-      "status": "Operational",
-      "description": "All Systems Operational",
-      "incidents": [],
+      "status": "Minor",
+      "description": "Minor Service Outage",
+      "incidents": [
+        {
+          "title": "3rd Party: Typeform connections are failing with an error due to changes on the source side in the response for FORM_INSIGHT data.",
+          "impact": "minor",
+          "started_at": "2026-05-11T19:35:11.635Z",
+          "updated_at": "2026-05-11T19:36:11.377Z",
+          "shortlink": "https://stspg.io/mkk14zkx5b57"
+        }
+      ],
       "source": "https://status.fivetran.com/"
     },
     {
@@ -107,5 +115,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1778523268
+  "generated_at": 1778530290
 }
