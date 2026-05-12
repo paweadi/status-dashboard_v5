@@ -16,17 +16,9 @@
     },
     {
       "name": "GitHub",
-      "status": "Minor",
-      "description": "Partially Degraded Service",
-      "incidents": [
-        {
-          "title": "Incident with CodeQL",
-          "impact": "minor",
-          "started_at": "2026-05-12T14:38:14.000Z",
-          "updated_at": "2026-05-12T15:44:44.575Z",
-          "shortlink": "https://stspg.io/rpk8yxmh6tyd"
-        }
-      ],
+      "status": "Operational",
+      "description": "All Systems Operational",
+      "incidents": [],
       "source": "https://www.githubstatus.com/"
     },
     {
@@ -115,5 +107,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1778601388
+  "generated_at": 1778608466
 }
