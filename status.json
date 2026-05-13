@@ -23,17 +23,9 @@
     },
     {
       "name": "Jira",
-      "status": "Minor",
-      "description": "Minor Service Outage",
-      "incidents": [
-        {
-          "title": "Automations within Jira, Jira Service Management and JSM Assist experiencing delays for some users",
-          "impact": "major",
-          "started_at": "2026-05-13T01:37:35.022Z",
-          "updated_at": "2026-05-13T08:42:56.961Z",
-          "shortlink": "https://stspg.io/f82sq56318jy"
-        }
-      ],
+      "status": "Operational",
+      "description": "All Systems Operational",
+      "incidents": [],
       "source": "https://jira-software.status.atlassian.com/"
     },
     {
@@ -115,5 +107,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1778662146
+  "generated_at": 1778671538
 }
