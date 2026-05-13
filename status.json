@@ -27,10 +27,10 @@
       "description": "Minor Service Outage",
       "incidents": [
         {
-          "title": "Automations within JSM and Assist experiencing delays for some users",
+          "title": "Automations within Jira, Jira Service Management and JSM Assist experiencing delays for some users",
           "impact": "major",
           "started_at": "2026-05-13T01:37:35.022Z",
-          "updated_at": "2026-05-13T01:37:35.112Z",
+          "updated_at": "2026-05-13T05:38:47.465Z",
           "shortlink": "https://stspg.io/f82sq56318jy"
         }
       ],
@@ -88,17 +88,9 @@
     },
     {
       "name": "Fivetran",
-      "status": "Minor",
-      "description": "Partially Degraded Service",
-      "incidents": [
-        {
-          "title": "3rd Party: Multiple Apple App Store Connections are failing with `Reporter is currently unavailable`",
-          "impact": "minor",
-          "started_at": "2026-05-13T00:45:12.783Z",
-          "updated_at": "2026-05-13T00:59:58.234Z",
-          "shortlink": "https://stspg.io/hpkhfmfx48kh"
-        }
-      ],
+      "status": "Operational",
+      "description": "All Systems Operational",
+      "incidents": [],
       "source": "https://status.fivetran.com/"
     },
     {
@@ -123,5 +115,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1778638272
+  "generated_at": 1778652006
 }
