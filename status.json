@@ -80,9 +80,17 @@
     },
     {
       "name": "Fivetran",
-      "status": "Operational",
-      "description": "All Systems Operational",
-      "incidents": [],
+      "status": "Minor",
+      "description": "Partially Degraded Service",
+      "incidents": [
+        {
+          "title": "3rd Party: X Ads and X Organic Performance Degradation",
+          "impact": "minor",
+          "started_at": "2026-05-13T18:41:14.027Z",
+          "updated_at": "2026-05-13T18:41:14.164Z",
+          "shortlink": "https://stspg.io/6k4h3lcvf6t8"
+        }
+      ],
       "source": "https://status.fivetran.com/"
     },
     {
@@ -107,5 +115,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1778696487
+  "generated_at": 1778703366
 }
