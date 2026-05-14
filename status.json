@@ -23,32 +23,16 @@
     },
     {
       "name": "Jira",
-      "status": "Major",
-      "description": "Partial System Outage",
-      "incidents": [
-        {
-          "title": "Users experiencing issues accessing multiple Atlassian products",
-          "impact": "critical",
-          "started_at": "2026-05-14T04:54:57.962Z",
-          "updated_at": "2026-05-14T05:43:24.252Z",
-          "shortlink": "https://stspg.io/s6symlnpnqc6"
-        }
-      ],
+      "status": "Operational",
+      "description": "All Systems Operational",
+      "incidents": [],
       "source": "https://jira-software.status.atlassian.com/"
     },
     {
       "name": "Confluence",
-      "status": "Major",
-      "description": "Partial System Outage",
-      "incidents": [
-        {
-          "title": "Users experiencing issues accessing multiple Atlassian products",
-          "impact": "critical",
-          "started_at": "2026-05-14T04:54:57.959Z",
-          "updated_at": "2026-05-14T05:43:24.535Z",
-          "shortlink": "https://stspg.io/v8nbtv6h3xwr"
-        }
-      ],
+      "status": "Operational",
+      "description": "All Systems Operational",
+      "incidents": [],
       "source": "https://confluence.status.atlassian.com/"
     },
     {
@@ -131,5 +115,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1778738414
+  "generated_at": 1778748134
 }
