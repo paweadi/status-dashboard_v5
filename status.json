@@ -92,13 +92,6 @@
       "description": "Partially Degraded Service",
       "incidents": [
         {
-          "title": "3rd Party: Facebook Pages connectors failing with MonetizationMetricUnavailableException",
-          "impact": "minor",
-          "started_at": "2026-05-16T14:25:08.907Z",
-          "updated_at": "2026-05-16T17:04:40.656Z",
-          "shortlink": "https://stspg.io/pblbgt9z00kj"
-        },
-        {
           "title": "3rd Party: X Ads and X Organic Performance Degradation",
           "impact": "minor",
           "started_at": "2026-05-13T18:41:14.027Z",
@@ -130,5 +123,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1778953641
+  "generated_at": 1778957432
 }
