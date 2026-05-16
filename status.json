@@ -89,8 +89,15 @@
     {
       "name": "Fivetran",
       "status": "Minor",
-      "description": "Partially Degraded Service",
+      "description": "Minor Service Outage",
       "incidents": [
+        {
+          "title": "3rd Party: Facebook Pages connectors failing with MonetizationMetricUnavailableException",
+          "impact": "minor",
+          "started_at": "2026-05-16T14:25:08.907Z",
+          "updated_at": "2026-05-16T14:32:13.712Z",
+          "shortlink": "https://stspg.io/pblbgt9z00kj"
+        },
         {
           "title": "3rd Party: X Ads and X Organic Performance Degradation",
           "impact": "minor",
@@ -123,5 +130,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1778941327
+  "generated_at": 1778945557
 }
