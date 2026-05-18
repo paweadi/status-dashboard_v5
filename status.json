@@ -10,7 +10,7 @@
           "impact": "minor",
           "started_at": "Mon, 18 May 2026 19:22:52 Z",
           "updated_at": "Mon, 18 May 2026 19:22:52 Z",
-          "shortlink": "https://azurestatusprodeus.azurewebsites.net/en-us/status/"
+          "shortlink": "https://azurestatusprodscus.azurewebsites.net/en-us/status/"
         }
       ],
       "source": "https://azure.status.microsoft/en-us/status"
@@ -123,5 +123,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1779134955
+  "generated_at": 1779140595
 }
