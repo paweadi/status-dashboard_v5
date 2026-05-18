@@ -2,17 +2,9 @@
   "services": [
     {
       "name": "Azure",
-      "status": "Minor",
-      "description": "Active - Microsoft Fabric / Power BI / Power BI Embedded - Degraded performance in multiple regions",
-      "incidents": [
-        {
-          "title": "Active - Microsoft Fabric / Power BI / Power BI Embedded - Degraded performance in multiple regions",
-          "impact": "minor",
-          "started_at": "Mon, 18 May 2026 19:22:52 Z",
-          "updated_at": "Mon, 18 May 2026 19:22:52 Z",
-          "shortlink": "https://azurestatusprodscus.azurewebsites.net/en-us/status/"
-        }
-      ],
+      "status": "Operational",
+      "description": "All Systems Operational",
+      "incidents": [],
       "source": "https://azure.status.microsoft/en-us/status"
     },
     {
@@ -123,5 +115,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1779140595
+  "generated_at": 1779144601
 }
