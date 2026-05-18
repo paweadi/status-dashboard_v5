@@ -2,9 +2,17 @@
   "services": [
     {
       "name": "Azure",
-      "status": "Operational",
-      "description": "All Systems Operational",
-      "incidents": [],
+      "status": "Minor",
+      "description": "Active - Microsoft Fabric / Power BI / Power BI Embedded - Degraded performance in multiple regions",
+      "incidents": [
+        {
+          "title": "Active - Microsoft Fabric / Power BI / Power BI Embedded - Degraded performance in multiple regions",
+          "impact": "minor",
+          "started_at": "Mon, 18 May 2026 17:24:21 Z",
+          "updated_at": "Mon, 18 May 2026 17:24:21 Z",
+          "shortlink": "https://azurestatusprodwus.azurewebsites.net/en-us/status/"
+        }
+      ],
       "source": "https://azure.status.microsoft/en-us/status"
     },
     {
@@ -51,7 +59,7 @@
           "title": "Connectivity disruption for AWS Bahrain (me-south-1)",
           "impact": "major",
           "started_at": "2026-03-02T06:23:20.780Z",
-          "updated_at": "2026-04-20T17:46:35.105Z",
+          "updated_at": "2026-05-18T16:33:21.507Z",
           "shortlink": "https://stspg.io/w6dmrtc20hz7"
         }
       ],
@@ -87,7 +95,7 @@
           "title": "3rd Party: X Ads and X Organic Performance Degradation",
           "impact": "minor",
           "started_at": "2026-05-13T18:41:14.027Z",
-          "updated_at": "2026-05-14T22:20:22.250Z",
+          "updated_at": "2026-05-18T16:41:08.100Z",
           "shortlink": "https://stspg.io/6k4h3lcvf6t8"
         }
       ],
@@ -115,5 +123,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1779121589
+  "generated_at": 1779128244
 }
