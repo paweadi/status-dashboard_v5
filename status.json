@@ -81,15 +81,8 @@
     {
       "name": "Fivetran",
       "status": "Minor",
-      "description": "Minor Service Outage",
+      "description": "Partially Degraded Service",
       "incidents": [
-        {
-          "title": "Fivetran: Multiple connection syncs are failing with a \"Token not found\" error",
-          "impact": "minor",
-          "started_at": "2026-05-19T10:15:11.894Z",
-          "updated_at": "2026-05-19T10:15:23.876Z",
-          "shortlink": "https://stspg.io/v9jmg5nbjg4g"
-        },
         {
           "title": "3rd Party: X Ads and X Organic Performance Degradation",
           "impact": "minor",
@@ -122,5 +115,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1779186761
+  "generated_at": 1779198588
 }
