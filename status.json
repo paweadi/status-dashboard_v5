@@ -99,13 +99,6 @@
       "description": "Minor Service Outage",
       "incidents": [
         {
-          "title": "3rd Party: Twitter Ads connections are failing with BadRequestException due to changes on the source side.",
-          "impact": "minor",
-          "started_at": "2026-05-20T18:50:09.268Z",
-          "updated_at": "2026-05-20T20:40:09.093Z",
-          "shortlink": "https://stspg.io/qnj56b8hw657"
-        },
-        {
           "title": "3rd Party: X Ads and X Organic Performance Degradation",
           "impact": "minor",
           "started_at": "2026-05-13T18:41:14.027Z",
@@ -137,5 +130,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1779311781
+  "generated_at": 1779317437
 }
