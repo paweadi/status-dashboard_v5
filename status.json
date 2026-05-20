@@ -23,9 +23,17 @@
     },
     {
       "name": "Jira",
-      "status": "Operational",
-      "description": "All Systems Operational",
-      "incidents": [],
+      "status": "Minor",
+      "description": "Partially Degraded Service",
+      "incidents": [
+        {
+          "title": "Forge custom fields are not getting created",
+          "impact": "minor",
+          "started_at": "2026-05-20T09:17:17.551Z",
+          "updated_at": "2026-05-20T09:17:17.664Z",
+          "shortlink": "https://stspg.io/g3krb5zbwt07"
+        }
+      ],
       "source": "https://jira-software.status.atlassian.com/"
     },
     {
@@ -37,9 +45,17 @@
     },
     {
       "name": "JFrog",
-      "status": "Operational",
-      "description": "All Systems Operational",
-      "incidents": [],
+      "status": "Major",
+      "description": "Partial System Outage",
+      "incidents": [
+        {
+          "title": "JFrog Cloud Platform outage affecting subset of customers in AWS US West region",
+          "impact": "critical",
+          "started_at": "2026-05-20T10:35:26.249Z",
+          "updated_at": "2026-05-20T10:35:26.540Z",
+          "shortlink": "https://stspg.io/xqx9sgfjkdkc"
+        }
+      ],
       "source": "https://status.jfrog.io/"
     },
     {
@@ -115,5 +131,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1779262512
+  "generated_at": 1779273710
 }
