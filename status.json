@@ -23,17 +23,9 @@
     },
     {
       "name": "Jira",
-      "status": "Minor",
-      "description": "Partially Degraded Service",
-      "incidents": [
-        {
-          "title": "Forge custom fields are not getting created",
-          "impact": "minor",
-          "started_at": "2026-05-20T09:17:17.551Z",
-          "updated_at": "2026-05-20T12:06:23.840Z",
-          "shortlink": "https://stspg.io/g3krb5zbwt07"
-        }
-      ],
+      "status": "Operational",
+      "description": "All Systems Operational",
+      "incidents": [],
       "source": "https://jira-software.status.atlassian.com/"
     },
     {
@@ -63,6 +55,13 @@
       "status": "Major",
       "description": "Partial System Outage",
       "incidents": [
+        {
+          "title": "AutoOps Login Issues for New Customers",
+          "impact": "major",
+          "started_at": "2026-05-20T15:29:57.166Z",
+          "updated_at": "2026-05-20T15:48:46.990Z",
+          "shortlink": "https://stspg.io/nnr4q2ydbyhz"
+        },
         {
           "title": "Connectivity disruption for AWS Bahrain (me-south-1)",
           "impact": "major",
@@ -131,5 +130,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1779283831
+  "generated_at": 1779295487
 }
