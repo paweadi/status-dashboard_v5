@@ -18,15 +18,7 @@
       "name": "GitHub",
       "status": "Operational",
       "description": "All Systems Operational",
-      "incidents": [
-        {
-          "title": "Incident with Actions",
-          "impact": "minor",
-          "started_at": "2026-05-20T16:58:52.272Z",
-          "updated_at": "2026-05-20T18:17:16.101Z",
-          "shortlink": "https://stspg.io/w64c15qfl7pz"
-        }
-      ],
+      "incidents": [],
       "source": "https://www.githubstatus.com/"
     },
     {
@@ -110,7 +102,7 @@
           "title": "3rd Party: Twitter Ads connections are failing with BadRequestException due to changes on the source side.",
           "impact": "minor",
           "started_at": "2026-05-20T18:50:09.268Z",
-          "updated_at": "2026-05-20T18:53:21.560Z",
+          "updated_at": "2026-05-20T20:40:09.093Z",
           "shortlink": "https://stspg.io/qnj56b8hw657"
         },
         {
@@ -145,5 +137,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1779304430
+  "generated_at": 1779311781
 }
