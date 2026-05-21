@@ -39,15 +39,7 @@
       "name": "JFrog",
       "status": "Operational",
       "description": "All Systems Operational",
-      "incidents": [
-        {
-          "title": "JFrog Cloud Platform outage affecting subset of customers in AWS US West region",
-          "impact": "critical",
-          "started_at": "2026-05-20T10:35:26.249Z",
-          "updated_at": "2026-05-20T11:01:24.796Z",
-          "shortlink": "https://stspg.io/xqx9sgfjkdkc"
-        }
-      ],
+      "incidents": [],
       "source": "https://status.jfrog.io/"
     },
     {
@@ -99,6 +91,13 @@
       "description": "Minor Service Outage",
       "incidents": [
         {
+          "title": "3rd Party: Qualtrics connection syncs are failing with \"HTTP 400 Bad Request\" for the \"TransactionBatches\" endpoint",
+          "impact": "minor",
+          "started_at": "2026-05-21T06:25:11.238Z",
+          "updated_at": "2026-05-21T07:53:11.328Z",
+          "shortlink": "https://stspg.io/q3d41vqqt106"
+        },
+        {
           "title": "3rd Party: X Ads and X Organic Performance Degradation",
           "impact": "minor",
           "started_at": "2026-05-13T18:41:14.027Z",
@@ -130,5 +129,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1779339019
+  "generated_at": 1779352006
 }
