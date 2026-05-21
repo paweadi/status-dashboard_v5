@@ -94,7 +94,7 @@
           "title": "3rd Party: Qualtrics connection syncs are failing with \"HTTP 400 Bad Request\" for the \"TransactionBatches\" endpoint",
           "impact": "minor",
           "started_at": "2026-05-21T06:25:11.238Z",
-          "updated_at": "2026-05-21T07:53:11.328Z",
+          "updated_at": "2026-05-21T11:42:21.935Z",
           "shortlink": "https://stspg.io/q3d41vqqt106"
         },
         {
@@ -129,5 +129,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1779352006
+  "generated_at": 1779363791
 }
