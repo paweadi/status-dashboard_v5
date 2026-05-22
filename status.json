@@ -9,8 +9,8 @@
     },
     {
       "name": "Azure DevOps",
-      "status": "Operational",
-      "description": "Everything is looking good",
+      "status": "Unknown",
+      "description": "Status unknown",
       "incidents": [],
       "source": "https://status.dev.azure.com/"
     },
@@ -51,7 +51,7 @@
           "title": "AutoOps Login Issues for New Customers",
           "impact": "major",
           "started_at": "2026-05-20T15:29:57.166Z",
-          "updated_at": "2026-05-20T15:48:46.990Z",
+          "updated_at": "2026-05-22T16:19:45.437Z",
           "shortlink": "https://stspg.io/nnr4q2ydbyhz"
         },
         {
@@ -122,5 +122,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1779464652
+  "generated_at": 1779471879
 }
