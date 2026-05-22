@@ -91,20 +91,6 @@
       "description": "Minor Service Outage",
       "incidents": [
         {
-          "title": "Fivetran: Delay in User facing logs and External logs delivery",
-          "impact": "minor",
-          "started_at": "2026-05-22T02:20:10.703Z",
-          "updated_at": "2026-05-22T02:21:09.512Z",
-          "shortlink": "https://stspg.io/p0zytq1mh0bp"
-        },
-        {
-          "title": "3rd Party: Multiple Salesforce connections are failing with HTTP 503 Service Unavailable",
-          "impact": "minor",
-          "started_at": "2026-05-22T01:20:14.003Z",
-          "updated_at": "2026-05-22T01:35:47.629Z",
-          "shortlink": "https://stspg.io/b7vf3fdt7zgs"
-        },
-        {
           "title": "3rd Party: X Ads and X Organic Performance Degradation",
           "impact": "minor",
           "started_at": "2026-05-13T18:41:14.027Z",
@@ -136,5 +122,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1779417009
+  "generated_at": 1779431516
 }
