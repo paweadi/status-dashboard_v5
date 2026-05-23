@@ -18,7 +18,15 @@
       "name": "GitHub",
       "status": "Operational",
       "description": "All Systems Operational",
-      "incidents": [],
+      "incidents": [
+        {
+          "title": "Intermittent errors with app installation token authentication",
+          "impact": "minor",
+          "started_at": "2026-05-23T16:00:54.984Z",
+          "updated_at": "2026-05-23T16:35:54.776Z",
+          "shortlink": "https://stspg.io/0pb44wwxf426"
+        }
+      ],
       "source": "https://www.githubstatus.com/"
     },
     {
@@ -122,5 +130,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1779551716
+  "generated_at": 1779555085
 }
