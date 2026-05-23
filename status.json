@@ -48,6 +48,13 @@
       "description": "Partial System Outage",
       "incidents": [
         {
+          "title": "Missing Metrics in Cloud Console - Azure North Europe",
+          "impact": "major",
+          "started_at": "2026-05-23T21:42:03.878Z",
+          "updated_at": "2026-05-23T22:11:17.010Z",
+          "shortlink": "https://stspg.io/4nwtdww4y2lf"
+        },
+        {
           "title": "AutoOps Login Issues for New Customers",
           "impact": "major",
           "started_at": "2026-05-20T15:29:57.166Z",
@@ -122,5 +129,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1779570726
+  "generated_at": 1779574312
 }
