@@ -30,17 +30,9 @@
     },
     {
       "name": "Confluence",
-      "status": "Minor",
-      "description": "Partially Degraded Service",
-      "incidents": [
-        {
-          "title": "Some macros failing to load in the Confluence Cloud editor",
-          "impact": "minor",
-          "started_at": "2026-05-26T10:40:00.008Z",
-          "updated_at": "2026-05-26T11:58:38.980Z",
-          "shortlink": "https://stspg.io/qcp0sf1kjc3w"
-        }
-      ],
+      "status": "Operational",
+      "description": "All Systems Operational",
+      "incidents": [],
       "source": "https://confluence.status.atlassian.com/"
     },
     {
@@ -130,5 +122,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1779803272
+  "generated_at": 1779816053
 }
