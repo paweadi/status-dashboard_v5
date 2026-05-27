@@ -2,9 +2,17 @@
   "services": [
     {
       "name": "Azure",
-      "status": "Operational",
-      "description": "All Systems Operational",
-      "incidents": [],
+      "status": "Minor",
+      "description": "Active - Azure Synapse Analytics - Connectivity Issues",
+      "incidents": [
+        {
+          "title": "Active - Azure Synapse Analytics - Connectivity Issues",
+          "impact": "minor",
+          "started_at": "Wed, 27 May 2026 14:05:46 Z",
+          "updated_at": "Wed, 27 May 2026 14:05:46 Z",
+          "shortlink": "https://azurestatusprodcus.azurewebsites.net/en-us/status/"
+        }
+      ],
       "source": "https://azure.status.microsoft/en-us/status"
     },
     {
@@ -37,8 +45,8 @@
     },
     {
       "name": "JFrog",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Minor",
+      "description": "Minor Service Outage",
       "incidents": [],
       "source": "https://status.jfrog.io/"
     },
@@ -47,13 +55,6 @@
       "status": "Major",
       "description": "Partial System Outage",
       "incidents": [
-        {
-          "title": "AutoOps Login Issues for New Customers",
-          "impact": "major",
-          "started_at": "2026-05-20T15:29:57.166Z",
-          "updated_at": "2026-05-22T16:19:45.437Z",
-          "shortlink": "https://stspg.io/nnr4q2ydbyhz"
-        },
         {
           "title": "Connectivity disruption for AWS Bahrain (me-south-1)",
           "impact": "major",
@@ -122,5 +123,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1779879730
+  "generated_at": 1779892605
 }
