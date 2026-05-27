@@ -2,17 +2,9 @@
   "services": [
     {
       "name": "Azure",
-      "status": "Minor",
-      "description": "Active - Azure Synapse Analytics - Connectivity Issues",
-      "incidents": [
-        {
-          "title": "Active - Azure Synapse Analytics - Connectivity Issues",
-          "impact": "minor",
-          "started_at": "Wed, 27 May 2026 14:05:46 Z",
-          "updated_at": "Wed, 27 May 2026 14:05:46 Z",
-          "shortlink": "https://azurestatusprodcus.azurewebsites.net/en-us/status/"
-        }
-      ],
+      "status": "Operational",
+      "description": "All Systems Operational",
+      "incidents": [],
       "source": "https://azure.status.microsoft/en-us/status"
     },
     {
@@ -123,5 +115,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1779892605
+  "generated_at": 1779904283
 }
