@@ -16,17 +16,9 @@
     },
     {
       "name": "GitHub",
-      "status": "Minor",
-      "description": "Partially Degraded Service",
-      "incidents": [
-        {
-          "title": "Disruption with Copilot Cloud Agent and Copilot Code Review",
-          "impact": "minor",
-          "started_at": "2026-05-28T19:01:00.362Z",
-          "updated_at": "2026-05-28T19:40:54.885Z",
-          "shortlink": "https://stspg.io/d82bfd7406c6"
-        }
-      ],
+      "status": "Operational",
+      "description": "All Systems Operational",
+      "incidents": [],
       "source": "https://www.githubstatus.com/"
     },
     {
@@ -123,5 +115,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1779998753
+  "generated_at": 1780006468
 }
