@@ -48,6 +48,13 @@
       "description": "Partial System Outage",
       "incidents": [
         {
+          "title": "Upstream Azure Outage Causing Service Degradation",
+          "impact": "major",
+          "started_at": "2026-05-29T06:32:00.740Z",
+          "updated_at": "2026-05-29T06:32:00.951Z",
+          "shortlink": "https://stspg.io/jscrk4wg0qn1"
+        },
+        {
           "title": "Connectivity disruption for AWS Bahrain (me-south-1)",
           "impact": "major",
           "started_at": "2026-03-02T06:23:20.780Z",
@@ -61,7 +68,15 @@
       "name": "Octopus Deploy",
       "status": "Operational",
       "description": "All Systems Operational",
-      "incidents": [],
+      "incidents": [
+        {
+          "title": "Ability to deploy in West US 2 might be affected",
+          "impact": "minor",
+          "started_at": "2026-05-29T06:10:04.441Z",
+          "updated_at": "2026-05-29T06:10:04.583Z",
+          "shortlink": "https://stspg.io/2njlj5pnsppk"
+        }
+      ],
       "source": "https://status.octopus.com/"
     },
     {
@@ -115,5 +130,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1780020766
+  "generated_at": 1780036551
 }
