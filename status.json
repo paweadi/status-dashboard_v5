@@ -2,15 +2,23 @@
   "services": [
     {
       "name": "Azure",
-      "status": "Operational",
-      "description": "All Systems Operational",
-      "incidents": [],
+      "status": "Minor",
+      "description": "Active \u2013 Multi Service degradation in West US 2 region.",
+      "incidents": [
+        {
+          "title": "Active \u2013 Multi Service degradation in West US 2 region.",
+          "impact": "minor",
+          "started_at": "Fri, 29 May 2026 04:27:00 Z",
+          "updated_at": "Fri, 29 May 2026 04:27:00 Z",
+          "shortlink": "https://azurestatusprodweu.azurewebsites.net/en-us/status/"
+        }
+      ],
       "source": "https://azure.status.microsoft/en-us/status"
     },
     {
       "name": "Azure DevOps",
-      "status": "Operational",
-      "description": "Everything is looking good",
+      "status": "Minor",
+      "description": "Investigating a service disruption",
       "incidents": [],
       "source": "https://status.dev.azure.com/"
     },
@@ -50,8 +58,8 @@
         {
           "title": "Upstream Azure Outage Causing Service Degradation",
           "impact": "major",
-          "started_at": "2026-05-29T06:32:00.740Z",
-          "updated_at": "2026-05-29T06:32:00.951Z",
+          "started_at": "2026-05-29T06:32:00.000Z",
+          "updated_at": "2026-05-29T08:37:44.491Z",
           "shortlink": "https://stspg.io/jscrk4wg0qn1"
         },
         {
@@ -130,5 +138,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1780036551
+  "generated_at": 1780051091
 }
