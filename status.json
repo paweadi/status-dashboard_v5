@@ -99,10 +99,10 @@
       "description": "Minor Service Outage",
       "incidents": [
         {
-          "title": "Hybrid Deployment Agent jobs failed to start",
+          "title": "Hybrid Deployment Agent jobs failing to start with error \"Connection pool shut down\"",
           "impact": "minor",
           "started_at": "2026-05-29T16:40:14.000Z",
-          "updated_at": "2026-05-29T21:44:51.460Z",
+          "updated_at": "2026-05-29T22:22:05.767Z",
           "shortlink": "https://stspg.io/0cv531qjcbkd"
         },
         {
@@ -137,5 +137,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1780091100
+  "generated_at": 1780095839
 }
