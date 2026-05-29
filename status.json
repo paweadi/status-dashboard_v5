@@ -10,7 +10,7 @@
           "impact": "minor",
           "started_at": "Fri, 29 May 2026 04:27:00 Z",
           "updated_at": "Fri, 29 May 2026 04:27:00 Z",
-          "shortlink": "https://azurestatusprodweu.azurewebsites.net/en-us/status/"
+          "shortlink": "https://azurestatusprodncus.azurewebsites.net/en-us/status/"
         }
       ],
       "source": "https://azure.status.microsoft/en-us/status"
@@ -59,7 +59,7 @@
           "title": "Upstream Azure Outage Causing Service Degradation",
           "impact": "major",
           "started_at": "2026-05-29T06:32:00.000Z",
-          "updated_at": "2026-05-29T08:37:44.491Z",
+          "updated_at": "2026-05-29T11:46:33.723Z",
           "shortlink": "https://stspg.io/jscrk4wg0qn1"
         },
         {
@@ -138,5 +138,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1780051091
+  "generated_at": 1780062751
 }
