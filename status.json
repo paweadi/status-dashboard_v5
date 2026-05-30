@@ -51,7 +51,7 @@
           "title": "Upstream Azure Outage Causing Service Degradation",
           "impact": "major",
           "started_at": "2026-05-29T06:32:00.000Z",
-          "updated_at": "2026-05-29T18:50:57.316Z",
+          "updated_at": "2026-05-30T06:36:42.178Z",
           "shortlink": "https://stspg.io/jscrk4wg0qn1"
         },
         {
@@ -122,5 +122,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1780117469
+  "generated_at": 1780128028
 }
