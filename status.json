@@ -68,15 +68,7 @@
       "name": "Octopus Deploy",
       "status": "Operational",
       "description": "All Systems Operational",
-      "incidents": [
-        {
-          "title": "Ability to deploy in West US 2 might be affected",
-          "impact": "minor",
-          "started_at": "2026-05-29T06:10:04.441Z",
-          "updated_at": "2026-05-29T06:10:04.583Z",
-          "shortlink": "https://stspg.io/2njlj5pnsppk"
-        }
-      ],
+      "incidents": [],
       "source": "https://status.octopus.com/"
     },
     {
@@ -98,13 +90,6 @@
       "status": "Minor",
       "description": "Minor Service Outage",
       "incidents": [
-        {
-          "title": "Hybrid Deployment Agent jobs failing to start with error \"Connection pool shut down\"",
-          "impact": "minor",
-          "started_at": "2026-05-29T16:40:14.000Z",
-          "updated_at": "2026-05-29T22:22:05.767Z",
-          "shortlink": "https://stspg.io/0cv531qjcbkd"
-        },
         {
           "title": "3rd Party: X Ads and X Organic Performance Degradation",
           "impact": "minor",
@@ -137,5 +122,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1780095839
+  "generated_at": 1780104273
 }
