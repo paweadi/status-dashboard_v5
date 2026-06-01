@@ -23,7 +23,7 @@
           "title": "Delays with Code Scanning and Billing",
           "impact": "minor",
           "started_at": "2026-06-01T15:17:09.698Z",
-          "updated_at": "2026-06-01T15:17:28.000Z",
+          "updated_at": "2026-06-01T19:27:00.644Z",
           "shortlink": "https://stspg.io/ct11xsjs29k7"
         }
       ],
@@ -59,7 +59,7 @@
           "title": "Connectivity disruption for AWS Bahrain (me-south-1)",
           "impact": "major",
           "started_at": "2026-03-02T06:23:20.780Z",
-          "updated_at": "2026-05-18T16:33:21.507Z",
+          "updated_at": "2026-06-01T17:13:13.156Z",
           "shortlink": "https://stspg.io/w6dmrtc20hz7"
         }
       ],
@@ -123,5 +123,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1780328343
+  "generated_at": 1780344619
 }
