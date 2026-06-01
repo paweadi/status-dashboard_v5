@@ -25,7 +25,15 @@
       "name": "Jira",
       "status": "Operational",
       "description": "All Systems Operational",
-      "incidents": [],
+      "incidents": [
+        {
+          "title": "For Jira-software viewIssues and viewBoard are degraded",
+          "impact": "major",
+          "started_at": "2026-06-01T07:40:53.106Z",
+          "updated_at": "2026-06-01T09:07:50.115Z",
+          "shortlink": "https://stspg.io/mmpcpdvtb3m4"
+        }
+      ],
       "source": "https://jira-software.status.atlassian.com/"
     },
     {
@@ -115,5 +123,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1780285299
+  "generated_at": 1780305151
 }
