@@ -18,22 +18,22 @@
       "name": "GitHub",
       "status": "Operational",
       "description": "All Systems Operational",
-      "incidents": [],
+      "incidents": [
+        {
+          "title": "Delays with Code Scanning and Billing",
+          "impact": "minor",
+          "started_at": "2026-06-01T15:17:09.698Z",
+          "updated_at": "2026-06-01T15:17:28.000Z",
+          "shortlink": "https://stspg.io/ct11xsjs29k7"
+        }
+      ],
       "source": "https://www.githubstatus.com/"
     },
     {
       "name": "Jira",
       "status": "Operational",
       "description": "All Systems Operational",
-      "incidents": [
-        {
-          "title": "For Jira-software viewIssues and viewBoard are degraded",
-          "impact": "major",
-          "started_at": "2026-06-01T07:40:53.106Z",
-          "updated_at": "2026-06-01T09:07:50.115Z",
-          "shortlink": "https://stspg.io/mmpcpdvtb3m4"
-        }
-      ],
+      "incidents": [],
       "source": "https://jira-software.status.atlassian.com/"
     },
     {
@@ -123,5 +123,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1780305151
+  "generated_at": 1780328343
 }
