@@ -18,15 +18,7 @@
       "name": "GitHub",
       "status": "Operational",
       "description": "All Systems Operational",
-      "incidents": [
-        {
-          "title": "Delays with Code Scanning and Billing",
-          "impact": "minor",
-          "started_at": "2026-06-01T15:17:09.698Z",
-          "updated_at": "2026-06-01T21:59:42.443Z",
-          "shortlink": "https://stspg.io/ct11xsjs29k7"
-        }
-      ],
+      "incidents": [],
       "source": "https://www.githubstatus.com/"
     },
     {
@@ -123,5 +115,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1780358798
+  "generated_at": 1780376838
 }
