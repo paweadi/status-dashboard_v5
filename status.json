@@ -48,13 +48,6 @@
       "description": "Partial System Outage",
       "incidents": [
         {
-          "title": "Missing Metrics in Cloud Console - Azure North Europe",
-          "impact": "minor",
-          "started_at": "2026-06-02T13:25:26.651Z",
-          "updated_at": "2026-06-02T15:02:09.627Z",
-          "shortlink": "https://stspg.io/wbmjf7g6sjwd"
-        },
-        {
           "title": "Connectivity disruption for AWS Bahrain (me-south-1)",
           "impact": "major",
           "started_at": "2026-03-02T06:23:20.780Z",
@@ -122,5 +115,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1780423142
+  "generated_at": 1780433441
 }
