@@ -18,15 +18,7 @@
       "name": "GitHub",
       "status": "Operational",
       "description": "All Systems Operational",
-      "incidents": [
-        {
-          "title": "Disruption with some GitHub services",
-          "impact": "minor",
-          "started_at": "2026-06-03T19:42:55.923Z",
-          "updated_at": "2026-06-03T23:38:20.327Z",
-          "shortlink": "https://stspg.io/snw2bl07nss4"
-        }
-      ],
+      "incidents": [],
       "source": "https://www.githubstatus.com/"
     },
     {
@@ -55,6 +47,13 @@
       "status": "Major",
       "description": "Partial System Outage",
       "incidents": [
+        {
+          "title": "Customers may see delays with creating Azure serverless projects",
+          "impact": "major",
+          "started_at": "2026-06-04T01:51:36.018Z",
+          "updated_at": "2026-06-04T03:44:52.957Z",
+          "shortlink": "https://stspg.io/9l5qt2hrfpb7"
+        },
         {
           "title": "Connectivity disruption for AWS Bahrain (me-south-1)",
           "impact": "major",
@@ -123,5 +122,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1780531845
+  "generated_at": 1780550268
 }
