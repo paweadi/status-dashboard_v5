@@ -23,7 +23,7 @@
           "title": "Disruption with some GitHub services",
           "impact": "minor",
           "started_at": "2026-06-03T19:42:55.923Z",
-          "updated_at": "2026-06-03T21:10:56.420Z",
+          "updated_at": "2026-06-03T23:38:20.327Z",
           "shortlink": "https://stspg.io/snw2bl07nss4"
         }
       ],
@@ -95,7 +95,7 @@
           "title": "3rd Party: X Ads and X Organic Performance Degradation",
           "impact": "minor",
           "started_at": "2026-05-13T18:41:14.027Z",
-          "updated_at": "2026-05-30T19:00:29.936Z",
+          "updated_at": "2026-06-03T22:35:14.380Z",
           "shortlink": "https://stspg.io/6k4h3lcvf6t8"
         }
       ],
@@ -123,5 +123,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1780524509
+  "generated_at": 1780531845
 }
