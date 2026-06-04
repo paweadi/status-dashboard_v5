@@ -51,7 +51,7 @@
           "title": "Customers may see delays with creating Azure serverless projects",
           "impact": "major",
           "started_at": "2026-06-04T01:51:36.018Z",
-          "updated_at": "2026-06-04T03:44:52.957Z",
+          "updated_at": "2026-06-04T06:21:27.211Z",
           "shortlink": "https://stspg.io/9l5qt2hrfpb7"
         },
         {
@@ -122,5 +122,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1780550268
+  "generated_at": 1780564041
 }
