@@ -9,8 +9,8 @@
     },
     {
       "name": "Azure DevOps",
-      "status": "Unknown",
-      "description": "Status unknown",
+      "status": "Operational",
+      "description": "Everything is looking good",
       "incidents": [],
       "source": "https://status.dev.azure.com/"
     },
@@ -95,17 +95,9 @@
     },
     {
       "name": "Port",
-      "status": "Minor",
-      "description": "Partially Degraded Service",
-      "incidents": [
-        {
-          "title": "Delay in automations triggering",
-          "impact": "minor",
-          "started_at": "2026-06-04T10:37:06.772Z",
-          "updated_at": "2026-06-04T10:37:06.899Z",
-          "shortlink": "https://stspg.io/cj86vmbc4g42"
-        }
-      ],
+      "status": "Operational",
+      "description": "All Systems Operational",
+      "incidents": [],
       "source": "https://status.port.io/"
     },
     {
@@ -123,5 +115,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1780575894
+  "generated_at": 1780588432
 }
