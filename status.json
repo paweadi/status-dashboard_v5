@@ -18,7 +18,15 @@
       "name": "GitHub",
       "status": "Operational",
       "description": "All Systems Operational",
-      "incidents": [],
+      "incidents": [
+        {
+          "title": "Copilot Code Review Failing",
+          "impact": "critical",
+          "started_at": "2026-06-04T18:02:53.983Z",
+          "updated_at": "2026-06-04T18:03:24.202Z",
+          "shortlink": "https://stspg.io/jssh5k7mdbtp"
+        }
+      ],
       "source": "https://www.githubstatus.com/"
     },
     {
@@ -115,5 +123,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1780588432
+  "generated_at": 1780596506
 }
