@@ -9,8 +9,8 @@
     },
     {
       "name": "Azure DevOps",
-      "status": "Operational",
-      "description": "Everything is looking good",
+      "status": "Unknown",
+      "description": "Status unknown",
       "incidents": [],
       "source": "https://status.dev.azure.com/"
     },
@@ -47,13 +47,6 @@
       "status": "Major",
       "description": "Partial System Outage",
       "incidents": [
-        {
-          "title": "Customers may see delays with creating Azure serverless projects",
-          "impact": "major",
-          "started_at": "2026-06-04T01:51:36.018Z",
-          "updated_at": "2026-06-04T06:21:27.211Z",
-          "shortlink": "https://stspg.io/9l5qt2hrfpb7"
-        },
         {
           "title": "Connectivity disruption for AWS Bahrain (me-south-1)",
           "impact": "major",
@@ -102,9 +95,17 @@
     },
     {
       "name": "Port",
-      "status": "Operational",
-      "description": "All Systems Operational",
-      "incidents": [],
+      "status": "Minor",
+      "description": "Partially Degraded Service",
+      "incidents": [
+        {
+          "title": "Delay in automations triggering",
+          "impact": "minor",
+          "started_at": "2026-06-04T10:37:06.772Z",
+          "updated_at": "2026-06-04T10:37:06.899Z",
+          "shortlink": "https://stspg.io/cj86vmbc4g42"
+        }
+      ],
       "source": "https://status.port.io/"
     },
     {
@@ -122,5 +123,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1780564041
+  "generated_at": 1780575894
 }
