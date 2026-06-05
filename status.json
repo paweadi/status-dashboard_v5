@@ -18,15 +18,7 @@
       "name": "GitHub",
       "status": "Operational",
       "description": "All Systems Operational",
-      "incidents": [
-        {
-          "title": "Auth issue resulting in API impacts, including some Slack and Teams channel subscriptions",
-          "impact": "minor",
-          "started_at": "2026-06-05T17:20:31.884Z",
-          "updated_at": "2026-06-05T20:34:00.639Z",
-          "shortlink": "https://stspg.io/qzt7bjn4vt07"
-        }
-      ],
+      "incidents": [],
       "source": "https://www.githubstatus.com/"
     },
     {
@@ -123,5 +115,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1780696398
+  "generated_at": 1780700306
 }
