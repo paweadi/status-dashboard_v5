@@ -23,7 +23,7 @@
           "title": "Auth issue resulting in API impacts, including some Slack and Teams channel subscriptions",
           "impact": "minor",
           "started_at": "2026-06-05T17:20:31.884Z",
-          "updated_at": "2026-06-05T20:06:23.475Z",
+          "updated_at": "2026-06-05T20:34:00.639Z",
           "shortlink": "https://stspg.io/qzt7bjn4vt07"
         }
       ],
@@ -95,7 +95,7 @@
           "title": "3rd Party: X Ads and X Organic Performance Degradation",
           "impact": "minor",
           "started_at": "2026-05-13T18:41:14.027Z",
-          "updated_at": "2026-06-03T22:35:14.380Z",
+          "updated_at": "2026-06-05T21:01:22.319Z",
           "shortlink": "https://stspg.io/6k4h3lcvf6t8"
         }
       ],
@@ -123,5 +123,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1780690867
+  "generated_at": 1780696398
 }
