@@ -16,14 +16,21 @@
     },
     {
       "name": "GitHub",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Minor",
+      "description": "Partially Degraded Service",
       "incidents": [
         {
-          "title": "Disruption with some GitHub services",
+          "title": "Disruption with some GitHub services in the EU region",
+          "impact": "minor",
+          "started_at": "2026-06-06T16:53:35.812Z",
+          "updated_at": "2026-06-06T16:56:49.688Z",
+          "shortlink": "https://stspg.io/qy483vm80t46"
+        },
+        {
+          "title": "EU Network Maintenance",
           "impact": "minor",
           "started_at": "2026-06-06T15:31:32.984Z",
-          "updated_at": "2026-06-06T15:36:41.200Z",
+          "updated_at": "2026-06-06T15:58:26.014Z",
           "shortlink": "https://stspg.io/tc4vhv29qs4c"
         }
       ],
@@ -123,5 +130,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1780760843
+  "generated_at": 1780765182
 }
