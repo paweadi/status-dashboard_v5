@@ -84,13 +84,6 @@
       "description": "Minor Service Outage",
       "incidents": [
         {
-          "title": "3rd Party: Some Microsoft Advertising connectors are failing with a \"Report processing failed: (StreamProcessing)\" error",
-          "impact": "minor",
-          "started_at": "2026-06-07T08:50:54.690Z",
-          "updated_at": "2026-06-07T10:55:00.598Z",
-          "shortlink": "https://stspg.io/sjnsdm4g4hty"
-        },
-        {
           "title": "3rd Party: X Ads and X Organic Performance Degradation",
           "impact": "minor",
           "started_at": "2026-05-13T18:41:14.027Z",
@@ -122,5 +115,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1780836952
+  "generated_at": 1780843664
 }
