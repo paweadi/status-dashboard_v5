@@ -23,14 +23,14 @@
     },
     {
       "name": "Jira",
-      "status": "Minor",
-      "description": "Minor Service Outage",
+      "status": "Operational",
+      "description": "All Systems Operational",
       "incidents": [
         {
           "title": "Some users experiencing issues viewing boards and work items",
           "impact": "major",
           "started_at": "2026-06-09T05:29:37.576Z",
-          "updated_at": "2026-06-09T09:27:44.315Z",
+          "updated_at": "2026-06-09T10:36:09.166Z",
           "shortlink": "https://stspg.io/ph1bzz5mhyxx"
         }
       ],
@@ -83,7 +83,15 @@
       "name": "CucumberStudio",
       "status": "Operational",
       "description": "All Systems Operational",
-      "incidents": [],
+      "incidents": [
+        {
+          "title": "Test run functionality not working properly",
+          "impact": "none",
+          "started_at": "2026-06-09T11:22:07.795Z",
+          "updated_at": "2026-06-09T11:22:07.861Z",
+          "shortlink": "https://stspg.io/d5p0y1sbvk3z"
+        }
+      ],
       "source": "https://status.cucumberstudio.com/"
     },
     {
@@ -123,5 +131,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1780999761
+  "generated_at": 1781011257
 }
