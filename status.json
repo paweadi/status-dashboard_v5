@@ -83,15 +83,7 @@
       "name": "CucumberStudio",
       "status": "Operational",
       "description": "All Systems Operational",
-      "incidents": [
-        {
-          "title": "Test run functionality not working properly",
-          "impact": "none",
-          "started_at": "2026-06-09T11:22:07.795Z",
-          "updated_at": "2026-06-09T11:22:07.861Z",
-          "shortlink": "https://stspg.io/d5p0y1sbvk3z"
-        }
-      ],
+      "incidents": [],
       "source": "https://status.cucumberstudio.com/"
     },
     {
@@ -131,5 +123,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1781011257
+  "generated_at": 1781021730
 }
