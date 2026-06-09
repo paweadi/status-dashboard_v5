@@ -30,7 +30,7 @@
           "title": "Some users experiencing issues viewing boards and work items",
           "impact": "major",
           "started_at": "2026-06-09T05:29:37.576Z",
-          "updated_at": "2026-06-09T06:22:22.564Z",
+          "updated_at": "2026-06-09T09:27:44.315Z",
           "shortlink": "https://stspg.io/ph1bzz5mhyxx"
         }
       ],
@@ -123,5 +123,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1780986613
+  "generated_at": 1780999761
 }
