@@ -18,15 +18,7 @@
       "name": "GitHub",
       "status": "Operational",
       "description": "All Systems Operational",
-      "incidents": [
-        {
-          "title": "Incident with Webhooks",
-          "impact": "minor",
-          "started_at": "2026-06-11T19:42:05.850Z",
-          "updated_at": "2026-06-11T20:00:29.086Z",
-          "shortlink": "https://stspg.io/rl21t9c4ywrz"
-        }
-      ],
+      "incidents": [],
       "source": "https://www.githubstatus.com/"
     },
     {
@@ -123,5 +115,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1781212350
+  "generated_at": 1781218881
 }
