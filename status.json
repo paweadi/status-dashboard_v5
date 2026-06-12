@@ -30,9 +30,17 @@
     },
     {
       "name": "Confluence",
-      "status": "Operational",
-      "description": "All Systems Operational",
-      "incidents": [],
+      "status": "Minor",
+      "description": "Partially Degraded Service",
+      "incidents": [
+        {
+          "title": "Degraded performance with Confluence Cloud",
+          "impact": "minor",
+          "started_at": "2026-06-12T07:39:11.094Z",
+          "updated_at": "2026-06-12T10:29:54.595Z",
+          "shortlink": "https://stspg.io/429x5sxfy4gj"
+        }
+      ],
       "source": "https://confluence.status.atlassian.com/"
     },
     {
@@ -115,5 +123,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1781245539
+  "generated_at": 1781261157
 }
