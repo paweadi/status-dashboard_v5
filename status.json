@@ -87,7 +87,7 @@
           "title": "3rd Party: X Ads and X Organic Performance Degradation",
           "impact": "minor",
           "started_at": "2026-05-18T16:41:08.000Z",
-          "updated_at": "2026-06-10T22:43:20.255Z",
+          "updated_at": "2026-06-12T18:26:50.891Z",
           "shortlink": "https://stspg.io/6k4h3lcvf6t8"
         }
       ],
@@ -115,5 +115,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1781282524
+  "generated_at": 1781290682
 }
