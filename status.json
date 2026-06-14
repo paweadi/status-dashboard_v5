@@ -87,7 +87,7 @@
           "title": "Multiple Customer.io connections are failing with 5xx error",
           "impact": "minor",
           "started_at": "2026-06-14T01:10:09.281Z",
-          "updated_at": "2026-06-14T07:00:34.354Z",
+          "updated_at": "2026-06-14T10:36:39.553Z",
           "shortlink": "https://stspg.io/rqpyms176xdv"
         },
         {
@@ -122,5 +122,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1781427138
+  "generated_at": 1781436220
 }
