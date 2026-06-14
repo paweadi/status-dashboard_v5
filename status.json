@@ -37,8 +37,8 @@
     },
     {
       "name": "JFrog",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Unknown",
+      "description": "Status unknown",
       "incidents": [],
       "source": "https://status.jfrog.io/"
     },
@@ -87,7 +87,7 @@
           "title": "3rd Party: Multiple Customer.io connections are failing with 5xx error",
           "impact": "minor",
           "started_at": "2026-06-14T01:10:09.281Z",
-          "updated_at": "2026-06-14T15:18:04.235Z",
+          "updated_at": "2026-06-14T15:24:13.079Z",
           "shortlink": "https://stspg.io/rqpyms176xdv"
         },
         {
@@ -122,5 +122,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1781450567
+  "generated_at": 1781455948
 }
