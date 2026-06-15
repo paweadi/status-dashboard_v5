@@ -18,15 +18,7 @@
       "name": "GitHub",
       "status": "Operational",
       "description": "All Systems Operational",
-      "incidents": [
-        {
-          "title": "Increased latency with webhooks",
-          "impact": "minor",
-          "started_at": "2026-06-15T15:37:36.361Z",
-          "updated_at": "2026-06-15T16:39:52.999Z",
-          "shortlink": "https://stspg.io/4py2y12w7qpl"
-        }
-      ],
+      "incidents": [],
       "source": "https://www.githubstatus.com/"
     },
     {
@@ -45,8 +37,8 @@
     },
     {
       "name": "JFrog",
-      "status": "Unknown",
-      "description": "Status unknown",
+      "status": "Operational",
+      "description": "All Systems Operational",
       "incidents": [],
       "source": "https://status.jfrog.io/"
     },
@@ -59,7 +51,7 @@
           "title": "Connectivity disruption for AWS Bahrain (me-south-1)",
           "impact": "major",
           "started_at": "2026-03-02T06:23:20.780Z",
-          "updated_at": "2026-06-01T17:13:13.156Z",
+          "updated_at": "2026-06-15T19:27:36.306Z",
           "shortlink": "https://stspg.io/w6dmrtc20hz7"
         }
       ],
@@ -123,5 +115,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1781542695
+  "generated_at": 1781555102
 }
