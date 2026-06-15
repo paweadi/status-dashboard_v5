@@ -18,7 +18,15 @@
       "name": "GitHub",
       "status": "Operational",
       "description": "All Systems Operational",
-      "incidents": [],
+      "incidents": [
+        {
+          "title": "Increased latency with webhooks",
+          "impact": "minor",
+          "started_at": "2026-06-15T15:37:36.361Z",
+          "updated_at": "2026-06-15T16:39:52.999Z",
+          "shortlink": "https://stspg.io/4py2y12w7qpl"
+        }
+      ],
       "source": "https://www.githubstatus.com/"
     },
     {
@@ -37,8 +45,8 @@
     },
     {
       "name": "JFrog",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Unknown",
+      "description": "Status unknown",
       "incidents": [],
       "source": "https://status.jfrog.io/"
     },
@@ -115,5 +123,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1781523944
+  "generated_at": 1781542695
 }
