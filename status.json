@@ -32,7 +32,15 @@
       "name": "Confluence",
       "status": "Operational",
       "description": "All Systems Operational",
-      "incidents": [],
+      "incidents": [
+        {
+          "title": "Confluence Cloud experiencing degraded viewing experience",
+          "impact": "minor",
+          "started_at": "2026-06-16T13:46:41.982Z",
+          "updated_at": "2026-06-16T14:53:40.294Z",
+          "shortlink": "https://stspg.io/npzhdwdhc99g"
+        }
+      ],
       "source": "https://confluence.status.atlassian.com/"
     },
     {
@@ -115,5 +123,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1781607246
+  "generated_at": 1781624899
 }
