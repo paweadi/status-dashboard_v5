@@ -18,7 +18,15 @@
       "name": "GitHub",
       "status": "Operational",
       "description": "All Systems Operational",
-      "incidents": [],
+      "incidents": [
+        {
+          "title": "Disruption with Copilot next edit suggestions",
+          "impact": "minor",
+          "started_at": "2026-06-17T17:57:49.155Z",
+          "updated_at": "2026-06-17T17:57:49.256Z",
+          "shortlink": "https://stspg.io/7tn8k5v6kzjj"
+        }
+      ],
       "source": "https://www.githubstatus.com/"
     },
     {
@@ -47,13 +55,6 @@
       "status": "Major",
       "description": "Partial System Outage",
       "incidents": [
-        {
-          "title": "Issues with creating/updating Deployments in several regions",
-          "impact": "major",
-          "started_at": "2026-06-17T15:52:18.995Z",
-          "updated_at": "2026-06-17T15:52:19.561Z",
-          "shortlink": "https://stspg.io/l728l6ygz0b5"
-        },
         {
           "title": "Connectivity disruption for AWS Bahrain (me-south-1)",
           "impact": "major",
@@ -96,30 +97,15 @@
           "started_at": "2026-05-18T16:41:08.000Z",
           "updated_at": "2026-06-17T16:02:29.429Z",
           "shortlink": "https://stspg.io/6k4h3lcvf6t8"
-        },
-        {
-          "title": "Fivetran: Multiple Hybrid Deployment Connections are failing",
-          "impact": "minor",
-          "started_at": "2026-06-17T12:40:09.000Z",
-          "updated_at": "2026-06-17T15:56:06.837Z",
-          "shortlink": "https://stspg.io/my07g5fw5tjl"
         }
       ],
       "source": "https://status.fivetran.com/"
     },
     {
       "name": "Port",
-      "status": "Minor",
-      "description": "Partially Degraded Service",
-      "incidents": [
-        {
-          "title": "Hosted by Port integrations register/update",
-          "impact": "minor",
-          "started_at": "2026-06-17T16:07:47.381Z",
-          "updated_at": "2026-06-17T16:08:40.498Z",
-          "shortlink": "https://stspg.io/242l0ck9drsf"
-        }
-      ],
+      "status": "Operational",
+      "description": "All Systems Operational",
+      "incidents": [],
       "source": "https://status.port.io/"
     },
     {
@@ -137,5 +123,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1781712537
+  "generated_at": 1781721542
 }
