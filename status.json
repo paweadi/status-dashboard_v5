@@ -18,15 +18,7 @@
       "name": "GitHub",
       "status": "Operational",
       "description": "All Systems Operational",
-      "incidents": [
-        {
-          "title": "Disruption with Copilot next edit suggestions",
-          "impact": "minor",
-          "started_at": "2026-06-17T17:57:49.155Z",
-          "updated_at": "2026-06-17T17:57:49.256Z",
-          "shortlink": "https://stspg.io/7tn8k5v6kzjj"
-        }
-      ],
+      "incidents": [],
       "source": "https://www.githubstatus.com/"
     },
     {
@@ -123,5 +115,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1781721542
+  "generated_at": 1781729956
 }
