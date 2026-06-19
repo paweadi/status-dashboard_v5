@@ -23,9 +23,17 @@
     },
     {
       "name": "Jira",
-      "status": "Operational",
-      "description": "All Systems Operational",
-      "incidents": [],
+      "status": "Minor",
+      "description": "Minor Service Outage",
+      "incidents": [
+        {
+          "title": "Jira : Incoming emails partial outage",
+          "impact": "major",
+          "started_at": "2026-06-19T22:46:56.448Z",
+          "updated_at": "2026-06-19T22:46:56.794Z",
+          "shortlink": "https://stspg.io/kpj5zywxxynh"
+        }
+      ],
       "source": "https://jira-software.status.atlassian.com/"
     },
     {
@@ -87,7 +95,7 @@
           "title": "3rd Party: X Ads and X Organic Performance Degradation",
           "impact": "minor",
           "started_at": "2026-05-18T16:41:08.000Z",
-          "updated_at": "2026-06-17T16:02:29.429Z",
+          "updated_at": "2026-06-19T22:29:45.507Z",
           "shortlink": "https://stspg.io/6k4h3lcvf6t8"
         }
       ],
@@ -115,5 +123,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1781906264
+  "generated_at": 1781909634
 }
