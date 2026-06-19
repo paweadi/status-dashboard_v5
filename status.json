@@ -84,6 +84,13 @@
       "description": "Minor Service Outage",
       "incidents": [
         {
+          "title": "Fivetran: Apple Search Ads connections are failing with error \"HTTP 400 Bad Request\"",
+          "impact": "minor",
+          "started_at": "2026-06-19T06:15:08.816Z",
+          "updated_at": "2026-06-19T06:50:10.289Z",
+          "shortlink": "https://stspg.io/hjmxhs30qlbt"
+        },
+        {
           "title": "3rd Party: X Ads and X Organic Performance Degradation",
           "impact": "minor",
           "started_at": "2026-05-18T16:41:08.000Z",
@@ -115,5 +122,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1781835112
+  "generated_at": 1781854489
 }
