@@ -103,9 +103,17 @@
     },
     {
       "name": "Port",
-      "status": "Operational",
-      "description": "All Systems Operational",
-      "incidents": [],
+      "status": "Minor",
+      "description": "Partially Degraded Service",
+      "incidents": [
+        {
+          "title": "General system performance degradation",
+          "impact": "minor",
+          "started_at": "2026-06-23T15:58:22.418Z",
+          "updated_at": "2026-06-23T15:58:22.501Z",
+          "shortlink": "https://stspg.io/xftk3gk8b33t"
+        }
+      ],
       "source": "https://status.port.io/"
     },
     {
@@ -123,5 +131,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1782221774
+  "generated_at": 1782231639
 }
