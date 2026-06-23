@@ -95,7 +95,7 @@
           "title": "3rd Party: X Ads and X Organic Performance Degradation",
           "impact": "minor",
           "started_at": "2026-05-18T16:41:08.000Z",
-          "updated_at": "2026-06-19T22:29:45.507Z",
+          "updated_at": "2026-06-23T19:02:22.086Z",
           "shortlink": "https://stspg.io/6k4h3lcvf6t8"
         }
       ],
@@ -105,15 +105,7 @@
       "name": "Port",
       "status": "Minor",
       "description": "Partially Degraded Service",
-      "incidents": [
-        {
-          "title": "UI Performance Degradation, Action Invocations, User Login and User Sync Issues",
-          "impact": "major",
-          "started_at": "2026-06-23T15:58:22.418Z",
-          "updated_at": "2026-06-23T17:38:34.419Z",
-          "shortlink": "https://stspg.io/xftk3gk8b33t"
-        }
-      ],
+      "incidents": [],
       "source": "https://status.port.io/"
     },
     {
@@ -131,5 +123,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1782238666
+  "generated_at": 1782246562
 }
