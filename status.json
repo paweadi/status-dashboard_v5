@@ -107,10 +107,10 @@
       "description": "Partially Degraded Service",
       "incidents": [
         {
-          "title": "General system performance degradation",
-          "impact": "minor",
+          "title": "UI Performance Degradation, Action Invocations, User Login and User Sync Issues",
+          "impact": "major",
           "started_at": "2026-06-23T15:58:22.418Z",
-          "updated_at": "2026-06-23T15:58:22.501Z",
+          "updated_at": "2026-06-23T17:38:34.419Z",
           "shortlink": "https://stspg.io/xftk3gk8b33t"
         }
       ],
@@ -131,5 +131,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1782231639
+  "generated_at": 1782238666
 }
