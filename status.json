@@ -103,17 +103,9 @@
     },
     {
       "name": "Port",
-      "status": "Minor",
-      "description": "Partially Degraded Service",
-      "incidents": [
-        {
-          "title": "Slowness in Actions processing",
-          "impact": "minor",
-          "started_at": "2026-06-24T07:58:31.309Z",
-          "updated_at": "2026-06-24T07:58:31.366Z",
-          "shortlink": "https://stspg.io/xgjy231d08sw"
-        }
-      ],
+      "status": "Operational",
+      "description": "All Systems Operational",
+      "incidents": [],
       "source": "https://status.port.io/"
     },
     {
@@ -131,5 +123,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1782290259
+  "generated_at": 1782301090
 }
