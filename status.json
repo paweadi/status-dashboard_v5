@@ -16,9 +16,17 @@
     },
     {
       "name": "GitHub",
-      "status": "Operational",
-      "description": "All Systems Operational",
-      "incidents": [],
+      "status": "Minor",
+      "description": "Partially Degraded Service",
+      "incidents": [
+        {
+          "title": "Delays in copilot budget limits resets for some users",
+          "impact": "minor",
+          "started_at": "2026-07-01T10:51:33.312Z",
+          "updated_at": "2026-07-01T10:51:33.537Z",
+          "shortlink": "https://stspg.io/jy3yhfvwxpjh"
+        }
+      ],
       "source": "https://www.githubstatus.com/"
     },
     {
@@ -107,5 +115,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1782892995
+  "generated_at": 1782905773
 }
