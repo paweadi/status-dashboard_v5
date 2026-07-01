@@ -48,6 +48,13 @@
       "description": "Partial System Outage",
       "incidents": [
         {
+          "title": "Internal Monitoring Data Delay",
+          "impact": "minor",
+          "started_at": "2026-07-01T15:39:15.656Z",
+          "updated_at": "2026-07-01T15:39:15.784Z",
+          "shortlink": "https://stspg.io/qknrr7g8s0rm"
+        },
+        {
           "title": "Connectivity disruption for AWS Bahrain (me-south-1)",
           "impact": "major",
           "started_at": "2026-03-02T06:23:20.780Z",
@@ -107,5 +114,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1782914914
+  "generated_at": 1782924137
 }
