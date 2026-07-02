@@ -16,9 +16,17 @@
     },
     {
       "name": "GitHub",
-      "status": "Operational",
-      "description": "All Systems Operational",
-      "incidents": [],
+      "status": "Minor",
+      "description": "Partially Degraded Service",
+      "incidents": [
+        {
+          "title": "Incident with Pages",
+          "impact": "minor",
+          "started_at": "2026-07-02T16:54:10.115Z",
+          "updated_at": "2026-07-02T17:57:15.010Z",
+          "shortlink": "https://stspg.io/wgv67m39tbml"
+        }
+      ],
       "source": "https://www.githubstatus.com/"
     },
     {
@@ -107,5 +115,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1783010664
+  "generated_at": 1783016507
 }
