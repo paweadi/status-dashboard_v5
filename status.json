@@ -48,13 +48,6 @@
       "description": "Partial System Outage",
       "incidents": [
         {
-          "title": "Regional outage - Elastic Inference Service (EIS)",
-          "impact": "minor",
-          "started_at": "2026-07-02T00:54:12.592Z",
-          "updated_at": "2026-07-02T02:24:26.596Z",
-          "shortlink": "https://stspg.io/trhr88vq9xfs"
-        },
-        {
           "title": "Connectivity disruption for AWS Bahrain (me-south-1)",
           "impact": "major",
           "started_at": "2026-03-02T06:23:20.780Z",
@@ -114,5 +107,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1782959133
+  "generated_at": 1782972799
 }
