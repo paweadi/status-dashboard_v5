@@ -16,17 +16,9 @@
     },
     {
       "name": "GitHub",
-      "status": "Minor",
-      "description": "Minor Service Outage",
-      "incidents": [
-        {
-          "title": "Actions and Codespaces APIs experiencing partial failures",
-          "impact": "major",
-          "started_at": "2026-07-07T14:14:39.949Z",
-          "updated_at": "2026-07-07T15:06:56.336Z",
-          "shortlink": "https://stspg.io/rmlwm65yzzjj"
-        }
-      ],
+      "status": "Operational",
+      "description": "All Systems Operational",
+      "incidents": [],
       "source": "https://www.githubstatus.com/"
     },
     {
@@ -96,9 +88,17 @@
     },
     {
       "name": "Fivetran",
-      "status": "Operational",
-      "description": "All Systems Operational",
-      "incidents": [],
+      "status": "Minor",
+      "description": "Minor Service Outage",
+      "incidents": [
+        {
+          "title": "3rd Party: QuickBooks connections failing with \u201cFailed to sync 1 endpoint\u201d error",
+          "impact": "minor",
+          "started_at": "2026-07-07T17:20:10.596Z",
+          "updated_at": "2026-07-07T17:40:44.001Z",
+          "shortlink": "https://stspg.io/f25kq9gdq7mj"
+        }
+      ],
       "source": "https://status.fivetran.com/"
     },
     {
@@ -123,5 +123,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1783438781
+  "generated_at": 1783446699
 }
