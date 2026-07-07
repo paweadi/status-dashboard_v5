@@ -88,14 +88,14 @@
     },
     {
       "name": "Fivetran",
-      "status": "Minor",
-      "description": "Minor Service Outage",
+      "status": "Operational",
+      "description": "All Systems Operational",
       "incidents": [
         {
           "title": "3rd Party: QuickBooks connections failing with \u201cFailed to sync 1 endpoint\u201d error",
           "impact": "minor",
           "started_at": "2026-07-07T17:20:10.596Z",
-          "updated_at": "2026-07-07T17:40:44.001Z",
+          "updated_at": "2026-07-07T19:07:31.475Z",
           "shortlink": "https://stspg.io/f25kq9gdq7mj"
         }
       ],
@@ -123,5 +123,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1783446699
+  "generated_at": 1783453295
 }
