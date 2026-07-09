@@ -23,7 +23,7 @@
           "title": "Delays starting Actions runs",
           "impact": "minor",
           "started_at": "2026-07-09T04:34:24.849Z",
-          "updated_at": "2026-07-09T04:51:43.035Z",
+          "updated_at": "2026-07-09T06:01:43.393Z",
           "shortlink": "https://stspg.io/r6sj21r75r24"
         }
       ],
@@ -123,5 +123,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1783574926
+  "generated_at": 1783587160
 }
