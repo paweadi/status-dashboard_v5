@@ -88,9 +88,17 @@
     },
     {
       "name": "Fivetran",
-      "status": "Operational",
-      "description": "All Systems Operational",
-      "incidents": [],
+      "status": "Minor",
+      "description": "Minor Service Outage",
+      "incidents": [
+        {
+          "title": "3rd Party: Some Ramp connections failing with 529 response errors",
+          "impact": "minor",
+          "started_at": "2026-07-10T19:10:09.657Z",
+          "updated_at": "2026-07-10T19:38:04.698Z",
+          "shortlink": "https://stspg.io/srq2694gkd3c"
+        }
+      ],
       "source": "https://status.fivetran.com/"
     },
     {
@@ -115,5 +123,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1783709676
+  "generated_at": 1783714434
 }
