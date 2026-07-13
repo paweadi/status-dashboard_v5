@@ -51,7 +51,7 @@
           "title": "Connectivity disruption for AWS Bahrain (me-south-1)",
           "impact": "major",
           "started_at": "2026-03-02T06:23:20.780Z",
-          "updated_at": "2026-06-29T17:14:50.403Z",
+          "updated_at": "2026-07-13T16:42:13.882Z",
           "shortlink": "https://stspg.io/w6dmrtc20hz7"
         }
       ],
@@ -115,5 +115,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1783958533
+  "generated_at": 1783966520
 }
