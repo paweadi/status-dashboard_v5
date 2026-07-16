@@ -16,9 +16,17 @@
     },
     {
       "name": "GitHub",
-      "status": "Operational",
-      "description": "All Systems Operational",
-      "incidents": [],
+      "status": "Minor",
+      "description": "Partially Degraded Service",
+      "incidents": [
+        {
+          "title": "Degraded REST API Availability",
+          "impact": "major",
+          "started_at": "2026-07-16T22:51:13.718Z",
+          "updated_at": "2026-07-16T23:29:04.279Z",
+          "shortlink": "https://stspg.io/pzvjh0wyg401"
+        }
+      ],
       "source": "https://www.githubstatus.com/"
     },
     {
@@ -95,8 +103,8 @@
     },
     {
       "name": "Port",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Minor",
+      "description": "Partially Degraded Service",
       "incidents": [],
       "source": "https://status.port.io/"
     },
@@ -115,5 +123,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1784242253
+  "generated_at": 1784245859
 }
