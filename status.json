@@ -16,17 +16,9 @@
     },
     {
       "name": "GitHub",
-      "status": "Minor",
-      "description": "Partially Degraded Service",
-      "incidents": [
-        {
-          "title": "Claude Fable 5 experiencing degraded performance",
-          "impact": "minor",
-          "started_at": "2026-07-16T21:05:43.266Z",
-          "updated_at": "2026-07-16T21:06:39.124Z",
-          "shortlink": "https://stspg.io/vgv1m8xfnz3z"
-        }
-      ],
+      "status": "Operational",
+      "description": "All Systems Operational",
+      "incidents": [],
       "source": "https://www.githubstatus.com/"
     },
     {
@@ -123,5 +115,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1784238954
+  "generated_at": 1784242253
 }
