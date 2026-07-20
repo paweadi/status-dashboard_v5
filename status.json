@@ -16,16 +16,32 @@
     },
     {
       "name": "GitHub",
-      "status": "Operational",
-      "description": "All Systems Operational",
-      "incidents": [],
+      "status": "Minor",
+      "description": "Partially Degraded Service",
+      "incidents": [
+        {
+          "title": "Disruption with GPT 5.3 Codex",
+          "impact": "minor",
+          "started_at": "2026-07-20T16:03:51.177Z",
+          "updated_at": "2026-07-20T16:39:46.796Z",
+          "shortlink": "https://stspg.io/7ls47qxt8lpq"
+        }
+      ],
       "source": "https://www.githubstatus.com/"
     },
     {
       "name": "Jira",
-      "status": "Operational",
-      "description": "All Systems Operational",
-      "incidents": [],
+      "status": "Minor",
+      "description": "Partially Degraded Service",
+      "incidents": [
+        {
+          "title": "Degraded performance of Jira Automation rules",
+          "impact": "minor",
+          "started_at": "2026-07-20T16:03:35.356Z",
+          "updated_at": "2026-07-20T16:03:35.422Z",
+          "shortlink": "https://stspg.io/h0sf9n5zsp64"
+        }
+      ],
       "source": "https://jira-software.status.atlassian.com/"
     },
     {
@@ -115,5 +131,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1784560379
+  "generated_at": 1784566260
 }
