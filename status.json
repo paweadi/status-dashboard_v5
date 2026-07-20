@@ -16,22 +16,15 @@
     },
     {
       "name": "GitHub",
-      "status": "Minor",
-      "description": "Minor Service Outage",
+      "status": "Operational",
+      "description": "All Systems Operational",
       "incidents": [
         {
           "title": "Incident with GitHub Actions",
           "impact": "critical",
           "started_at": "2026-07-19T23:34:03.450Z",
-          "updated_at": "2026-07-20T00:52:40.288Z",
+          "updated_at": "2026-07-20T03:34:48.558Z",
           "shortlink": "https://stspg.io/w8d77c7t94zf"
-        },
-        {
-          "title": "Disruption with some GitHub services",
-          "impact": "minor",
-          "started_at": "2026-07-20T00:25:09.563Z",
-          "updated_at": "2026-07-20T00:26:10.699Z",
-          "shortlink": "https://stspg.io/2n2g6kzg67mh"
         }
       ],
       "source": "https://www.githubstatus.com/"
@@ -110,8 +103,8 @@
     },
     {
       "name": "Port",
-      "status": "Minor",
-      "description": "Minor Service Outage",
+      "status": "Operational",
+      "description": "All Systems Operational",
       "incidents": [],
       "source": "https://status.port.io/"
     },
@@ -130,5 +123,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1784509199
+  "generated_at": 1784522234
 }
