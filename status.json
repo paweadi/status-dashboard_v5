@@ -30,7 +30,7 @@
           "title": "Degraded performance of Jira Automation rules",
           "impact": "minor",
           "started_at": "2026-07-20T20:18:31.869Z",
-          "updated_at": "2026-07-20T21:27:13.056Z",
+          "updated_at": "2026-07-21T04:53:58.644Z",
           "shortlink": "https://stspg.io/0klgd4y08tf5"
         }
       ],
@@ -123,5 +123,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1784598415
+  "generated_at": 1784609979
 }
