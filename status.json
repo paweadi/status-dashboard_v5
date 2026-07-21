@@ -59,8 +59,15 @@
           "title": "Elastic Cloud - Email MFA Delivery Delays (Gmail)",
           "impact": "major",
           "started_at": "2026-07-21T09:36:40.296Z",
-          "updated_at": "2026-07-21T10:56:02.830Z",
+          "updated_at": "2026-07-21T14:25:40.501Z",
           "shortlink": "https://stspg.io/h34xvx67pp28"
+        },
+        {
+          "title": "Metering issue with Elastic Cloud Hosted Deployments",
+          "impact": "major",
+          "started_at": "2026-07-21T14:24:05.750Z",
+          "updated_at": "2026-07-21T14:24:05.832Z",
+          "shortlink": "https://stspg.io/drr3n7snbrxp"
         },
         {
           "title": "Connectivity disruption for AWS Bahrain (me-south-1)",
@@ -130,5 +137,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1784635555
+  "generated_at": 1784644236
 }
