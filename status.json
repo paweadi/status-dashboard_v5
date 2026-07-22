@@ -23,17 +23,9 @@
     },
     {
       "name": "Jira",
-      "status": "Minor",
-      "description": "Partially Degraded Service",
-      "incidents": [
-        {
-          "title": "Degraded performance of Jira Automation rules",
-          "impact": "minor",
-          "started_at": "2026-07-20T20:18:31.869Z",
-          "updated_at": "2026-07-21T04:53:58.644Z",
-          "shortlink": "https://stspg.io/0klgd4y08tf5"
-        }
-      ],
+      "status": "Operational",
+      "description": "All Systems Operational",
+      "incidents": [],
       "source": "https://jira-software.status.atlassian.com/"
     },
     {
@@ -137,5 +129,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1784677664
+  "generated_at": 1784684736
 }
