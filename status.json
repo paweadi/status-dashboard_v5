@@ -16,9 +16,17 @@
     },
     {
       "name": "GitHub",
-      "status": "Operational",
-      "description": "All Systems Operational",
-      "incidents": [],
+      "status": "Minor",
+      "description": "Partially Degraded Service",
+      "incidents": [
+        {
+          "title": "Disruption with actions hosted runners",
+          "impact": "minor",
+          "started_at": "2026-07-22T20:43:43.789Z",
+          "updated_at": "2026-07-22T20:47:02.379Z",
+          "shortlink": "https://stspg.io/hccgdw2k2b1q"
+        }
+      ],
       "source": "https://www.githubstatus.com/"
     },
     {
@@ -129,5 +137,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1784750955
+  "generated_at": 1784756296
 }
