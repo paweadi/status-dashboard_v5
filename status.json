@@ -2,23 +2,15 @@
   "services": [
     {
       "name": "Azure",
-      "status": "Minor",
-      "description": "Active \u2013 Connectivity Issues Affecting Azure Services in West US",
-      "incidents": [
-        {
-          "title": "Active \u2013 Connectivity Issues Affecting Azure Services in West US",
-          "impact": "minor",
-          "started_at": "Thu, 23 Jul 2026 15:50:04 Z",
-          "updated_at": "Thu, 23 Jul 2026 15:50:04 Z",
-          "shortlink": "https://azure.status.microsoft/en-us/status/"
-        }
-      ],
+      "status": "Operational",
+      "description": "All Systems Operational",
+      "incidents": [],
       "source": "https://azure.status.microsoft/en-us/status"
     },
     {
       "name": "Azure DevOps",
-      "status": "Operational",
-      "description": "Everything is looking good",
+      "status": "Minor",
+      "description": "Investigating a service disruption",
       "incidents": [],
       "source": "https://status.dev.azure.com/"
     },
@@ -63,13 +55,6 @@
       "status": "Major",
       "description": "Partial System Outage",
       "incidents": [
-        {
-          "title": "Elastic Cloud - Email MFA Delivery Delays (Gmail)",
-          "impact": "major",
-          "started_at": "2026-07-21T09:36:40.296Z",
-          "updated_at": "2026-07-21T23:10:09.270Z",
-          "shortlink": "https://stspg.io/h34xvx67pp28"
-        },
         {
           "title": "Connectivity disruption for AWS Bahrain (me-south-1)",
           "impact": "major",
@@ -145,5 +130,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1784823566
+  "generated_at": 1784829173
 }
