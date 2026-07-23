@@ -9,8 +9,8 @@
     },
     {
       "name": "Azure DevOps",
-      "status": "Minor",
-      "description": "Investigating a service disruption",
+      "status": "Operational",
+      "description": "Everything is looking good",
       "incidents": [],
       "source": "https://status.dev.azure.com/"
     },
@@ -37,17 +37,9 @@
     },
     {
       "name": "JFrog",
-      "status": "Minor",
-      "description": "Partially Degraded Service",
-      "incidents": [
-        {
-          "title": "JFrog Cloud Platform outage affecting subset of customers in Azure US West region",
-          "impact": "critical",
-          "started_at": "2026-07-23T15:04:59.542Z",
-          "updated_at": "2026-07-23T18:44:07.699Z",
-          "shortlink": "https://stspg.io/rjqb1g0xd4ks"
-        }
-      ],
+      "status": "Operational",
+      "description": "All Systems Operational",
+      "incidents": [],
       "source": "https://status.jfrog.io/"
     },
     {
@@ -70,13 +62,6 @@
       "status": "Operational",
       "description": "All Systems Operational",
       "incidents": [
-        {
-          "title": "Service connectivity issues due to upstream Azure outage",
-          "impact": "minor",
-          "started_at": "2026-07-23T16:08:43.160Z",
-          "updated_at": "2026-07-23T18:35:49.188Z",
-          "shortlink": "https://stspg.io/6mjw4268d4d6"
-        },
         {
           "title": "Bicep deployments may fail after upgrading to 2026.3.4658 or later",
           "impact": "major",
@@ -130,5 +115,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1784837568
+  "generated_at": 1784842356
 }
