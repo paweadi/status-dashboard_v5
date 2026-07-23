@@ -2,9 +2,17 @@
   "services": [
     {
       "name": "Azure",
-      "status": "Operational",
-      "description": "All Systems Operational",
-      "incidents": [],
+      "status": "Minor",
+      "description": "Active \u2013 Connectivity Issues Affecting Azure Services in West US",
+      "incidents": [
+        {
+          "title": "Active \u2013 Connectivity Issues Affecting Azure Services in West US",
+          "impact": "minor",
+          "started_at": "Thu, 23 Jul 2026 15:50:04 Z",
+          "updated_at": "Thu, 23 Jul 2026 15:50:04 Z",
+          "shortlink": "https://azure.status.microsoft/en-us/status/"
+        }
+      ],
       "source": "https://azure.status.microsoft/en-us/status"
     },
     {
@@ -37,9 +45,17 @@
     },
     {
       "name": "JFrog",
-      "status": "Operational",
-      "description": "All Systems Operational",
-      "incidents": [],
+      "status": "Major",
+      "description": "Partial System Outage",
+      "incidents": [
+        {
+          "title": "JFrog Cloud Platform outage affecting subset of customers in Azure US West region",
+          "impact": "critical",
+          "started_at": "2026-07-23T15:04:59.542Z",
+          "updated_at": "2026-07-23T15:55:46.773Z",
+          "shortlink": "https://stspg.io/rjqb1g0xd4ks"
+        }
+      ],
       "source": "https://status.jfrog.io/"
     },
     {
@@ -66,9 +82,16 @@
     },
     {
       "name": "Octopus Deploy",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Minor",
+      "description": "Minor Service Outage",
       "incidents": [
+        {
+          "title": "Service connectivity issues due to upstream Azure outage",
+          "impact": "minor",
+          "started_at": "2026-07-23T16:08:43.160Z",
+          "updated_at": "2026-07-23T16:10:20.829Z",
+          "shortlink": "https://stspg.io/6mjw4268d4d6"
+        },
         {
           "title": "Bicep deployments may fail after upgrading to 2026.3.4658 or later",
           "impact": "major",
@@ -122,5 +145,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1784817508
+  "generated_at": 1784823566
 }
