@@ -37,14 +37,14 @@
     },
     {
       "name": "JFrog",
-      "status": "Major",
-      "description": "Partial System Outage",
+      "status": "Minor",
+      "description": "Partially Degraded Service",
       "incidents": [
         {
           "title": "JFrog Cloud Platform outage affecting subset of customers in Azure US West region",
           "impact": "critical",
           "started_at": "2026-07-23T15:04:59.542Z",
-          "updated_at": "2026-07-23T15:55:46.773Z",
+          "updated_at": "2026-07-23T18:44:07.699Z",
           "shortlink": "https://stspg.io/rjqb1g0xd4ks"
         }
       ],
@@ -67,14 +67,14 @@
     },
     {
       "name": "Octopus Deploy",
-      "status": "Minor",
-      "description": "Minor Service Outage",
+      "status": "Operational",
+      "description": "All Systems Operational",
       "incidents": [
         {
           "title": "Service connectivity issues due to upstream Azure outage",
           "impact": "minor",
           "started_at": "2026-07-23T16:08:43.160Z",
-          "updated_at": "2026-07-23T16:10:20.829Z",
+          "updated_at": "2026-07-23T18:35:49.188Z",
           "shortlink": "https://stspg.io/6mjw4268d4d6"
         },
         {
@@ -130,5 +130,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1784829173
+  "generated_at": 1784833147
 }
