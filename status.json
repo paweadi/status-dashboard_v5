@@ -74,8 +74,8 @@
     },
     {
       "name": "Lucid",
-      "status": "Major",
-      "description": "Partial System Outage",
+      "status": "Operational",
+      "description": "All Systems Operational",
       "incidents": [],
       "source": "https://status.lucid.co/"
     },
@@ -115,5 +115,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1784894304
+  "generated_at": 1784900585
 }
