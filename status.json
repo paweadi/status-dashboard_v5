@@ -18,15 +18,7 @@
       "name": "GitHub",
       "status": "Operational",
       "description": "All Systems Operational",
-      "incidents": [
-        {
-          "title": "Incident with Pull Requests",
-          "impact": "critical",
-          "started_at": "2026-07-24T19:37:28.071Z",
-          "updated_at": "2026-07-24T20:02:39.256Z",
-          "shortlink": "https://stspg.io/sm1tp7kfm4vj"
-        }
-      ],
+      "incidents": [],
       "source": "https://www.githubstatus.com/"
     },
     {
@@ -103,17 +95,9 @@
     },
     {
       "name": "Port",
-      "status": "Minor",
-      "description": "Partially Degraded Service",
-      "incidents": [
-        {
-          "title": "Issues connecting to Port EU MCP Server",
-          "impact": "minor",
-          "started_at": "2026-07-24T20:01:36.318Z",
-          "updated_at": "2026-07-24T20:01:36.403Z",
-          "shortlink": "https://stspg.io/r8v0866pgsvl"
-        }
-      ],
+      "status": "Operational",
+      "description": "All Systems Operational",
+      "incidents": [],
       "source": "https://status.port.io/"
     },
     {
@@ -131,5 +115,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1784923807
+  "generated_at": 1784928822
 }
