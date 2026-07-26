@@ -97,15 +97,7 @@
       "name": "Port",
       "status": "Operational",
       "description": "All Systems Operational",
-      "incidents": [
-        {
-          "title": "Issue with Audit logs in the UI",
-          "impact": "minor",
-          "started_at": "2026-07-26T14:25:39.626Z",
-          "updated_at": "2026-07-26T14:36:19.583Z",
-          "shortlink": "https://stspg.io/vr6rh9dx9pzb"
-        }
-      ],
+      "incidents": [],
       "source": "https://status.port.io/"
     },
     {
@@ -123,5 +115,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1785080145
+  "generated_at": 1785084484
 }
