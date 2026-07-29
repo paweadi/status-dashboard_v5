@@ -23,7 +23,7 @@
           "title": "Incident with Copilot AI Model Providers",
           "impact": "minor",
           "started_at": "2026-07-29T20:07:07.943Z",
-          "updated_at": "2026-07-29T20:07:43.770Z",
+          "updated_at": "2026-07-29T21:08:31.624Z",
           "shortlink": "https://stspg.io/tdw1hjz3lj91"
         }
       ],
@@ -89,8 +89,8 @@
     },
     {
       "name": "CucumberStudio",
-      "status": "Unknown",
-      "description": "Status unknown",
+      "status": "Operational",
+      "description": "All Systems Operational",
       "incidents": [],
       "source": "https://status.cucumberstudio.com/"
     },
@@ -103,8 +103,8 @@
     },
     {
       "name": "Port",
-      "status": "Unknown",
-      "description": "Status unknown",
+      "status": "Operational",
+      "description": "All Systems Operational",
       "incidents": [],
       "source": "https://status.port.io/"
     },
@@ -123,5 +123,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1785355904
+  "generated_at": 1785360331
 }
