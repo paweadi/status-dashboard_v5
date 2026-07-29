@@ -16,9 +16,17 @@
     },
     {
       "name": "GitHub",
-      "status": "Operational",
-      "description": "All Systems Operational",
-      "incidents": [],
+      "status": "Minor",
+      "description": "Partially Degraded Service",
+      "incidents": [
+        {
+          "title": "Incident with Copilot AI Model Providers",
+          "impact": "minor",
+          "started_at": "2026-07-29T20:07:07.943Z",
+          "updated_at": "2026-07-29T20:07:43.770Z",
+          "shortlink": "https://stspg.io/tdw1hjz3lj91"
+        }
+      ],
       "source": "https://www.githubstatus.com/"
     },
     {
@@ -81,8 +89,8 @@
     },
     {
       "name": "CucumberStudio",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Unknown",
+      "description": "Status unknown",
       "incidents": [],
       "source": "https://status.cucumberstudio.com/"
     },
@@ -95,8 +103,8 @@
     },
     {
       "name": "Port",
-      "status": "Operational",
-      "description": "All Systems Operational",
+      "status": "Unknown",
+      "description": "Status unknown",
       "incidents": [],
       "source": "https://status.port.io/"
     },
@@ -115,5 +123,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1785351463
+  "generated_at": 1785355904
 }
