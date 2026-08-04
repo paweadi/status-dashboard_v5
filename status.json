@@ -61,15 +61,7 @@
       "name": "Octopus Deploy",
       "status": "Operational",
       "description": "All Systems Operational",
-      "incidents": [
-        {
-          "title": "Bicep deployments may fail after upgrading to 2026.3.4658 or later",
-          "impact": "major",
-          "started_at": "2026-07-03T00:25:44.400Z",
-          "updated_at": "2026-07-03T00:25:53.644Z",
-          "shortlink": "https://stspg.io/pyyh2y43ljbm"
-        }
-      ],
+      "incidents": [],
       "source": "https://status.octopus.com/"
     },
     {
@@ -115,5 +107,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1785841229
+  "generated_at": 1785849194
 }
