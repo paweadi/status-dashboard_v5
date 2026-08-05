@@ -16,57 +16,65 @@
     },
     {
       "name": "GitHub",
-      "status": "Unknown",
-      "description": "Status unknown",
+      "status": "Operational",
+      "description": "All Systems Operational",
       "incidents": [],
       "source": "https://www.githubstatus.com/"
     },
     {
       "name": "Jira",
-      "status": "Unknown",
-      "description": "Status unknown",
+      "status": "Operational",
+      "description": "All Systems Operational",
       "incidents": [],
       "source": "https://jira-software.status.atlassian.com/"
     },
     {
       "name": "Confluence",
-      "status": "Unknown",
-      "description": "Status unknown",
+      "status": "Operational",
+      "description": "All Systems Operational",
       "incidents": [],
       "source": "https://confluence.status.atlassian.com/"
     },
     {
       "name": "JFrog",
-      "status": "Unknown",
-      "description": "Status unknown",
+      "status": "Operational",
+      "description": "All Systems Operational",
       "incidents": [],
       "source": "https://status.jfrog.io/"
     },
     {
       "name": "Elastic",
-      "status": "Unknown",
-      "description": "Status unknown",
-      "incidents": [],
+      "status": "Major",
+      "description": "Partial System Outage",
+      "incidents": [
+        {
+          "title": "Connectivity disruption for AWS Bahrain (me-south-1)",
+          "impact": "major",
+          "started_at": "2026-03-02T06:23:20.780Z",
+          "updated_at": "2026-07-13T16:42:13.882Z",
+          "shortlink": "https://stspg.io/w6dmrtc20hz7"
+        }
+      ],
       "source": "https://status.elastic.co/"
     },
     {
       "name": "Octopus Deploy",
-      "status": "Unknown",
-      "description": "Status unknown",
+      "status": "Operational",
+      "description": "All Systems Operational",
       "incidents": [],
       "source": "https://status.octopus.com/"
     },
     {
       "name": "Lucid",
-      "status": "Unknown",
-      "description": "Status unknown",
+      "status": "Operational",
+      "description": "All Systems Operational",
       "incidents": [],
       "source": "https://status.lucid.co/"
     },
     {
       "name": "CucumberStudio",
-      "status": "Unknown",
-      "description": "Status unknown",
+      "status": "Operational",
+      "description": "All Systems Operational",
       "incidents": [],
       "source": "https://status.cucumberstudio.com/"
     },
@@ -79,8 +87,8 @@
     },
     {
       "name": "Port",
-      "status": "Unknown",
-      "description": "Status unknown",
+      "status": "Operational",
+      "description": "All Systems Operational",
       "incidents": [],
       "source": "https://status.port.io/"
     },
@@ -93,11 +101,11 @@
     },
     {
       "name": "Azure Databricks",
-      "status": "Unknown",
-      "description": "Status unknown",
+      "status": "Operational",
+      "description": "All Systems Operational",
       "incidents": [],
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1785894183
+  "generated_at": 1785905750
 }
