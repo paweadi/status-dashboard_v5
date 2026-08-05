@@ -87,9 +87,17 @@
     },
     {
       "name": "Port",
-      "status": "Operational",
-      "description": "All Systems Operational",
-      "incidents": [],
+      "status": "Minor",
+      "description": "Minor Service Outage",
+      "incidents": [
+        {
+          "title": "Issue viewing usage dashboards in Port",
+          "impact": "major",
+          "started_at": "2026-08-05T09:33:39.262Z",
+          "updated_at": "2026-08-05T09:33:39.381Z",
+          "shortlink": "https://stspg.io/szvhn42nvgpy"
+        }
+      ],
       "source": "https://status.port.io/"
     },
     {
@@ -107,5 +115,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1785915208
+  "generated_at": 1785925502
 }
