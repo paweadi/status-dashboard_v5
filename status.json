@@ -51,7 +51,7 @@
           "title": "Elasticsearch 9.5.0 contains a query-correctness defect",
           "impact": "major",
           "started_at": "2026-08-05T22:59:15.262Z",
-          "updated_at": "2026-08-05T23:18:43.166Z",
+          "updated_at": "2026-08-06T12:12:42.075Z",
           "shortlink": "https://stspg.io/21ysb6fmlb1g"
         },
         {
@@ -114,5 +114,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1786016295
+  "generated_at": 1786023702
 }
