@@ -18,15 +18,7 @@
       "name": "GitHub",
       "status": "Operational",
       "description": "All Systems Operational",
-      "incidents": [
-        {
-          "title": "Incident with Actions",
-          "impact": "critical",
-          "started_at": "2026-08-06T15:22:49.021Z",
-          "updated_at": "2026-08-07T00:06:24.921Z",
-          "shortlink": "https://stspg.io/rcz3fcm83sff"
-        }
-      ],
+      "incidents": [],
       "source": "https://www.githubstatus.com/"
     },
     {
@@ -122,5 +114,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1786062046
+  "generated_at": 1786073024
 }
