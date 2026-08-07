@@ -23,9 +23,17 @@
     },
     {
       "name": "Jira",
-      "status": "Operational",
-      "description": "All Systems Operational",
-      "incidents": [],
+      "status": "Major",
+      "description": "Partial System Outage",
+      "incidents": [
+        {
+          "title": "Performance and access related issues with Jira",
+          "impact": "critical",
+          "started_at": "2026-08-07T11:30:55.190Z",
+          "updated_at": "2026-08-07T11:30:55.331Z",
+          "shortlink": "https://stspg.io/n736m77txn89"
+        }
+      ],
       "source": "https://jira-software.status.atlassian.com/"
     },
     {
@@ -114,5 +122,5 @@
       "source": "https://status.azuredatabricks.net/"
     }
   ],
-  "generated_at": 1786101207
+  "generated_at": 1786104297
 }
